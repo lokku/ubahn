@@ -1,5 +1,4 @@
 {
-   "lines" : {
       "Central" : {
          "color" : "#F5F500",
          "stations" : [
@@ -116,5 +115,4 @@
             }
          ]
       }
-   }
 }
