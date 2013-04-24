@@ -1,0 +1,13 @@
+Barcelona:
+Berlin:
+Hamburg:
+London:http://3.s.uk.nestoria.nestimg.com//i/realestate/uk/en/g/lt.png
+Madrid:
+Melbourne:
+Milan:
+Munich:
+Paris:http://3.s.uk.nestoria.nestimg.com//i/realestate/fr/fr/g/pm.png
+Rio de Janeiro:
+Rome:
+Sao Paulo:
+Sydney:
