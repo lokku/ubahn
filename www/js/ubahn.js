@@ -1,10 +1,12 @@
-var data, draw_line, getMaxPrice, height, max_price, padding, svg, transition, width;
+var data, draw_line, getMaxPrice, height, left_padding, max_price, padding, svg, transition, width;
 
 width = 650;
 
 height = 300;
 
-padding = 20;
+padding = 30;
+
+left_padding = 80;
 
 data = {};
 
@@ -24,7 +26,7 @@ d3.json("data/london.json", function(json_data) {
     return d.color;
   }).attr("href", "#").on("click", function(d, i) {
     console.log("click");
-    return draw_line(i, "1");
+    return draw_line(i, "3");
   });
   d3.select("#lines").selectAll(".line").data(data.lines).attr("class", "line").text(function(d) {
     return d.name;
@@ -51,7 +53,7 @@ getMaxPrice = function(category) {
 };
 
 draw_line = function(line_index, category) {
-  var circles, i, initialLineGenerator, line, lineGenerator, path, st, stations, x, y, yAxis;
+  var axis, circles, i, initialLineGenerator, intf, line, lineGenerator, path, st, stations, x, y, yAxis;
   line = data.lines[line_index];
   max_price = getMaxPrice(category);
   stations = [
@@ -73,9 +75,15 @@ draw_line = function(line_index, category) {
     })()
   ];
   console.log(stations);
-  x = d3.scale.linear().domain([0, 45]).rangeRound([padding, width - padding]);
+  x = d3.scale.linear().domain([0, 45]).rangeRound([left_padding, width - padding]);
   y = d3.scale.linear().domain([0, max_price]).rangeRound([height - padding, padding]);
-  yAxis = d3.svg.axis().scale(y).tickSize(max_price / 5).tickSubdivide(false);
+  intf = d3.format(",.0f");
+  yAxis = d3.svg.axis().scale(y).ticks(5).tickSubdivide(false).orient("left").tickFormat(function(v) {
+    return data.currency + intf(v / 1000) + "k";
+  });
+  axis = svg.selectAll(".axis").data([1]);
+  axis.enter().append("svg:g").attr("class", "axis").attr("transform", "translate(" + left_padding + ",0)").call(yAxis);
+  axis.call(yAxis);
   initialLineGenerator = d3.svg.line().x(function(st) {
     return x(st.index);
   }).y(function(st) {

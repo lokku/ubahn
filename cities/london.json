@@ -2,6 +2,7 @@
     "api": "http://api.nestoria.co.uk/api?country=uk&pretty=0&action=metadata&encoding=json&place_name=", 
     "category_field": "num_beds", 
     "country": "United Kingdom", 
+    "currency": "£",
     "pricerange": 4000000,
     "lines": [
         {

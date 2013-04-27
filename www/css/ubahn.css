@@ -1,5 +1,7 @@
 a.line{
 	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 10px;
 	font-weight: bold;
 	margin-right: 10px;
@@ -14,3 +16,15 @@ svg circle.stop{
 	stroke: white;
 	fill: black;
 }
+
+.axis {
+	 shape-rendering: crispEdges;
+
+	}
+.axis text{
+	fill: lightgrey;
+}
+.axis path {
+			  fill: none;
+			  stroke: lightgrey;
+			}

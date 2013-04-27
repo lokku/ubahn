@@ -1,6 +1,7 @@
 width = 650
 height = 300
-padding = 20
+padding = 30
+left_padding = 80
 data = {}
 transition = 1500
 svg = d3.select("#graph").append("svg").attr("height",height).attr("width",width)
@@ -17,7 +18,7 @@ d3.json( "data/london.json", (json_data) ->
 		.style("background-color",(d) -> d['background-color'])
 		.style("color",(d) -> d.color)
 		.attr("href","#")
-		.on("click",(d,i) -> console.log("click"); draw_line(i,"1"))
+		.on("click",(d,i) -> console.log("click"); draw_line(i,"3"))
 	d3.select("#lines").selectAll(".line").data(data.lines)
 		.attr("class","line").text((d) -> d.name).style("background-color",(d) -> d['background-color'])
 	d3.select("#lines").selectAll(".line").data(data.lines).exit().remove()
@@ -43,10 +44,18 @@ draw_line = (line_index,category) ->
 	console.log(stations)
 	
 	#x = d3.scale.linear().domain([0,line.stations.length]).rangeRound([padding,width-padding])
-	x = d3.scale.linear().domain([0,45]).rangeRound([padding,width-padding])
+	x = d3.scale.linear().domain([0,45]).rangeRound([left_padding,width-padding])
 	y = d3.scale.linear().domain([0,max_price]).rangeRound([height-padding,padding])
 	#debugger;
-	yAxis = d3.svg.axis().scale(y).tickSize(max_price/5).tickSubdivide(false)
+	intf=d3.format(",.0f")
+	yAxis = d3.svg.axis().scale(y).ticks(5).tickSubdivide(false).orient("left").tickFormat((v) -> data.currency+intf(v/1000)+"k")
+	axis=svg.selectAll(".axis").data([1])
+	axis.enter().append("svg:g")
+			      .attr("class", "axis")
+			      .attr("transform", "translate("+left_padding+",0)")
+			      .call(yAxis);
+	axis.call(yAxis);
+
 	initialLineGenerator = d3.svg.line().x((st) -> x(st.index)).y((st) -> y(0))
 	lineGenerator = d3.svg.line().x((st) -> x(st.index)).y((st) -> y(st.prices.price))
 	path = svg.selectAll(".path").data(stations)
