@@ -1,0 +1,16 @@
+a.line{
+	padding: 5px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+svg path.path{
+stroke-width: 4;
+fill: none;
+}
+
+svg circle.stop{
+	stroke-width: 2;
+	stroke: white;
+	fill: black;
+}

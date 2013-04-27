@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+
+import sys, json, urllib2
+inp = "".join(sys.stdin.readlines())
+#print inp
+data = json.loads(inp)
+
+api_url=data['api']
+for station in data['stations']:
+	#print station
+	url=api_url+data['stations'][station]['nestoria_code']
+	#print url
+	try:
+		ad=json.loads(urllib2.urlopen(url).read())['response']
+		#print ad
+		if ad['status_text']!='OK':
+			sys.stderr.write("PANICK! Could not get data for %s, url %s\n" %(station,url))
+			continue
+	except:
+			sys.stderr.write("PANICK! Could not get data for %s, url %s\n" %(station,url))
+			continue
+	try:
+		rc = ad[data['recency']]
+		prices=[]
+		for d in ad['metadata']:
+			lt=d['listing_type']
+			if lt=='buy':
+				p={}
+				#print d
+				arc = rc
+				if not d['data'].has_key(rc):
+					arc=d['data'].keys()[-1]
+				p['price']=float(d['data'][arc]['avg_price'])
+				p['num']=int(d['data'][arc]['datapoints'])
+				p['url']=d['url']
+				p['category']=d[data['category_field']]
+				prices.append(p)
+		data['stations'][station]['prices']=prices
+	except KeyError:
+		sys.stderr.write("Key error when processing data for %s\n" %(station))
+	except:
+		sys.stderr.write("Unexpected error when processing data for %s\n" %(station))
+print json.dumps(data)	
