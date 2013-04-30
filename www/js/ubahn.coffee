@@ -121,6 +121,7 @@ draw_line = (line_index,category) ->
 showLabel = (circle,x,y) ->
 	#console.log()
 	is_label_hovered = true
+	label.style("display","block");
 	label.select(".header").text(circle.d.name)
 	label.select(".price").text(categoryText(circle.prices.price,circle.prices.category)).attr("y",text_padding+label.select(".header").node().getBBox().height)
 	label.select(".link").attr("xlink:href",circle.prices.url)
