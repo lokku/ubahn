@@ -1,0 +1,85 @@
+a.line{
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+svg path.path{
+stroke-width: 4;
+fill: none;
+}
+
+svg .stop circle{
+	stroke-width: 2;
+	stroke: white;
+	fill: black;
+	pointer-events: all;
+	cursor: pointer;
+}
+
+/*svg circle.stop:hover{
+	transition-duration: 0.5s;
+	transition-property: stroke-width, stroke;
+	stroke-width: 5;
+	r: 10;
+	stroke: black;
+	fill: white;
+	cursor: pointer;
+} */
+
+.axis {
+	 shape-rendering: crispEdges;
+
+	}
+.axis text{
+	fill: grey;
+}
+.axis path {
+			  fill: none;
+			  stroke: grey;
+			  
+			}
+.label{
+	display: none;
+}
+.label rect{
+	fill: white;
+	stroke: lightgrey;
+	stroke-width: 0.5;
+	opacity: 0.9;
+}
+.label text{
+	alignment-baseline: hanging
+}
+.label .header{
+	font-size: 20px;
+	fill: grey;
+}
+.label .link text{
+	font-size: 11px;
+	fill: #08c;
+	text-decoration: none;
+}
+.label .link text:hover{
+	text-decoration: underline;
+}
+
+#categories {
+	text-align: left;
+	padding-top: 12px;
+	padding-left: 20px;
+
+}
+
+#categories .category{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: grey;
+}
+
+#categories .category+.active{
+	font-weight: bold;
+	color: black;
+}

@@ -1,0 +1,2013 @@
+{
+    "api": "http://api.nestoria.co.uk/api?country=uk&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds", 
+    "country": "United Kingdom", 
+    "currency": "£",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#dc241f", 
+            "color": "white", 
+            "name": "Central", 
+            "stations": [
+                "west-ruislip", 
+                "ruislip-gardens", 
+                "south-ruislip", 
+                "northolt", 
+                "greenford", 
+                "perivale", 
+                "hanger-lane", 
+                "ealing-broadway", 
+                "west-acton", 
+                "north-acton", 
+                "east-acton", 
+                "white-city", 
+                "shepherds-bush", 
+                "holland-park", 
+                "notting-hill-gate", 
+                "queensway", 
+                "lancaster-gate", 
+                "marble-arch", 
+                "bond-street", 
+                "oxford-circus", 
+                "tottenham-court-road", 
+                "holborn", 
+                "chancery-lane", 
+                "st-pauls", 
+                "bank", 
+                "liverpool-street", 
+                "bethnal-green", 
+                "mile-end", 
+                "stratford", 
+                "leyton", 
+                "leytonstone", 
+                "snaresbrook", 
+                "south-woodford", 
+                "woodford", 
+                "buckhurst-hill", 
+                "loughton", 
+                "debden", 
+                "theydon-bois", 
+                "epping"
+            ]
+        },
+        {
+            "background-color": "#0019a8", 
+            "color": "white", 
+            "name": "Picadilly", 
+            "stations": [
+                "cockfosters",
+                "oakwood",
+                "southgate",
+                "arnos-grove",
+                "bounds-green",
+                "wood-green",
+                "turnpike-lane",
+                "manor-house",
+                "finsbury-park",
+                "arsenal",
+                "holloway-road",
+                "caledonian-road",
+                "kings-cross-st-pancras",
+                "russell-square",
+                "holborn",
+                "covent-garden",
+                "leicester-square",
+                "piccadilly-circus",
+                "green-park",
+                "hyde-park-corner",
+                "knightsbridge",
+                "south-kensington",
+                "gloucester-road",
+                "earls-court",
+                "barons-court",
+                "hammersmith-distandpicc-line",
+                "turnham-green",
+                "acton-town",
+                "south-ealing",
+                "northfields",
+                "boston-manor",
+                "osterley",
+                "hounslow-east",
+                "hounslow-central",
+                "hounslow-west",
+                "hatton-cross",
+                "heathrow-airport-terminal-4",
+                "heathrow-airport-terminal-13",
+                "heathrow-airport-terminal-5"
+            ]
+        },
+        {
+            "background-color": "#00a0ff", 
+            "color": "white", 
+            "name": "Victoria", 
+            "stations": [
+            "walthamstow-central",
+            "blackhorse-road",
+            "tottenham-hale",
+            "seven-sisters",
+            "finsbury-park",
+            "highbury-and-islington",
+            "kings-cross-st-pancras",
+            "euston",
+            "warren-street",
+            "oxford-circus",
+            "green-park",
+            "victoria",
+            "pimlico",
+            "vauxhall",
+            "stockwell",
+            "brixton"
+
+            ]
+        }
+    ], 
+    "name": "London", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+        "acton-town": {
+            "code": "ACT", 
+            "lat": "51.50306", 
+            "lng": "-0.28046", 
+            "name": "Acton Town", 
+            "nestoria_code": "acton-town"
+        }, 
+        "aldgate": {
+            "code": "ALD", 
+            "lat": "51.51425", 
+            "lng": "-0.07568", 
+            "name": "Aldgate", 
+            "nestoria_code": "aldgate"
+        }, 
+        "aldgate-east": {
+            "code": "ADE", 
+            "lat": "51.51504", 
+            "lng": "-0.07238", 
+            "name": "Aldgate East", 
+            "nestoria_code": "aldgate-east"
+        }, 
+        "alperton": {
+            "code": "ALP", 
+            "lat": "51.54063", 
+            "lng": "-0.29961", 
+            "name": "Alperton", 
+            "nestoria_code": "alperton"
+        }, 
+        "amersham": {
+            "code": "AMS", 
+            "lat": "51.67413", 
+            "lng": "-0.60771", 
+            "name": "Amersham", 
+            "nestoria_code": "amersham"
+        }, 
+        "angel": {
+            "code": "AGL", 
+            "lat": "51.53177", 
+            "lng": "-0.10538", 
+            "name": "Angel", 
+            "nestoria_code": "angel"
+        }, 
+        "archway": {
+            "code": "ACY", 
+            "lat": "51.56548", 
+            "lng": "-0.13481", 
+            "name": "Archway", 
+            "nestoria_code": "archway"
+        }, 
+        "arnos-grove": {
+            "code": "ASG", 
+            "lat": "51.61645", 
+            "lng": "-0.13306", 
+            "name": "Arnos Grove", 
+            "nestoria_code": "arnos-grove"
+        }, 
+        "arsenal": {
+            "code": "ASL", 
+            "lat": "51.55866", 
+            "lng": "-0.10745", 
+            "name": "Arsenal", 
+            "nestoria_code": "arsenal"
+        }, 
+        "baker-street": {
+            "code": "BST", 
+            "lat": "51.52289", 
+            "lng": "-0.15713", 
+            "name": "Baker Street", 
+            "nestoria_code": "baker-street"
+        }, 
+        "balham": {
+            "code": "BLM", 
+            "lat": "51.44329", 
+            "lng": "-0.15299", 
+            "name": "Balham", 
+            "nestoria_code": "balham"
+        }, 
+        "bank": {
+            "code": "BNK", 
+            "lat": "51.51342", 
+            "lng": "-0.08895", 
+            "name": "Bank", 
+            "nestoria_code": "bank"
+        }, 
+        "barbican": {
+            "code": "BBN", 
+            "lat": "51.52028", 
+            "lng": "-0.09799", 
+            "name": "Barbican", 
+            "nestoria_code": "barbican"
+        }, 
+        "barking": {
+            "code": "BKG", 
+            "lat": "51.53933", 
+            "lng": "0.08106", 
+            "name": "Barking", 
+            "nestoria_code": "barking"
+        }, 
+        "barkingside": {
+            "code": "BKE", 
+            "lat": "51.58569", 
+            "lng": "0.0886", 
+            "name": "Barkingside", 
+            "nestoria_code": "barkingside"
+        }, 
+        "barons-court": {
+            "code": "BSC", 
+            "lat": "51.49032", 
+            "lng": "-0.21343", 
+            "name": "Barons Court", 
+            "nestoria_code": "barons-court"
+        }, 
+        "bayswater": {
+            "code": "BWT", 
+            "lat": "51.51229", 
+            "lng": "-0.18794", 
+            "name": "Bayswater", 
+            "nestoria_code": "bayswater"
+        }, 
+        "becontree": {
+            "code": "BEC", 
+            "lat": "51.54034", 
+            "lng": "0.12703", 
+            "name": "Becontree", 
+            "nestoria_code": "becontree"
+        }, 
+        "belsize-park": {
+            "code": "BZP", 
+            "lat": "51.55032", 
+            "lng": "-0.16464", 
+            "name": "Belsize Park", 
+            "nestoria_code": "belsize-park"
+        }, 
+        "bermondsey": {
+            "code": "BMY", 
+            "lat": "51.49796", 
+            "lng": "-0.06376", 
+            "name": "Bermondsey", 
+            "nestoria_code": "bermondsey"
+        }, 
+        "bethnal-green": {
+            "code": "BLG", 
+            "lat": "51.52723", 
+            "lng": "-0.0555", 
+            "name": "Bethnal Green", 
+            "nestoria_code": "bethnal-green"
+        }, 
+        "blackfriars": {
+            "code": "BKF", 
+            "lat": "51.51159", 
+            "lng": "-0.10365", 
+            "name": "Blackfriars", 
+            "nestoria_code": "blackfriars"
+        }, 
+        "blackhorse-road": {
+            "code": "BLR", 
+            "lat": "51.58693", 
+            "lng": "-0.04114", 
+            "name": "Blackhorse Road", 
+            "nestoria_code": "blackhorse-road"
+        }, 
+        "bond-street": {
+            "code": "BND", 
+            "lat": "51.51431", 
+            "lng": "-0.14972", 
+            "name": "Bond Street", 
+            "nestoria_code": "bond-street"
+        }, 
+        "borough": {
+            "code": "BOR", 
+            "lat": "51.5012", 
+            "lng": "-0.09336", 
+            "name": "Borough", 
+            "nestoria_code": "borough"
+        }, 
+        "boston-manor": {
+            "code": "BOS", 
+            "lat": "51.49564", 
+            "lng": "-0.32494", 
+            "name": "Boston Manor", 
+            "nestoria_code": "boston-manor"
+        }, 
+        "bounds-green": {
+            "code": "BDS", 
+            "lat": "51.60704", 
+            "lng": "-0.12423", 
+            "name": "Bounds Green", 
+            "nestoria_code": "bounds-green"
+        }, 
+        "bow-road": {
+            "code": "BWR", 
+            "lat": "51.52694", 
+            "lng": "-0.02512", 
+            "name": "Bow Road", 
+            "nestoria_code": "bow-road"
+        }, 
+        "brent-cross": {
+            "code": "BTX", 
+            "lat": "51.57666", 
+            "lng": "-0.21362", 
+            "name": "Brent Cross", 
+            "nestoria_code": "brent-cross"
+        }, 
+        "brixton": {
+            "code": "BXN", 
+            "lat": "51.46262", 
+            "lng": "-0.11488", 
+            "name": "Brixton", 
+            "nestoria_code": "brixton"
+        }, 
+        "bromley-by-bow": {
+            "code": "BBB", 
+            "lat": "51.52484", 
+            "lng": "-0.01153", 
+            "name": "Bromley-by-Bow", 
+            "nestoria_code": "bromley-by-bow"
+        }, 
+        "buckhurst-hill": {
+            "code": "BKH", 
+            "lat": "51.62661", 
+            "lng": "0.04677", 
+            "name": "Buckhurst Hill", 
+            "nestoria_code": "buckhurst-hill"
+        }, 
+        "burnt-oak": {
+            "code": "BTK", 
+            "lat": "51.60278", 
+            "lng": "-0.26405", 
+            "name": "Burnt Oak", 
+            "nestoria_code": "burnt-oak"
+        }, 
+        "caledonian-road": {
+            "code": "CAR", 
+            "lat": "51.54852", 
+            "lng": "-0.11849", 
+            "name": "Caledonian Road", 
+            "nestoria_code": "caledonian-road"
+        }, 
+        "camden-town": {
+            "code": "CTN", 
+            "lat": "51.5393", 
+            "lng": "-0.14274", 
+            "name": "Camden Town", 
+            "nestoria_code": "camden-town"
+        }, 
+        "canada-water": {
+            "code": "CWR", 
+            "lat": "51.49795", 
+            "lng": "-0.04972", 
+            "name": "Canada Water", 
+            "nestoria_code": "canada-water"
+        }, 
+        "canary-wharf": {
+            "code": "CYF", 
+            "lat": "51.50349", 
+            "lng": "-0.01824", 
+            "name": "Canary Wharf", 
+            "nestoria_code": "canary-wharf"
+        }, 
+        "canning-town": {
+            "code": "CGT", 
+            "lat": "51.51359", 
+            "lng": "0.00833", 
+            "name": "Canning Town", 
+            "nestoria_code": "canning-town"
+        }, 
+        "cannon-street": {
+            "code": "CST", 
+            "lat": "51.51151", 
+            "lng": "-0.09043", 
+            "name": "Cannon Street", 
+            "nestoria_code": "cannon-street"
+        }, 
+        "canons-park": {
+            "code": "CPK", 
+            "lat": "51.6077", 
+            "lng": "-0.29469", 
+            "name": "Canons Park", 
+            "nestoria_code": "canons-park"
+        }, 
+        "chalfont-and-latimer": {
+            "code": "CAL", 
+            "lat": "51.66799", 
+            "lng": "-0.56068", 
+            "name": "Chalfont & Latimer", 
+            "nestoria_code": "little-chalfont"
+        }, 
+        "chalk-farm": {
+            "code": "CFM", 
+            "lat": "51.54412", 
+            "lng": "-0.15338", 
+            "name": "Chalk Farm", 
+            "nestoria_code": "chalk-farm"
+        }, 
+        "chancery-lane": {
+            "code": "CHL", 
+            "lat": "51.51825", 
+            "lng": "-0.11158", 
+            "name": "Chancery Lane", 
+            "nestoria_code": "chancery-lane"
+        }, 
+        "charing-cross": {
+            "code": "CHX", 
+            "lat": "51.50741", 
+            "lng": "-0.12727", 
+            "name": "Charing Cross", 
+            "nestoria_code": "charing-cross"
+        }, 
+        "chesham": {
+            "code": "CSM", 
+            "lat": "51.70524", 
+            "lng": "-0.61111", 
+            "name": "Chesham", 
+            "nestoria_code": "chesham"
+        }, 
+        "chigwell": {
+            "code": "CWL", 
+            "lat": "51.61792", 
+            "lng": "0.07505", 
+            "name": "Chigwell", 
+            "nestoria_code": "chigwell"
+        }, 
+        "chiswick-park": {
+            "code": "CWP", 
+            "lat": "51.49463", 
+            "lng": "-0.26797", 
+            "name": "Chiswick Park", 
+            "nestoria_code": "chiswick-park"
+        }, 
+        "chorleywood": {
+            "code": "CYD", 
+            "lat": "51.65436", 
+            "lng": "-0.51845", 
+            "name": "Chorleywood", 
+            "nestoria_code": "chorleywood"
+        }, 
+        "clapham-common": {
+            "code": "CPC", 
+            "lat": "51.46175", 
+            "lng": "-0.13831", 
+            "name": "Clapham Common", 
+            "nestoria_code": "clapham-common"
+        }, 
+        "clapham-north": {
+            "code": "CPN", 
+            "lat": "51.46514", 
+            "lng": "-0.13001", 
+            "name": "Clapham North", 
+            "nestoria_code": "clapham-north"
+        }, 
+        "clapham-south": {
+            "code": "CPS", 
+            "lat": "51.45266", 
+            "lng": "-0.14758", 
+            "name": "Clapham South", 
+            "nestoria_code": "clapham-south"
+        }, 
+        "cockfosters": {
+            "code": "CKS", 
+            "lat": "51.65152", 
+            "lng": "-0.14917", 
+            "name": "Cockfosters", 
+            "nestoria_code": "cockfosters"
+        }, 
+        "colindale": {
+            "code": "CND", 
+            "lat": "51.59543", 
+            "lng": "-0.24992", 
+            "name": "Colindale", 
+            "nestoria_code": "colindale"
+        }, 
+        "colliers-wood": {
+            "code": "CSD", 
+            "lat": "51.41816", 
+            "lng": "-0.17808", 
+            "name": "Colliers Wood", 
+            "nestoria_code": "colliers-wood"
+        }, 
+        "covent-garden": {
+            "code": "CGN", 
+            "lat": "51.5131", 
+            "lng": "-0.12443", 
+            "name": "Covent Garden", 
+            "nestoria_code": "covent-garden"
+        }, 
+        "croxley": {
+            "code": "CXY", 
+            "lat": "51.64704", 
+            "lng": "-0.44171", 
+            "name": "Croxley", 
+            "nestoria_code": "croxley"
+        }, 
+        "dagenham-east": {
+            "code": "DGE", 
+            "lat": "51.5441", 
+            "lng": "0.16603", 
+            "name": "Dagenham East", 
+            "nestoria_code": "dagenham-east"
+        }, 
+        "dagenham-heathway": {
+            "code": "DGY", 
+            "lat": "51.54164", 
+            "lng": "0.14754", 
+            "name": "Dagenham Heathway", 
+            "nestoria_code": "dagenham-heathway"
+        }, 
+        "debden": {
+            "code": "DBN", 
+            "lat": "51.64539", 
+            "lng": "0.08379", 
+            "name": "Debden", 
+            "nestoria_code": "debden"
+        }, 
+        "dollis-hill": {
+            "code": "DOH", 
+            "lat": "51.55196", 
+            "lng": "-0.23907", 
+            "name": "Dollis Hill", 
+            "nestoria_code": "dollis-hill"
+        }, 
+        "ealing-broadway": {
+            "code": "EBY", 
+            "lat": "51.51502", 
+            "lng": "-0.30146", 
+            "name": "Ealing Broadway", 
+            "nestoria_code": "ealing-broadway"
+        }, 
+        "ealing-common": {
+            "code": "ECM", 
+            "lat": "51.51015", 
+            "lng": "-0.28827", 
+            "name": "Ealing Common", 
+            "nestoria_code": "ealing-common"
+        }, 
+        "earls-court": {
+            "code": "ECT", 
+            "lat": "51.49207", 
+            "lng": "-0.19338", 
+            "name": "Earl's Court", 
+            "nestoria_code": "earls-court"
+        }, 
+        "east-acton": {
+            "code": "EAN", 
+            "lat": "51.51662", 
+            "lng": "-0.24725", 
+            "name": "East Acton", 
+            "nestoria_code": "east-acton"
+        }, 
+        "east-finchley": {
+            "code": "EFY", 
+            "lat": "51.58714", 
+            "lng": "-0.16501", 
+            "name": "East Finchley", 
+            "nestoria_code": "east-finchley"
+        }, 
+        "east-ham": {
+            "code": "EHM", 
+            "lat": "51.53895", 
+            "lng": "0.0512", 
+            "name": "East Ham", 
+            "nestoria_code": "east-ham"
+        }, 
+        "east-putney": {
+            "code": "EPY", 
+            "lat": "51.45921", 
+            "lng": "-0.211", 
+            "name": "East Putney", 
+            "nestoria_code": "east-putney"
+        }, 
+        "eastcote": {
+            "code": "EAE", 
+            "lat": "51.5765", 
+            "lng": "-0.39738", 
+            "name": "Eastcote", 
+            "nestoria_code": "eastcote"
+        }, 
+        "edgware": {
+            "code": "EGW", 
+            "lat": "51.61365", 
+            "lng": "-0.27493", 
+            "name": "Edgware", 
+            "nestoria_code": "edgware"
+        }, 
+        "edgware-road-bakerloo": {
+            "code": "ERB", 
+            "lat": "51.5203", 
+            "lng": "-0.17015", 
+            "name": "Edgware Road (Bakerloo)", 
+            "nestoria_code": "edgware-road"
+        }, 
+        "edgware-road-circle-line": {
+            "code": "ERC", 
+            "lat": "51.51986", 
+            "lng": "-0.16783", 
+            "name": "Edgware Road (Circle Line)", 
+            "nestoria_code": "edgware-road"
+        }, 
+        "elephant-and-castle": {
+            "code": "EAC", 
+            "lat": "51.49454", 
+            "lng": "-0.1006", 
+            "name": "Elephant & Castle", 
+            "nestoria_code": "elephant-and-castle"
+        }, 
+        "elm-park": {
+            "code": "EPK", 
+            "lat": "51.54978", 
+            "lng": "0.19865", 
+            "name": "Elm Park", 
+            "nestoria_code": "elm-park"
+        }, 
+        "embankment": {
+            "code": "EMB", 
+            "lat": "51.50706", 
+            "lng": "-0.12266", 
+            "name": "Embankment", 
+            "nestoria_code": "embankment"
+        }, 
+        "epping": {
+            "code": "EPG", 
+            "lat": "51.69369", 
+            "lng": "0.11378", 
+            "name": "Epping", 
+            "nestoria_code": "epping"
+        }, 
+        "euston": {
+            "code": "EUS", 
+            "lat": "51.528", 
+            "lng": "-0.13378", 
+            "name": "Euston", 
+            "nestoria_code": "euston"
+        }, 
+        "euston-square": {
+            "code": "ESQ", 
+            "lat": "51.52561", 
+            "lng": "-0.13582", 
+            "name": "Euston Square", 
+            "nestoria_code": "euston-square"
+        }, 
+        "fairlop": {
+            "code": "FLP", 
+            "lat": "51.59562", 
+            "lng": "0.09101", 
+            "name": "Fairlop", 
+            "nestoria_code": "fairlop"
+        }, 
+        "farringdon": {
+            "code": "FCN", 
+            "lat": "51.52026", 
+            "lng": "-0.10491", 
+            "name": "Farringdon", 
+            "nestoria_code": "farringdon"
+        }, 
+        "finchley-central": {
+            "code": "FYC", 
+            "lat": "51.60093", 
+            "lng": "-0.19252", 
+            "name": "Finchley Central", 
+            "nestoria_code": "finchley-central"
+        }, 
+        "finchley-road": {
+            "code": "FYR", 
+            "lat": "51.54683", 
+            "lng": "-0.17984", 
+            "name": "Finchley Road", 
+            "nestoria_code": "finchley-road"
+        }, 
+        "finsbury-park": {
+            "code": "FPK", 
+            "lat": "51.56416", 
+            "lng": "-0.10682", 
+            "name": "Finsbury Park", 
+            "nestoria_code": "finsbury-park"
+        }, 
+        "fulham-broadway": {
+            "code": "FBY", 
+            "lat": "51.48008", 
+            "lng": "-0.19542", 
+            "name": "Fulham Broadway", 
+            "nestoria_code": "fulham-broadway"
+        }, 
+        "gants-hill": {
+            "code": "GTH", 
+            "lat": "51.57655", 
+            "lng": "0.06619", 
+            "name": "Gants Hill", 
+            "nestoria_code": "gants-hill"
+        }, 
+        "gloucester-road": {
+            "code": "GTR", 
+            "lat": "51.49432", 
+            "lng": "-0.18265", 
+            "name": "Gloucester Road", 
+            "nestoria_code": "gloucester-road"
+        }, 
+        "golders-green": {
+            "code": "GGN", 
+            "lat": "51.57227", 
+            "lng": "-0.19404", 
+            "name": "Golders Green", 
+            "nestoria_code": "golders-green"
+        }, 
+        "goldhawk-road": {
+            "code": "GHK", 
+            "lat": "51.50201", 
+            "lng": "-0.22671", 
+            "name": "Goldhawk Road", 
+            "nestoria_code": "goldhawk-road"
+        }, 
+        "goodge-street": {
+            "code": "GDG", 
+            "lat": "51.5206", 
+            "lng": "-0.13436", 
+            "name": "Goodge Street", 
+            "nestoria_code": "goodge-street"
+        }, 
+        "grange-hill": {
+            "code": "GGH", 
+            "lat": "51.61338", 
+            "lng": "0.09208", 
+            "name": "Grange Hill", 
+            "nestoria_code": "grange-hill"
+        }, 
+        "great-portland-street": {
+            "code": "GPS", 
+            "lat": "51.52384", 
+            "lng": "-0.14426", 
+            "name": "Great Portland Street", 
+            "nestoria_code": "great-portland-street"
+        }, 
+        "green-park": {
+            "code": "GPK", 
+            "lat": "51.50695", 
+            "lng": "-0.14278", 
+            "name": "Green Park", 
+            "nestoria_code": "green-park"
+        }, 
+        "greenford": {
+            "code": "GFD", 
+            "lat": "51.54243", 
+            "lng": "-0.34605", 
+            "name": "Greenford", 
+            "nestoria_code": "greenford"
+        }, 
+        "gunnersbury": {
+            "code": "GBY", 
+            "lat": "51.49181", 
+            "lng": "-0.27527", 
+            "name": "Gunnersbury", 
+            "nestoria_code": "gunnersbury"
+        }, 
+        "hainault": {
+            "code": "HLT", 
+            "lat": "51.60367", 
+            "lng": "0.09349", 
+            "name": "Hainault", 
+            "nestoria_code": "hainault"
+        }, 
+        "hammersmith-distandpicc-line": {
+            "code": "HSD", 
+            "lat": "51.4923", 
+            "lng": "-0.22362", 
+            "name": "Hammersmith (Dist&Picc Line)", 
+            "nestoria_code": "hammersmith"
+        }, 
+        "hammersmith-handc-line": {
+            "code": "HSC", 
+            "lat": "51.49354", 
+            "lng": "-0.22501", 
+            "name": "Hammersmith (H&C Line)", 
+            "nestoria_code": "hammersmith"
+        }, 
+        "hampstead": {
+            "code": "HTD", 
+            "lat": "51.55664", 
+            "lng": "-0.17848", 
+            "name": "Hampstead", 
+            "nestoria_code": "hampstead"
+        }, 
+        "hanger-lane": {
+            "code": "HGR", 
+            "lat": "51.53018", 
+            "lng": "-0.2927", 
+            "name": "Hanger Lane", 
+            "nestoria_code": "hanger-lane"
+        }, 
+        "harlesden": {
+            "code": "HSN", 
+            "lat": "51.53632", 
+            "lng": "-0.25788", 
+            "name": "Harlesden", 
+            "nestoria_code": "harlesden"
+        }, 
+        "harrow-and-wealdstone": {
+            "code": "HAW", 
+            "lat": "51.59227", 
+            "lng": "-0.33522", 
+            "name": "Harrow & Wealdstone", 
+            "nestoria_code": "harrow-and-wealdstone"
+        }, 
+        "harrow-on-the-hill": {
+            "code": "HOH", 
+            "lat": "51.5792", 
+            "lng": "-0.33723", 
+            "name": "Harrow-on-the-Hill", 
+            "nestoria_code": "harrow-on-the-hill"
+        }, 
+        "hatton-cross": {
+            "code": "HNX", 
+            "lat": "51.46675", 
+            "lng": "-0.42318", 
+            "name": "Hatton Cross", 
+            "nestoria_code": "hatton-cross"
+        }, 
+        "heathrow-airport-terminal-13": {
+            "code": "HRC", 
+            "lat": "51.47124", 
+            "lng": "-0.45226", 
+            "name": "Heathrow Airport Term 1-3", 
+            "nestoria_code": "heathrow"
+        }, 
+        "heathrow-airport-terminal-4": {
+            "code": "HR4", 
+            "lat": "51.45853", 
+            "lng": "-0.44576", 
+            "name": "Heathrow Airport Terminal 4", 
+            "nestoria_code": "heathrow"
+        }, 
+        "heathrow-airport-terminal-5": {
+            "code": "HR5", 
+            "lat": "51.47006", 
+            "lng": "-0.49055", 
+            "name": "Heathrow Airport Terminal 5", 
+            "nestoria_code": "heathrow"
+        }, 
+        "hendon-central": {
+            "code": "HCL", 
+            "lat": "51.58331", 
+            "lng": "-0.22642", 
+            "name": "Hendon Central", 
+            "nestoria_code": "hendon-central"
+        }, 
+        "high-barnet": {
+            "code": "HBT", 
+            "lat": "51.65054", 
+            "lng": "-0.19429", 
+            "name": "High Barnet", 
+            "nestoria_code": "high-barnet"
+        }, 
+        "high-street-kensington": {
+            "code": "HSK", 
+            "lat": "51.50106", 
+            "lng": "-0.19279", 
+            "name": "High Street Kensington", 
+            "nestoria_code": "high-street-kensington"
+        }, 
+        "highbury-and-islington": {
+            "code": "HAI", 
+            "lat": "51.54636", 
+            "lng": "-0.10332", 
+            "name": "Highbury & Islington", 
+            "nestoria_code": "highbury-and-islington"
+        }, 
+        "highgate": {
+            "code": "HGT", 
+            "lat": "51.57754", 
+            "lng": "-0.14585", 
+            "name": "Highgate", 
+            "nestoria_code": "highgate"
+        }, 
+        "hillingdon": {
+            "code": "HGD", 
+            "lat": "51.55371", 
+            "lng": "-0.44982", 
+            "name": "Hillingdon", 
+            "nestoria_code": "hillingdon"
+        }, 
+        "holborn": {
+            "code": "HBN", 
+            "lat": "51.51758", 
+            "lng": "-0.12047", 
+            "name": "Holborn", 
+            "nestoria_code": "holborn"
+        }, 
+        "holland-park": {
+            "code": "HPK", 
+            "lat": "51.50715", 
+            "lng": "-0.20568", 
+            "name": "Holland Park", 
+            "nestoria_code": "holland-park"
+        }, 
+        "holloway-road": {
+            "code": "HWY", 
+            "lat": "51.5527", 
+            "lng": "-0.11324", 
+            "name": "Holloway Road", 
+            "nestoria_code": "holloway-road"
+        }, 
+        "hornchurch": {
+            "code": "HCH", 
+            "lat": "51.5541", 
+            "lng": "0.21913", 
+            "name": "Hornchurch", 
+            "nestoria_code": "hornchurch"
+        }, 
+        "hounslow-central": {
+            "code": "HWC", 
+            "lat": "51.4713", 
+            "lng": "-0.36658", 
+            "name": "Hounslow Central", 
+            "nestoria_code": "hounslow-central"
+        }, 
+        "hounslow-east": {
+            "code": "HWE", 
+            "lat": "51.47322", 
+            "lng": "-0.35648", 
+            "name": "Hounslow East", 
+            "nestoria_code": "hounslow-east"
+        }, 
+        "hounslow-west": {
+            "code": "HWT", 
+            "lat": "51.47347", 
+            "lng": "-0.38653", 
+            "name": "Hounslow West", 
+            "nestoria_code": "hounslow-west"
+        }, 
+        "hyde-park-corner": {
+            "code": "HPC", 
+            "lat": "51.50304", 
+            "lng": "-0.15244", 
+            "name": "Hyde Park Corner", 
+            "nestoria_code": "hyde-park-corner"
+        }, 
+        "ickenham": {
+            "code": "ICK", 
+            "lat": "51.56199", 
+            "lng": "-0.44199", 
+            "name": "Ickenham", 
+            "nestoria_code": "ickenham"
+        }, 
+        "kennington": {
+            "code": "KNG", 
+            "lat": "51.48834", 
+            "lng": "-0.10596", 
+            "name": "Kennington", 
+            "nestoria_code": "kennington"
+        }, 
+        "kensal-green": {
+            "code": "KSL", 
+            "lat": "51.53054", 
+            "lng": "-0.22501", 
+            "name": "Kensal Green", 
+            "nestoria_code": "kensal-green"
+        }, 
+        "kensington-olympia": {
+            "code": "KOY", 
+            "lat": "51.49763", 
+            "lng": "-0.21001", 
+            "name": "Kensington (Olympia)", 
+            "nestoria_code": "kensington"
+        }, 
+        "kentish-town": {
+            "code": "KSH", 
+            "lat": "51.55032", 
+            "lng": "-0.14073", 
+            "name": "Kentish Town", 
+            "nestoria_code": "kentish-town"
+        }, 
+        "kenton": {
+            "code": "KEN", 
+            "lat": "51.58176", 
+            "lng": "-0.31691", 
+            "name": "Kenton", 
+            "nestoria_code": "kenton"
+        }, 
+        "kew-gardens": {
+            "code": "KWG", 
+            "lat": "51.47706", 
+            "lng": "-0.28524", 
+            "name": "Kew Gardens", 
+            "nestoria_code": "kew-gardens"
+        }, 
+        "kilburn": {
+            "code": "KBN", 
+            "lat": "51.54681", 
+            "lng": "-0.2041", 
+            "name": "Kilburn", 
+            "nestoria_code": "kilburn"
+        }, 
+        "kilburn-park": {
+            "code": "KPK", 
+            "lat": "51.53498", 
+            "lng": "-0.19423", 
+            "name": "Kilburn Park", 
+            "nestoria_code": "kilburn-park"
+        }, 
+        "kings-cross-st-pancras": {
+            "code": "KSX", 
+            "lat": "51.53067", 
+            "lng": "-0.12319", 
+            "name": "King's Cross St. Pancras", 
+            "nestoria_code": "kings-cross-st-pancras"
+        }, 
+        "kingsbury": {
+            "code": "KBY", 
+            "lat": "51.58485", 
+            "lng": "-0.27879", 
+            "name": "Kingsbury", 
+            "nestoria_code": "kingsbury"
+        }, 
+        "knightsbridge": {
+            "code": "KNB", 
+            "lat": "51.50167", 
+            "lng": "-0.1605", 
+            "name": "Knightsbridge", 
+            "nestoria_code": "knightsbridge"
+        }, 
+        "ladbroke-grove": {
+            "code": "LAD", 
+            "lat": "51.51745", 
+            "lng": "-0.21039", 
+            "name": "Ladbroke Grove", 
+            "nestoria_code": "ladbroke-grove"
+        }, 
+        "lambeth-north": {
+            "code": "LBN", 
+            "lat": "51.49881", 
+            "lng": "-0.11231", 
+            "name": "Lambeth North", 
+            "nestoria_code": "lambeth-north"
+        }, 
+        "lancaster-gate": {
+            "code": "LGT", 
+            "lat": "51.51173", 
+            "lng": "-0.17549", 
+            "name": "Lancaster Gate", 
+            "nestoria_code": "lancaster-gate"
+        }, 
+        "latimer-road": {
+            "code": "LRD", 
+            "lat": "51.51339", 
+            "lng": "-0.2178", 
+            "name": "Latimer Road", 
+            "nestoria_code": "latimer-road"
+        }, 
+        "leicester-square": {
+            "code": "LSQ", 
+            "lat": "51.51139", 
+            "lng": "-0.12842", 
+            "name": "Leicester Square", 
+            "nestoria_code": "leicester-square"
+        }, 
+        "leyton": {
+            "code": "LYN", 
+            "lat": "51.55659", 
+            "lng": "-0.00551", 
+            "name": "Leyton", 
+            "nestoria_code": "leyton"
+        }, 
+        "leytonstone": {
+            "code": "LYS", 
+            "lat": "51.56833", 
+            "lng": "0.0082", 
+            "name": "Leytonstone", 
+            "nestoria_code": "leytonstone"
+        }, 
+        "liverpool-street": {
+            "code": "LVT", 
+            "lat": "51.51738", 
+            "lng": "-0.08318", 
+            "name": "Liverpool Street", 
+            "nestoria_code": "liverpool-street"
+        }, 
+        "london-bridge": {
+            "code": "LNB", 
+            "lat": "51.50573", 
+            "lng": "-0.08887", 
+            "name": "London Bridge", 
+            "nestoria_code": "london-bridge"
+        }, 
+        "loughton": {
+            "code": "LGN", 
+            "lat": "51.64145", 
+            "lng": "0.05549", 
+            "name": "Loughton", 
+            "nestoria_code": "loughton"
+        }, 
+        "maida-vale": {
+            "code": "MVL", 
+            "lat": "51.52978", 
+            "lng": "-0.18576", 
+            "name": "Maida Vale", 
+            "nestoria_code": "maida-vale"
+        }, 
+        "manor-house": {
+            "code": "MRH", 
+            "lat": "51.57074", 
+            "lng": "-0.09611", 
+            "name": "Manor House", 
+            "nestoria_code": "manor-house"
+        }, 
+        "mansion-house": {
+            "code": "MSH", 
+            "lat": "51.51212", 
+            "lng": "-0.094", 
+            "name": "Mansion House", 
+            "nestoria_code": "mansion-house"
+        }, 
+        "marble-arch": {
+            "code": "MBA", 
+            "lat": "51.51343", 
+            "lng": "-0.15895", 
+            "name": "Marble Arch", 
+            "nestoria_code": "marble-arch"
+        }, 
+        "marylebone": {
+            "code": "MYB", 
+            "lat": "51.52233", 
+            "lng": "-0.1632", 
+            "name": "Marylebone", 
+            "nestoria_code": "marylebone"
+        }, 
+        "mile-end": {
+            "code": "MED", 
+            "lat": "51.52513", 
+            "lng": "-0.03363", 
+            "name": "Mile End", 
+            "nestoria_code": "mile-end"
+        }, 
+        "mill-hill-east": {
+            "code": "MHL", 
+            "lat": "51.60824", 
+            "lng": "-0.20998", 
+            "name": "Mill Hill East", 
+            "nestoria_code": "mill-hill-east"
+        }, 
+        "monument": {
+            "code": "MMT", 
+            "lat": "51.5107", 
+            "lng": "-0.08596", 
+            "name": "Monument", 
+            "nestoria_code": "monument"
+        }, 
+        "moor-park": {
+            "code": "MPK", 
+            "lat": "51.62984", 
+            "lng": "-0.43244", 
+            "name": "Moor Park", 
+            "nestoria_code": "moor-park"
+        }, 
+        "moorgate": {
+            "code": "MGT", 
+            "lat": "51.51818", 
+            "lng": "-0.08832", 
+            "name": "Moorgate", 
+            "nestoria_code": "moorgate"
+        }, 
+        "morden": {
+            "code": "MDN", 
+            "lat": "51.40214", 
+            "lng": "-0.19484", 
+            "name": "Morden", 
+            "nestoria_code": "morden"
+        }, 
+        "mornington-crescent": {
+            "code": "MTC", 
+            "lat": "51.53468", 
+            "lng": "-0.13878", 
+            "name": "Mornington Crescent", 
+            "nestoria_code": "mornington-crescent"
+        }, 
+        "neasden": {
+            "code": "NDN", 
+            "lat": "51.55399", 
+            "lng": "-0.24984", 
+            "name": "Neasden", 
+            "nestoria_code": "neasden"
+        }, 
+        "newbury-park": {
+            "code": "NBP", 
+            "lat": "51.57573", 
+            "lng": "0.09001", 
+            "name": "Newbury Park", 
+            "nestoria_code": "newbury-park"
+        }, 
+        "north-acton": {
+            "code": "NAN", 
+            "lat": "51.52353", 
+            "lng": "-0.25975", 
+            "name": "North Acton", 
+            "nestoria_code": "north-acton"
+        }, 
+        "north-ealing": {
+            "code": "NEN", 
+            "lat": "51.51751", 
+            "lng": "-0.28887", 
+            "name": "North Ealing", 
+            "nestoria_code": "north-ealing"
+        }, 
+        "north-greenwich": {
+            "code": "NGW", 
+            "lat": "51.50047", 
+            "lng": "0.0043", 
+            "name": "North Greenwich", 
+            "nestoria_code": "north-greenwich"
+        }, 
+        "north-harrow": {
+            "code": "NHA", 
+            "lat": "51.58487", 
+            "lng": "-0.36241", 
+            "name": "North Harrow", 
+            "nestoria_code": "north-harrow"
+        }, 
+        "north-wembley": {
+            "code": "NWY", 
+            "lat": "51.56256", 
+            "lng": "-0.304", 
+            "name": "North Wembley", 
+            "nestoria_code": "north-wembley"
+        }, 
+        "northfields": {
+            "code": "NFD", 
+            "lat": "51.49932", 
+            "lng": "-0.31472", 
+            "name": "Northfields", 
+            "nestoria_code": "northfields"
+        }, 
+        "northolt": {
+            "code": "NHT", 
+            "lat": "51.54824", 
+            "lng": "-0.3687", 
+            "name": "Northolt", 
+            "nestoria_code": "northolt"
+        }, 
+        "northwick-park": {
+            "code": "NKP", 
+            "lat": "51.57849", 
+            "lng": "-0.31806", 
+            "name": "Northwick Park", 
+            "nestoria_code": "northwick-park"
+        }, 
+        "northwood": {
+            "code": "NOW", 
+            "lat": "51.61105", 
+            "lng": "-0.42382", 
+            "name": "Northwood", 
+            "nestoria_code": "northwood"
+        }, 
+        "northwood-hills": {
+            "code": "NWH", 
+            "lat": "51.60057", 
+            "lng": "-0.40945", 
+            "name": "Northwood Hills", 
+            "nestoria_code": "northwood-hills"
+        }, 
+        "notting-hill-gate": {
+            "code": "NHG", 
+            "lat": "51.50913", 
+            "lng": "-0.1961", 
+            "name": "Notting Hill Gate", 
+            "nestoria_code": "notting-hill-gate"
+        }, 
+        "oakwood": {
+            "code": "OAK", 
+            "lat": "51.64773", 
+            "lng": "-0.13216", 
+            "name": "Oakwood", 
+            "nestoria_code": "oakwood"
+        }, 
+        "old-street": {
+            "code": "ODS", 
+            "lat": "51.52587", 
+            "lng": "-0.08776", 
+            "name": "Old Street", 
+            "nestoria_code": "old-street"
+        }, 
+        "osterley": {
+            "code": "OSY", 
+            "lat": "51.48128", 
+            "lng": "-0.35223", 
+            "name": "Osterley", 
+            "nestoria_code": "osterley"
+        }, 
+        "oval": {
+            "code": "OVL", 
+            "lat": "51.48185", 
+            "lng": "-0.11243", 
+            "name": "Oval", 
+            "nestoria_code": "oval"
+        }, 
+        "oxford-circus": {
+            "code": "OXC", 
+            "lat": "51.51523", 
+            "lng": "-0.1419", 
+            "name": "Oxford Circus", 
+            "nestoria_code": "oxford-circus"
+        }, 
+        "paddington": {
+            "code": "PAC", 
+            "lat": "51.51659", 
+            "lng": "-0.17569", 
+            "name": "Paddington", 
+            "nestoria_code": "paddington"
+        }, 
+        "park-royal": {
+            "code": "PKR", 
+            "lat": "51.52713", 
+            "lng": "-0.28434", 
+            "name": "Park Royal", 
+            "nestoria_code": "park-royal"
+        }, 
+        "parsons-green": {
+            "code": "PSG", 
+            "lat": "51.47528", 
+            "lng": "-0.20117", 
+            "name": "Parsons Green", 
+            "nestoria_code": "parsons-green"
+        }, 
+        "perivale": {
+            "code": "PVL", 
+            "lat": "51.53672", 
+            "lng": "-0.32345", 
+            "name": "Perivale", 
+            "nestoria_code": "perivale"
+        }, 
+        "piccadilly-circus": {
+            "code": "PCC", 
+            "lat": "51.51005", 
+            "lng": "-0.13379", 
+            "name": "Piccadilly Circus", 
+            "nestoria_code": "piccadilly-circus"
+        }, 
+        "pimlico": {
+            "code": "PCO", 
+            "lat": "51.4891", 
+            "lng": "-0.13376", 
+            "name": "Pimlico", 
+            "nestoria_code": "pimlico"
+        }, 
+        "pinner": {
+            "code": "PNR", 
+            "lat": "51.5929", 
+            "lng": "-0.38116", 
+            "name": "Pinner", 
+            "nestoria_code": "pinner"
+        }, 
+        "plaistow": {
+            "code": "PLW", 
+            "lat": "51.53135", 
+            "lng": "0.01746", 
+            "name": "Plaistow", 
+            "nestoria_code": "plaistow"
+        }, 
+        "preston-road": {
+            "code": "PRD", 
+            "lat": "51.57198", 
+            "lng": "-0.29511", 
+            "name": "Preston Road", 
+            "nestoria_code": "preston-road"
+        }, 
+        "putney-bridge": {
+            "code": "PYB", 
+            "lat": "51.46827", 
+            "lng": "-0.20873", 
+            "name": "Putney Bridge", 
+            "nestoria_code": "putney-bridge"
+        }, 
+        "queens-park": {
+            "code": "QPS", 
+            "lat": "51.53416", 
+            "lng": "-0.20457", 
+            "name": "Queen's Park", 
+            "nestoria_code": "queens-park"
+        }, 
+        "queensbury": {
+            "code": "QBY", 
+            "lat": "51.5942", 
+            "lng": "-0.28622", 
+            "name": "Queensbury", 
+            "nestoria_code": "queensbury"
+        }, 
+        "queensway": {
+            "code": "QWY", 
+            "lat": "51.51032", 
+            "lng": "-0.18715", 
+            "name": "Queensway", 
+            "nestoria_code": "queensway"
+        }, 
+        "ravenscourt-park": {
+            "code": "RVP", 
+            "lat": "51.49413", 
+            "lng": "-0.23588", 
+            "name": "Ravenscourt Park", 
+            "nestoria_code": "ravenscourt-park"
+        }, 
+        "rayners-lane": {
+            "code": "RYL", 
+            "lat": "51.57515", 
+            "lng": "-0.37113", 
+            "name": "Rayners Lane", 
+            "nestoria_code": "rayners-lane"
+        }, 
+        "redbridge": {
+            "code": "RBG", 
+            "lat": "51.57625", 
+            "lng": "0.04537", 
+            "name": "Redbridge", 
+            "nestoria_code": "redbridge"
+        }, 
+        "regents-park": {
+            "code": "RGP", 
+            "lat": "51.52335", 
+            "lng": "-0.14644", 
+            "name": "Regent's Park", 
+            "nestoria_code": "regents-park"
+        }, 
+        "richmond": {
+            "code": "RMD", 
+            "lat": "51.46324", 
+            "lng": "-0.30134", 
+            "name": "Richmond", 
+            "nestoria_code": "richmond"
+        }, 
+        "rickmansworth": {
+            "code": "RKW", 
+            "lat": "51.64021", 
+            "lng": "-0.47369", 
+            "name": "Rickmansworth", 
+            "nestoria_code": "rickmansworth"
+        }, 
+        "roding-valley": {
+            "code": "RVY", 
+            "lat": "51.61721", 
+            "lng": "0.04366", 
+            "name": "Roding Valley", 
+            "nestoria_code": "roding-valley"
+        }, 
+        "royal-oak": {
+            "code": "RYO", 
+            "lat": "51.51912", 
+            "lng": "-0.18875", 
+            "name": "Royal Oak", 
+            "nestoria_code": "royal-oak"
+        }, 
+        "ruislip": {
+            "code": "RSP", 
+            "lat": "51.57135", 
+            "lng": "-0.42189", 
+            "name": "Ruislip", 
+            "nestoria_code": "ruislip"
+        }, 
+        "ruislip-gardens": {
+            "code": "RSG", 
+            "lat": "51.56074", 
+            "lng": "-0.4107", 
+            "name": "Ruislip Gardens", 
+            "nestoria_code": "ruislip-gardens"
+        }, 
+        "ruislip-manor": {
+            "code": "RSM", 
+            "lat": "51.5732", 
+            "lng": "-0.41296", 
+            "name": "Ruislip Manor", 
+            "nestoria_code": "ruislip-manor"
+        }, 
+        "russell-square": {
+            "code": "RSQ", 
+            "lat": "51.52308", 
+            "lng": "-0.12428", 
+            "name": "Russell Square", 
+            "nestoria_code": "russell-square"
+        }, 
+        "seven-sisters": {
+            "code": "SVS", 
+            "lat": "51.58334", 
+            "lng": "-0.07258", 
+            "name": "Seven Sisters", 
+            "nestoria_code": "seven-sisters"
+        }, 
+        "shepherds-bush": {
+            "code": "SBC", 
+            "lat": "51.50438", 
+            "lng": "-0.21881", 
+            "name": "Shepherd's Bush (Central)", 
+            "nestoria_code": "shepherds-bush"
+        }, 
+        "shepherds-bush-market": {
+            "code": "SBM", 
+            "lat": "51.50558", 
+            "lng": "-0.22637", 
+            "name": "Shepherd's Bush Market", 
+            "nestoria_code": "shepherds-bush-market"
+        }, 
+        "sloane-square": {
+            "code": "SSQ", 
+            "lat": "51.49227", 
+            "lng": "-0.15637", 
+            "name": "Sloane Square", 
+            "nestoria_code": "sloane-square"
+        }, 
+        "snaresbrook": {
+            "code": "SNB", 
+            "lat": "51.58068", 
+            "lng": "0.02145", 
+            "name": "Snaresbrook", 
+            "nestoria_code": "snaresbrook"
+        }, 
+        "south-ealing": {
+            "code": "SEA", 
+            "lat": "51.50101", 
+            "lng": "-0.30742", 
+            "name": "South Ealing", 
+            "nestoria_code": "south-ealing"
+        }, 
+        "south-harrow": {
+            "code": "SHH", 
+            "lat": "51.56489", 
+            "lng": "-0.35249", 
+            "name": "South Harrow", 
+            "nestoria_code": "south-harrow"
+        }, 
+        "south-kensington": {
+            "code": "SKS", 
+            "lat": "51.4941", 
+            "lng": "-0.17414", 
+            "name": "South Kensington", 
+            "nestoria_code": "south-kensington"
+        }, 
+        "south-kenton": {
+            "code": "SKT", 
+            "lat": "51.57024", 
+            "lng": "-0.30843", 
+            "name": "South Kenton", 
+            "nestoria_code": "south-kenton"
+        }, 
+        "south-ruislip": {
+            "code": "SRP", 
+            "lat": "51.55686", 
+            "lng": "-0.3989", 
+            "name": "South Ruislip", 
+            "nestoria_code": "south-ruislip"
+        }, 
+        "south-wimbledon": {
+            "code": "SWN", 
+            "lat": "51.41531", 
+            "lng": "-0.192", 
+            "name": "South Wimbledon", 
+            "nestoria_code": "south-wimbledon"
+        }, 
+        "south-woodford": {
+            "code": "SWF", 
+            "lat": "51.59191", 
+            "lng": "0.02735", 
+            "name": "South Woodford", 
+            "nestoria_code": "south-woodford"
+        }, 
+        "southfields": {
+            "code": "SFS", 
+            "lat": "51.44508", 
+            "lng": "-0.2066", 
+            "name": "Southfields", 
+            "nestoria_code": "southfields"
+        }, 
+        "southgate": {
+            "code": "SGT", 
+            "lat": "51.63232", 
+            "lng": "-0.12781", 
+            "name": "Southgate", 
+            "nestoria_code": "southgate"
+        }, 
+        "southwark": {
+            "code": "SWK", 
+            "lat": "51.50398", 
+            "lng": "-0.10493", 
+            "name": "Southwark", 
+            "nestoria_code": "southwark"
+        }, 
+        "st-jamess-park": {
+            "code": "SJP", 
+            "lat": "51.49955", 
+            "lng": "-0.1336", 
+            "name": "St. James's Park", 
+            "nestoria_code": "st-jamess-park"
+        }, 
+        "st-johns-wood": {
+            "code": "SJW", 
+            "lat": "51.53453", 
+            "lng": "-0.17395", 
+            "name": "St. John's Wood", 
+            "nestoria_code": "st-johns-wood"
+        }, 
+        "st-pauls": {
+            "code": "SPU", 
+            "lat": "51.51494", 
+            "lng": "-0.09756", 
+            "name": "St. Paul's", 
+            "nestoria_code": "st-pauls"
+        }, 
+        "stamford-brook": {
+            "code": "SFB", 
+            "lat": "51.49492", 
+            "lng": "-0.2457", 
+            "name": "Stamford Brook", 
+            "nestoria_code": "stamford-brook"
+        }, 
+        "stanmore": {
+            "code": "STM", 
+            "lat": "51.61984", 
+            "lng": "-0.30327", 
+            "name": "Stanmore", 
+            "nestoria_code": "stanmore"
+        }, 
+        "stepney-green": {
+            "code": "SGN", 
+            "lat": "51.52186", 
+            "lng": "-0.04659", 
+            "name": "Stepney Green", 
+            "nestoria_code": "stepney-green"
+        }, 
+        "stockwell": {
+            "code": "SKW", 
+            "lat": "51.47219", 
+            "lng": "-0.12264", 
+            "name": "Stockwell", 
+            "nestoria_code": "stockwell"
+        }, 
+        "stonebridge-park": {
+            "code": "SGP", 
+            "lat": "51.54396", 
+            "lng": "-0.27589", 
+            "name": "Stonebridge Park", 
+            "nestoria_code": "stonebridge-park"
+        }, 
+        "stratford": {
+            "code": "STD", 
+            "lat": "51.54181", 
+            "lng": "-0.00345", 
+            "name": "Stratford", 
+            "nestoria_code": "stratford"
+        }, 
+        "sudbury-hill": {
+            "code": "SUH", 
+            "lat": "51.55695", 
+            "lng": "-0.33644", 
+            "name": "Sudbury Hill", 
+            "nestoria_code": "sudbury-hill"
+        }, 
+        "sudbury-town": {
+            "code": "SUT", 
+            "lat": "51.55082", 
+            "lng": "-0.31575", 
+            "name": "Sudbury Town", 
+            "nestoria_code": "sudbury-town"
+        }, 
+        "swiss-cottage": {
+            "code": "SWC", 
+            "lat": "51.54369", 
+            "lng": "-0.17489", 
+            "name": "Swiss Cottage", 
+            "nestoria_code": "swiss-cottage"
+        }, 
+        "temple": {
+            "code": "TMP", 
+            "lat": "51.51101", 
+            "lng": "-0.11426", 
+            "name": "Temple", 
+            "nestoria_code": "temple"
+        }, 
+        "theydon-bois": {
+            "code": "THB", 
+            "lat": "51.67177", 
+            "lng": "0.1031", 
+            "name": "Theydon Bois", 
+            "nestoria_code": "theydon-bois"
+        }, 
+        "tooting-bec": {
+            "code": "TBC", 
+            "lat": "51.43568", 
+            "lng": "-0.15973", 
+            "name": "Tooting Bec", 
+            "nestoria_code": "tooting-bec"
+        }, 
+        "tooting-broadway": {
+            "code": "TBY", 
+            "lat": "51.42763", 
+            "lng": "-0.16837", 
+            "name": "Tooting Broadway", 
+            "nestoria_code": "tooting-broadway"
+        }, 
+        "tottenham-court-road": {
+            "code": "TCR", 
+            "lat": "51.51643", 
+            "lng": "-0.13041", 
+            "name": "Tottenham Court Road", 
+            "nestoria_code": "tottenham-court-road"
+        }, 
+        "tottenham-hale": {
+            "code": "TMH", 
+            "lat": "51.58811", 
+            "lng": "-0.06023", 
+            "name": "Tottenham Hale", 
+            "nestoria_code": "tottenham-hale"
+        }, 
+        "totteridge-and-whetstone": {
+            "code": "TAW", 
+            "lat": "51.6306", 
+            "lng": "-0.17921", 
+            "name": "Totteridge & Whetstone", 
+            "nestoria_code": "totteridge-and-whetstone"
+        }, 
+        "tower-hill": {
+            "code": "TWH", 
+            "lat": "51.50998", 
+            "lng": "-0.07654", 
+            "name": "Tower Hill", 
+            "nestoria_code": "tower-hill"
+        }, 
+        "tufnell-park": {
+            "code": "TFP", 
+            "lat": "51.55683", 
+            "lng": "-0.13843", 
+            "name": "Tufnell Park", 
+            "nestoria_code": "tufnell-park"
+        }, 
+        "turnham-green": {
+            "code": "TNG", 
+            "lat": "51.49515", 
+            "lng": "-0.25455", 
+            "name": "Turnham Green", 
+            "nestoria_code": "turnham-green"
+        }, 
+        "turnpike-lane": {
+            "code": "TPN", 
+            "lat": "51.59028", 
+            "lng": "-0.10295", 
+            "name": "Turnpike Lane", 
+            "nestoria_code": "turnpike-lane"
+        }, 
+        "upminster": {
+            "code": "UPM", 
+            "lat": "51.55907", 
+            "lng": "0.2509", 
+            "name": "Upminster", 
+            "nestoria_code": "upminster"
+        }, 
+        "upminster-bridge": {
+            "code": "UPB", 
+            "lat": "51.55857", 
+            "lng": "0.23582", 
+            "name": "Upminster Bridge", 
+            "nestoria_code": "upminster-bridge"
+        }, 
+        "upney": {
+            "code": "UPY", 
+            "lat": "51.53838", 
+            "lng": "0.10154", 
+            "name": "Upney", 
+            "nestoria_code": "upney"
+        }, 
+        "upton-park": {
+            "code": "UPK", 
+            "lat": "51.53535", 
+            "lng": "0.03527", 
+            "name": "Upton Park", 
+            "nestoria_code": "upton-park"
+        }, 
+        "uxbridge": {
+            "code": "UXB", 
+            "lat": "51.54656", 
+            "lng": "-0.47794", 
+            "name": "Uxbridge", 
+            "nestoria_code": "uxbridge"
+        }, 
+        "vauxhall": {
+            "code": "VXL", 
+            "lat": "51.48575", 
+            "lng": "-0.1242", 
+            "name": "Vauxhall", 
+            "nestoria_code": "vauxhall"
+        }, 
+        "victoria": {
+            "code": "VIC", 
+            "lat": "51.49636", 
+            "lng": "-0.1431", 
+            "name": "Victoria", 
+            "nestoria_code": "victoria"
+        }, 
+        "walthamstow-central": {
+            "code": "WWL", 
+            "lat": "51.58297", 
+            "lng": "-0.01988", 
+            "name": "Walthamstow Central", 
+            "nestoria_code": "walthamstow-central"
+        }, 
+        "wanstead": {
+            "code": "WSD", 
+            "lat": "51.57551", 
+            "lng": "0.02854", 
+            "name": "Wanstead", 
+            "nestoria_code": "wanstead"
+        }, 
+        "warren-street": {
+            "code": "WRR", 
+            "lat": "51.52496", 
+            "lng": "-0.13832", 
+            "name": "Warren Street", 
+            "nestoria_code": "warren-street"
+        }, 
+        "warwick-avenue": {
+            "code": "WKA", 
+            "lat": "51.52327", 
+            "lng": "-0.18378", 
+            "name": "Warwick Avenue", 
+            "nestoria_code": "warwick-avenue"
+        }, 
+        "waterloo": {
+            "code": "WLO", 
+            "lat": "51.5033", 
+            "lng": "-0.11478", 
+            "name": "Waterloo", 
+            "nestoria_code": "waterloo"
+        }, 
+        "watford": {
+            "code": "WAF", 
+            "lat": "51.65745", 
+            "lng": "-0.41738", 
+            "name": "Watford", 
+            "nestoria_code": "watford"
+        }, 
+        "wembley-central": {
+            "code": "WYC", 
+            "lat": "51.55231", 
+            "lng": "-0.29685", 
+            "name": "Wembley Central", 
+            "nestoria_code": "wembley-central"
+        }, 
+        "wembley-park": {
+            "code": "WYP", 
+            "lat": "51.5632", 
+            "lng": "-0.27926", 
+            "name": "Wembley Park", 
+            "nestoria_code": "wembley-park"
+        }, 
+        "west-acton": {
+            "code": "WTA", 
+            "lat": "51.51801", 
+            "lng": "-0.28098", 
+            "name": "West Acton", 
+            "nestoria_code": "west-acton"
+        }, 
+        "west-brompton": {
+            "code": "WBN", 
+            "lat": "51.48727", 
+            "lng": "-0.1956", 
+            "name": "West Brompton", 
+            "nestoria_code": "west-brompton"
+        }, 
+        "west-finchley": {
+            "code": "WFN", 
+            "lat": "51.60943", 
+            "lng": "-0.18836", 
+            "name": "West Finchley", 
+            "nestoria_code": "west-finchley"
+        }, 
+        "west-ham": {
+            "code": "WHM", 
+            "lat": "51.52814", 
+            "lng": "0.00506", 
+            "name": "West Ham", 
+            "nestoria_code": "west-ham"
+        }, 
+        "west-hampstead": {
+            "code": "WHP", 
+            "lat": "51.54664", 
+            "lng": "-0.19106", 
+            "name": "West Hampstead", 
+            "nestoria_code": "west-hampstead"
+        }, 
+        "west-harrow": {
+            "code": "WHW", 
+            "lat": "51.57972", 
+            "lng": "-0.3534", 
+            "name": "West Harrow", 
+            "nestoria_code": "west-harrow"
+        }, 
+        "west-kensington": {
+            "code": "WKN", 
+            "lat": "51.49046", 
+            "lng": "-0.20663", 
+            "name": "West Kensington", 
+            "nestoria_code": "west-kensington"
+        }, 
+        "west-ruislip": {
+            "code": "WRP", 
+            "lat": "51.56969", 
+            "lng": "-0.43788", 
+            "name": "West Ruislip", 
+            "nestoria_code": "west-ruislip"
+        }, 
+        "westbourne-park": {
+            "code": "WSP", 
+            "lat": "51.52111", 
+            "lng": "-0.20106", 
+            "name": "Westbourne Park", 
+            "nestoria_code": "westbourne-park"
+        }, 
+        "westminster": {
+            "code": "WSM", 
+            "lat": "51.50132", 
+            "lng": "-0.12486", 
+            "name": "Westminster", 
+            "nestoria_code": "westminster"
+        }, 
+        "white-city": {
+            "code": "WCY", 
+            "lat": "51.51196", 
+            "lng": "-0.2243", 
+            "name": "White City", 
+            "nestoria_code": "white-city"
+        }, 
+        "whitechapel": {
+            "code": "WPL", 
+            "lat": "51.51952", 
+            "lng": "-0.05996", 
+            "name": "Whitechapel", 
+            "nestoria_code": "whitechapel"
+        }, 
+        "willesden-green": {
+            "code": "WIG", 
+            "lat": "51.54915", 
+            "lng": "-0.22153", 
+            "name": "Willesden Green", 
+            "nestoria_code": "willesden-green"
+        }, 
+        "willesden-junction": {
+            "code": "WJN", 
+            "lat": "51.53226", 
+            "lng": "-0.24428", 
+            "name": "Willesden Junction", 
+            "nestoria_code": "willesden-junction"
+        }, 
+        "wimbledon": {
+            "code": "WIM", 
+            "lat": "51.42136", 
+            "lng": "-0.20652", 
+            "name": "Wimbledon", 
+            "nestoria_code": "wimbledon"
+        }, 
+        "wimbledon-park": {
+            "code": "WIP", 
+            "lat": "51.43458", 
+            "lng": "-0.19972", 
+            "name": "Wimbledon Park", 
+            "nestoria_code": "wimbledon-park"
+        }, 
+        "wood-green": {
+            "code": "WOG", 
+            "lat": "51.59749", 
+            "lng": "-0.10988", 
+            "name": "Wood Green", 
+            "nestoria_code": "wood-green"
+        }, 
+        "wood-lane": {
+            "code": "WLA", 
+            "lat": "51.50967", 
+            "lng": "-0.22453", 
+            "name": "Wood Lane", 
+            "nestoria_code": "wood-lane"
+        }, 
+        "woodford": {
+            "code": "WOF", 
+            "lat": "51.60691", 
+            "lng": "0.03398", 
+            "name": "Woodford", 
+            "nestoria_code": "woodford"
+        }, 
+        "woodside-park": {
+            "code": "WOP", 
+            "lat": "51.61802", 
+            "lng": "-0.18542", 
+            "name": "Woodside Park", 
+            "nestoria_code": "woodside-park"
+        }
+    }
+}
