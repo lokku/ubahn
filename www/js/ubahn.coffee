@@ -21,18 +21,22 @@ label.append("a").attr("class","link").attr("target","_blank").attr("href","test
 xAxis = yAxis = d3.scale.linear()
 intf = (v) -> data.currency+d3.format(",.0f")(v/1000)+"k"
 
-categoryText = (price, cat) -> intf(price) + " for "+cat+" bedroom flat"
+categoryText = (price, cat) -> 
+	if cat!="all"
+		intf(price) + " for "+cat+" bedroom flat"
+	else
+		"average price "+intf(price)
 
 renderCategories = (line_index)->
 	cats = d3.select("#categories").selectAll(".category").data(["all","1","2","3","4"])
 	.on("click",(d) -> draw_line(line_index,d))
-	.text((d)-> a = d+" bed"; a = a + "s" if d!="1"; return a)
+	.text((d)-> a = d+" bed"; a = a + "s" if d!="1"; a = "all" if d=="all"; return a)
 	.attr("class",(d)-> if d == active_cat then "active category" else "category")
 
 	cats.enter().append("a").attr("href","#chart")
 	.attr("class",(d)-> if d == active_cat then "active category" else "category")
 	.on("click",(d) -> d3.event.preventDefault(); d3.event.stopPropagation(); draw_line(line_index,d))
-	.text((d)-> a= d+" bed"; a = a + "s" if d!="1"; return a)
+	.text((d)-> a= d+" bed"; a = a + "s" if d!="1";  a = "all" if d=="all"; return a)
 	return true
 
 #pathgroup=svg.append("g").attr("class","path")

@@ -46,7 +46,11 @@ intf = function(v) {
 };
 
 categoryText = function(price, cat) {
-  return intf(price) + " for " + cat + " bedroom flat";
+  if (cat !== "all") {
+    return intf(price) + " for " + cat + " bedroom flat";
+  } else {
+    return "average price " + intf(price);
+  }
 };
 
 renderCategories = function(line_index) {
@@ -57,6 +61,7 @@ renderCategories = function(line_index) {
     var a;
     a = d + " bed";
     if (d !== "1") a = a + "s";
+    if (d === "all") a = "all";
     return a;
   }).attr("class", function(d) {
     if (d === active_cat) {
@@ -79,6 +84,7 @@ renderCategories = function(line_index) {
     var a;
     a = d + " bed";
     if (d !== "1") a = a + "s";
+    if (d === "all") a = "all";
     return a;
   });
   return true;
