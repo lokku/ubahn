@@ -1,4 +1,4 @@
-var active_cat, categoryText, data, draw_line, getMaxPrice, graph, height, hideLabel, intf, is_label_hovered, label, left_padding, max_price, padding, renderCategories, showLabel, svg, text_padding, transition, width, xAxis, yAxis;
+var active_cat, categoryText, data, draw_line, getMaxPrice, graph, height, hideLabel, intf, is_ff, is_label_hovered, label, left_padding, max_price, padding, renderCategories, showLabel, svg, text_padding, transition, width, xAxis, yAxis;
 
 width = 750;
 
@@ -17,6 +17,8 @@ transition = 800;
 active_cat = "1";
 
 is_label_hovered = false;
+
+is_ff = navigator.userAgent.indexOf("Chrome") === -1;
 
 svg = d3.select("#graph").append("svg").attr("height", height).attr("width", width);
 
@@ -49,7 +51,7 @@ categoryText = function(price, cat) {
 
 renderCategories = function(line_index) {
   var cats;
-  cats = d3.select("#categories").selectAll(".category").data(["1", "2", "3", "4", "5"]).on("click", function(d) {
+  cats = d3.select("#categories").selectAll(".category").data(["all", "1", "2", "3", "4"]).on("click", function(d) {
     return draw_line(line_index, d);
   }).text(function(d) {
     var a;
@@ -63,13 +65,15 @@ renderCategories = function(line_index) {
       return "category";
     }
   });
-  cats.enter().append("a").attr("href", "#").attr("class", function(d) {
+  cats.enter().append("a").attr("href", "#chart").attr("class", function(d) {
     if (d === active_cat) {
       return "active category";
     } else {
       return "category";
     }
   }).on("click", function(d) {
+    d3.event.preventDefault();
+    d3.event.stopPropagation();
     return draw_line(line_index, d);
   }).text(function(d) {
     var a;
@@ -91,7 +95,8 @@ d3.json("data/london.json", function(json_data) {
   }).style("color", function(d) {
     return d.color;
   }).attr("href", "#").on("click", function(d, i) {
-    console.log("click");
+    d3.event.preventDefault();
+    d3.event.stopPropagation();
     return draw_line(i, active_cat);
   });
   d3.select("#lines").selectAll(".line").data(data.lines).attr("class", "line").text(function(d) {
@@ -143,7 +148,7 @@ draw_line = function(line_index, category) {
       return _results;
     })()
   ];
-  x = d3.scale.linear().domain([0, 45]).rangeRound([left_padding, width - padding]);
+  x = d3.scale.linear().domain([0, line.stations.length]).rangeRound([left_padding, width - padding]);
   y = d3.scale.linear().domain([0, max_price]).rangeRound([height - padding, padding]);
   yAxis = d3.svg.axis().scale(y).ticks(5).tickSubdivide(false).orient("left").tickFormat(intf);
   axis = graph.selectAll(".axis").data([1]);
@@ -206,14 +211,16 @@ draw_line = function(line_index, category) {
 };
 
 showLabel = function(circle, x, y) {
-  var h, w;
+  var h, header_padding, w;
   is_label_hovered = true;
   label.style("display", "block");
-  label.select(".header").text(circle.d.name);
-  label.select(".price").text(categoryText(circle.prices.price, circle.prices.category)).attr("y", text_padding + label.select(".header").node().getBBox().height);
-  label.select(".link").attr("xlink:href", circle.prices.url).select("text").attr("y", text_padding * 2 + label.select(".header").node().getBBox().height + label.select(".price").node().getBBox().height);
+  header_padding = text_padding;
+  if (is_ff) header_padding = text_padding * 2;
+  label.select(".header").text(circle.d.name).attr("y", header_padding);
+  label.select(".price").text(categoryText(circle.prices.price, circle.prices.category)).attr("y", 2 * text_padding + label.select(".header").node().getBBox().height);
+  label.select(".link").attr("xlink:href", circle.prices.url).select("text").attr("y", text_padding * 3 + label.select(".header").node().getBBox().height + label.select(".price").node().getBBox().height);
   w = text_padding * 2 + _.max([label.select(".header").node().getBBox().width, label.select(".price").node().getBBox().width, label.select(".link").select("text").node().getBBox().width]);
-  h = label.select(".header").node().getBBox().height + label.select(".price").node().getBBox().height + label.select(".link").select("text").node().getBBox().height + text_padding * 2;
+  h = label.select(".header").node().getBBox().height + label.select(".price").node().getBBox().height + label.select(".link").select("text").node().getBBox().height + text_padding * 2 + header_padding;
   label.select("rect").attr("width", w).attr("height", h);
   if (20 + w + x > width) {
     x = x - w - 20;
@@ -221,6 +228,7 @@ showLabel = function(circle, x, y) {
     x = x + 20;
   }
   y = y - h / 2;
+  if (y < 20) y = 20;
   return label.attr("transform", "translate(" + x + "," + y + ")").style("display", "block").style("opacity", 0).transition().duration(transition).style("opacity", 100);
 };
 

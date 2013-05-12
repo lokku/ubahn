@@ -7,6 +7,8 @@ data = {}
 transition = 800
 active_cat = "1"
 is_label_hovered = false
+is_ff = (navigator.userAgent.indexOf("Chrome")==-1)
+
 svg = d3.select("#graph").append("svg").attr("height",height).attr("width",width)
 graph = svg.append("g").attr("class","graph");
 label = svg.append("g").attr("class","label")
@@ -22,14 +24,14 @@ intf = (v) -> data.currency+d3.format(",.0f")(v/1000)+"k"
 categoryText = (price, cat) -> intf(price) + " for "+cat+" bedroom flat"
 
 renderCategories = (line_index)->
-	cats = d3.select("#categories").selectAll(".category").data(["1","2","3","4","5"])
+	cats = d3.select("#categories").selectAll(".category").data(["all","1","2","3","4"])
 	.on("click",(d) -> draw_line(line_index,d))
 	.text((d)-> a = d+" bed"; a = a + "s" if d!="1"; return a)
 	.attr("class",(d)-> if d == active_cat then "active category" else "category")
 
-	cats.enter().append("a").attr("href","#")
+	cats.enter().append("a").attr("href","#chart")
 	.attr("class",(d)-> if d == active_cat then "active category" else "category")
-	.on("click",(d) -> draw_line(line_index,d))
+	.on("click",(d) -> d3.event.preventDefault(); d3.event.stopPropagation(); draw_line(line_index,d))
 	.text((d)-> a= d+" bed"; a = a + "s" if d!="1"; return a)
 	return true
 
@@ -46,7 +48,7 @@ d3.json( "data/london.json", (json_data) ->
 		.style("background-color",(d) -> d['background-color'])
 		.style("color",(d) -> d.color)
 		.attr("href","#")
-		.on("click",(d,i) -> console.log("click"); draw_line(i,active_cat))
+		.on("click",(d,i) -> d3.event.preventDefault(); d3.event.stopPropagation();draw_line(i,active_cat))
 	d3.select("#lines").selectAll(".line").data(data.lines)
 		.attr("class","line").text((d) -> d.name).style("background-color",(d) -> d['background-color'])
 	d3.select("#lines").selectAll(".line").data(data.lines).exit().remove()
@@ -75,8 +77,8 @@ draw_line = (line_index,category) ->
 	stations = [{'index':i,'d': data.stations[st], 'prices': _.find(data.stations[st].prices,(d) -> d.category==category)} for st,i in data.lines[line_index].stations]
 	#console.log(stations)
 	
-	#x = d3.scale.linear().domain([0,line.stations.length]).rangeRound([padding,width-padding])
-	x = d3.scale.linear().domain([0,45]).rangeRound([left_padding,width-padding])
+	x = d3.scale.linear().domain([0,line.stations.length]).rangeRound([left_padding,width-padding])
+	#x = d3.scale.linear().domain([0,45]).rangeRound([left_padding,width-padding])
 	y = d3.scale.linear().domain([0,max_price]).rangeRound([height-padding,padding])
 	#debugger;
 	yAxis = d3.svg.axis().scale(y).ticks(5).tickSubdivide(false).orient("left").tickFormat(intf)
@@ -122,10 +124,12 @@ showLabel = (circle,x,y) ->
 	#console.log()
 	is_label_hovered = true
 	label.style("display","block");
-	label.select(".header").text(circle.d.name)
-	label.select(".price").text(categoryText(circle.prices.price,circle.prices.category)).attr("y",text_padding+label.select(".header").node().getBBox().height)
+	header_padding=text_padding
+	if is_ff then header_padding = text_padding*2
+	label.select(".header").text(circle.d.name).attr("y",header_padding)
+	label.select(".price").text(categoryText(circle.prices.price,circle.prices.category)).attr("y",2*text_padding+label.select(".header").node().getBBox().height)
 	label.select(".link").attr("xlink:href",circle.prices.url)
-	.select("text").attr("y",text_padding*2+label.select(".header").node().getBBox().height+label.select(".price").node().getBBox().height)
+	.select("text").attr("y",text_padding*3+label.select(".header").node().getBBox().height+label.select(".price").node().getBBox().height)
 	w = text_padding * 2 + _.max([
 		label.select(".header").node().getBBox().width,
 		label.select(".price").node().getBBox().width,
@@ -133,7 +137,7 @@ showLabel = (circle,x,y) ->
 		]
 
 	)
-	h = label.select(".header").node().getBBox().height+label.select(".price").node().getBBox().height+label.select(".link").select("text").node().getBBox().height+text_padding * 2
+	h = label.select(".header").node().getBBox().height+label.select(".price").node().getBBox().height+label.select(".link").select("text").node().getBBox().height+text_padding * 2 + header_padding
 
 	label.select("rect").attr("width",w).attr("height",h)
 	if 20 + w + x >width
@@ -141,6 +145,8 @@ showLabel = (circle,x,y) ->
 	else
 		x = x + 20
 	y = y - h / 2
+	#console.log(y)
+	if y<20 then y=20
 	label.attr("transform", "translate("+x+","+y+")")
 	.style("display","block")
 	.style("opacity",0)
