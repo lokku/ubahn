@@ -1,4 +1,4 @@
-width = 750
+width = 700
 height = 300
 padding = 30
 left_padding = 80
@@ -31,10 +31,10 @@ renderCategories = (line_index)->
 	cats = d3.select("#categories").selectAll(".category").data(["all","1","2","3","4"])
 	.on("click",(d) -> draw_line(line_index,d))
 	.text((d)-> a = d+" bed"; a = a + "s" if d!="1"; a = "all" if d=="all"; return a)
-	.attr("class",(d)-> if d == active_cat then "active category" else "category")
+	.attr("class",(d)-> if d == active_cat then "btn active category" else "btn category")
 
 	cats.enter().append("a").attr("href","#chart")
-	.attr("class",(d)-> if d == active_cat then "active category" else "category")
+	.attr("class",(d)-> if d == active_cat then "btn active category" else "btn category")
 	.on("click",(d) -> d3.event.preventDefault(); d3.event.stopPropagation(); draw_line(line_index,d))
 	.text((d)-> a= d+" bed"; a = a + "s" if d!="1";  a = "all" if d=="all"; return a)
 	return true

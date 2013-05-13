@@ -1,6 +1,6 @@
 var active_cat, categoryText, data, draw_line, getMaxPrice, graph, height, hideLabel, intf, is_ff, is_label_hovered, label, left_padding, max_price, padding, renderCategories, showLabel, svg, text_padding, transition, width, xAxis, yAxis;
 
-width = 750;
+width = 700;
 
 height = 300;
 
@@ -65,16 +65,16 @@ renderCategories = function(line_index) {
     return a;
   }).attr("class", function(d) {
     if (d === active_cat) {
-      return "active category";
+      return "btn active category";
     } else {
-      return "category";
+      return "btn category";
     }
   });
   cats.enter().append("a").attr("href", "#chart").attr("class", function(d) {
     if (d === active_cat) {
-      return "active category";
+      return "btn active category";
     } else {
-      return "category";
+      return "btn category";
     }
   }).on("click", function(d) {
     d3.event.preventDefault();
