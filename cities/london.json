@@ -789,14 +789,14 @@
             "lat": "51.4923", 
             "lng": "-0.22362", 
             "name": "Hammersmith (Dist&Picc Line)", 
-            "nestoria_code": "hammersmith-station"
+            "nestoria_code": "hammersmith"
         }, 
         "hammersmith-handc-line": {
             "code": "HSC", 
             "lat": "51.49354", 
             "lng": "-0.22501", 
             "name": "Hammersmith (H&C Line)", 
-            "nestoria_code": "hammersmith-station"
+            "nestoria_code": "hammersmith"
         }, 
         "hampstead": {
             "code": "HTD", 
