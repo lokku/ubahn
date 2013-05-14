@@ -4,7 +4,7 @@ import sys, json, urllib2
 inp = "".join(sys.stdin.readlines())
 #print inp
 data = json.loads(inp)
-
+print "station\tcategory\tnum\tprice\turl"
 api_url=data['api']
 for station in data['stations']:
 	#print station
@@ -23,8 +23,8 @@ for station in data['stations']:
 		rc = ad[data['recency']]
 		prices=[]
 		for d in ad['metadata']:
-			lt=d['listing_type']
-			if lt=='buy':
+			metadata_name=d['metadata_name']
+			if metadata_name.endswith(data['metadata_suffix']):
 				p={}
 				#print d
 				arc = rc
@@ -34,10 +34,11 @@ for station in data['stations']:
 				p['num']=int(d['data'][arc]['datapoints'])
 				p['url']=d['url']
 				p['category']=d[data['category_field']]
+				print "%s\t%s\t%d\t%d\t%s" %(station, p['category'], p['num'], p['price'], p['url'])
 				prices.append(p)
 		data['stations'][station]['prices']=prices
-	except KeyError:
-		sys.stderr.write("Key error when processing data for %s\n" %(station))
-	except:
-		sys.stderr.write("Unexpected error when processing data for %s\n" %(station))
-print json.dumps(data)	
+	except KeyError as e:
+		sys.stderr.write("Key error when processing data for %s: %s %s\n" %(station,e.errno, e.strerror))
+	except Error as e:
+		sys.stderr.write("Unexpected error when processing data for %s: %s %s\n" %(station,e.errno, e.strerror))
+#print json.dumps(data)	

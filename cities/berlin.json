@@ -3,13 +3,13 @@
     "category_field": "num_beds",
     "metadata_suffix":"buy_monthly",
     "country": "United Kingdom", 
-    "currency": "£",
+    "currency": "EU",
     "pricerange": 4000000,
     "lines": [
         {
-            "background-color": "#dc241f", 
+            "background-color": "#D86AA8", 
             "color": "white", 
-            "name": "Central", 
+            "name": "s1", 
             "stations": [
                 "west-ruislip", 
                 "ruislip-gardens", 
@@ -53,9 +53,9 @@
             ]
         },
         {
-            "background-color": "#0019a8", 
+            "background-color": "#088838", 
             "color": "white", 
-            "name": "Picadilly", 
+            "name": "s2", 
             "stations": [
                 "cockfosters",
                 "oakwood",
@@ -97,31 +97,8 @@
                 "heathrow-airport-terminal-13",
                 "heathrow-airport-terminal-5"
             ]
-        },
-        {
-            "background-color": "#00a0ff", 
-            "color": "white", 
-            "name": "Victoria", 
-            "stations": [
-            "walthamstow-central",
-            "blackhorse-road",
-            "tottenham-hale",
-            "seven-sisters",
-            "finsbury-park",
-            "highbury-and-islington",
-            "kings-cross-st-pancras",
-            "euston",
-            "warren-street",
-            "oxford-circus",
-            "green-park",
-            "victoria",
-            "pimlico",
-            "vauxhall",
-            "stockwell",
-            "brixton"
-
-            ]
         }
+        
     ], 
     "name": "London", 
     "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
@@ -790,14 +767,14 @@
             "lat": "51.4923", 
             "lng": "-0.22362", 
             "name": "Hammersmith (Dist&Picc Line)", 
-            "nestoria_code": "hammersmith"
+            "nestoria_code": "hammersmith-station"
         }, 
         "hammersmith-handc-line": {
             "code": "HSC", 
             "lat": "51.49354", 
             "lng": "-0.22501", 
             "name": "Hammersmith (H&C Line)", 
-            "nestoria_code": "hammersmith"
+            "nestoria_code": "hammersmith-station"
         }, 
         "hampstead": {
             "code": "HTD", 

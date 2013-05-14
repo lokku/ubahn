@@ -41,9 +41,9 @@
       <div class="row">
          <div class="span4">
           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
+            <ul class="nav nav-list" id="citylist">
               <li class="nav-header">Choose a city</li>
-              <li><a href="#">Barcelona</a></li>
+              <!-- <li><a href="#">Barcelona</a></li>
               <li><a href="#">Berlin</a></li>
               <li><a href="#">Chennai</a></li>
               <li><a href="#">Hamburg</a></li>
@@ -58,7 +58,7 @@
               <li><a href="#">Rio de Janeiro</a></li>
               <li><a href="#">Rome</a></li>
               <li><a href="#">Sao Paulo</a></li>
-              <li><a href="#">Sydney</a></li>
+              <li><a href="#">Sydney</a></li> -->
             </ul>
           </div>
         </div> 
@@ -67,6 +67,7 @@
               <div id="lines"></div>
               <div id="categories"></div>
               <div id="graph"></div>
+              <div>Hover over each station to see more information</div>
               
             </div><!--/span-->
             
@@ -80,10 +81,16 @@
 
     </div>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<!--    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.0.8/d3.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+-->
+<script src="lib/jquery.js"></script>
+    <script src="lib/d3.min.js"></script>
+    <script src="lib/underscore-min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="cities/cities.js"></script>    
     <script src="js/ubahn.js"></script>
     
   </body>
