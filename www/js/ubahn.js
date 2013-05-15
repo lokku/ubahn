@@ -111,6 +111,9 @@ load_city = function(city) {
         return d.name;
       }).style("background-color", function(d) {
         return d['background-color'];
+      }).on("click", function(d, i) {
+        d3.event.stopPropagation();
+        return draw_line(i, active_cat);
       });
       d3.select("#lines").selectAll(".line").data(data.lines).exit().remove();
       active_line = 0;
@@ -123,6 +126,8 @@ renderCategories = function(line_index, active_cat) {
   var cats;
   console.log("Active city is " + active_city);
   cats = d3.select("#categories").selectAll(".category").data(["all", "1", "2", "3", "4"]).on("click", function(d) {
+    d3.event.preventDefault();
+    d3.event.stopPropagation();
     return draw_line(line_index, d);
   }).text(function(d) {
     var a;
@@ -283,10 +288,10 @@ draw_line = function(line_index, category) {
 
 showLabel = function(circle, x, y, ct) {
   var h, header_padding, w;
-  if (ct == null) ct = categoryText;
   is_label_hovered = true;
   label.style("display", "block");
   header_padding = text_padding;
+  console.log(ct(circle.prices.price, circle.prices.category));
   if (is_ff) header_padding = text_padding * 2;
   label.select(".header").text(circle.d.name).attr("y", header_padding);
   label.select(".price").text(ct(circle.prices.price, circle.prices.category)).attr("y", 2 * text_padding + label.select(".header").node().getBBox().height);

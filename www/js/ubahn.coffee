@@ -73,6 +73,7 @@ load_city = (city) ->
 				.attr("id",(d,i)->"line_"+i)
 				.attr("href",(d,i) -> "#"+city+"|"+i+"|"+active_cat)
 				.attr("class","line").text((d) -> d.name).style("background-color",(d) -> d['background-color'])
+				.on("click",(d,i) -> d3.event.stopPropagation();draw_line(i,active_cat))
 			d3.select("#lines").selectAll(".line").data(data.lines).exit().remove()
 			#d3.select("#categories .category").remove()
 			active_line = 0
@@ -87,7 +88,7 @@ renderCategories = (line_index,active_cat) ->
 	#debugger;
 	console.log("Active city is "+active_city)
 	cats = d3.select("#categories").selectAll(".category").data(["all","1","2","3","4"])
-	.on("click",(d) -> draw_line(line_index,d))
+	.on("click",(d) -> d3.event.preventDefault(); d3.event.stopPropagation(); draw_line(line_index,d))
 	.text((d)-> a = d+" bed"; a = a + "s" if d!="1"; a = "all" if d=="all"; return a)
 	.attr("class",(d)-> if d == active_cat then "btn active category" else "btn category")
 	.attr("href",(d) -> "#"+window.active_city+"|"+line_index+"|"+d)	
@@ -187,11 +188,13 @@ draw_line = (line_index,category) ->
 	return true
 
 
-showLabel = (circle,x,y, ct = categoryText) ->
+showLabel = (circle,x,y, ct) ->
 	#console.log()
 	is_label_hovered = true
 	label.style("display","block");
 	header_padding = text_padding
+	console.log(ct(circle.prices.price,circle.prices.category))
+
 	if is_ff then header_padding = text_padding*2
 	label.select(".header").text(circle.d.name).attr("y",header_padding)
 	label.select(".price").text(ct(circle.prices.price,circle.prices.category)).attr("y",2*text_padding+label.select(".header").node().getBBox().height)

@@ -1,3 +1,8 @@
+:focus, :active  {
+	outline:none !important; 
+	border:0 !important; }
+::-moz-focus-inner {border:0 !important; ;}
+
 a.line{
 	padding: 5px;
 	padding-left: 10px;
@@ -5,7 +10,17 @@ a.line{
 	border-radius: 10px;
 	font-weight: bold;
 	margin-right: 10px;
+	border:0;
 }
+a.line::-moz-focus-inner, a.line:focus{
+	border:0;
+}
+a.line.active {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
 svg path.path{
 stroke-width: 4;
 fill: none;
@@ -79,7 +94,8 @@ svg .stop circle{
 	color: grey;
 }
 
-#categories .category+.active{
+#categories .category.active{
 	font-weight: bold;
 	color: black;
 }
+

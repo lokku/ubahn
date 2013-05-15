@@ -1,14 +1,14 @@
-var sqm_category_text = function(price,cat){
+var eu_sqm_category_text = function(price,cat){
 	if (cat !== "all") {
-  intf(price) + " per sq m for " + cat + " bedroom flat";
+  	return "EU"+d3.format(",.0f")(price/1000)+"k per sq m for " + cat + " bedroom flat";
 } else {
-  "average price " + intf(price);
+  return "average price EU" + d3.format(",.0f")(price/1000)+"k";
 }
 }
 
 window.cities = [
 	{ 'key': 'barcelona', 'name': 'Barcelona' },
-	{ 'key': 'berlin', 'name': 'Berlin', 'categoryText' : sqm_category_text },
+	{ 'key': 'berlin', 'name': 'Berlin', 'categoryText' : eu_sqm_category_text },
 	{ 'key': 'chennai', 'name': 'Chennai' },
 	{ 'key': 'hamburg', 'name': 'Hamburg' },
 	{ 'key': 'kolkatta', 'name': 'Kolkatta' },
