@@ -1,0 +1,60 @@
+Installation requirements:
+================================
+
+Your system should be able to support symlinks. The only symlink is the www/cities pointing to cities directory.
+
+Everything is written in coffeescript. Which compiles to javascript (ubahn.cofee -> ubahn.js) using cofee -cb ubahn.cofee command. The -b option is important. Alternatively you can just change the javascript file, but that means you have to maintain it yourself.
+
+All the js libraries (d3.js, jquery, underscore.js) are already there, no cdn is used to get them. You can change this behaviour in the index.html
+
+All the utility scripts (those in the bin directory) do not need any arguments and expect data command from standard input:
+cat ../cities/london.json | ./get_prices > ../cities/london.tsv
+
+Brief description of what is loaded when user loads a page:
+===========================================================
+
+1. The web root directory is www
+2. www/cities/cities.js is loaded. Cities.js is a config file which contains the list of all cities , their names and (optionally) formatting functions.
+3. The list is rendered. Based on hash of window location either default city is loaded (london, first station, prices for all flats) or what is specified in the url after #.
+4. The <cityname>.json is loaded, containing all the stations, lines and some settings (like currency, which field to use, etc)
+5. <cityname>.tsv is loaded. This file contains all prices for all types of properties for a given city. Use ./bin/get_prices to generate this file from <cityname>.json
+6. The whole thing is rendered. D3.js is used for that.
+
+Directory structure of the project
+======================================
+bin - directory containing scripts for generating price data files. There is a util directory which essential could be ignored. It contains a script for generating the station data for london underground. Could be used as a reference for writing similar scripts for other cities.
+
+bin directory has two scripts: get_prices and validate. Both scripts expect data coming from standard input.
+get_prices takes the content of a city json file, goes to nestoria api and takes the prices for all the stations.
+    Sample usages is: cat ../cities/london.json | ./get_prices > ../cities/london.tsv
+validate is used for validating some features of the city description json file
+cities - this contains all the cities json and tsv-s
+www - the webpage!
+www/lib - third party libraties
+
+Specification of city json config
+=================================
+
+api - the api url to call for getting the average prices. E.g. "http://api.nestoria.co.uk/api?country=uk&pretty=0&action=metadata&encoding=json&place_name="
+
+category_field - which field to use to get the number of beds. E.g. "num_beds"
+metadata_suffix - which metadata to use. For London, that would be "buy_monthly". For Berlin, that is "buy_monthly_per_sqm"
+name - city name. Currently not used
+country - Country name. Not used, but could be used for grouping cities
+currency - the currency to be used. For London, that's "£"
+pricerange - ignore. Not used. Deprecated. Kill it
+lines - array of lines. Each line has it's background-color, color (usually white, but e.g. circle line has a different color), name and an ordered list of stations that consist of this line. No loops or branches.
+pin - the pin icon of the station. CUrrently not used. But maybe in the future...
+stations - a hashmap of stations and properties. Only two mandatory params are nestoria-code and name. Nestoria-code is used for searching it.
+
+What to do once you are finished with defining a city.
+=====================================================
+
+1. Validate the lines using ./bin/validate. Just cat the json file and pipe it on validate. It will shout if it found a non-existent station in the definiteion of lines. 
+2. Run it through ./bin/get_prices . Cat <city>.json | ./bin/get_prices > cities/<city>.tsv
+3. Edit the cities.js file and add your city, if not there.
+4. Test it. If not working, write Dimi an email: we@sarok.org
+
+
+Done!
+

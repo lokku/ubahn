@@ -77,6 +77,8 @@ load_city = (city) ->
 			d3.select("#lines").selectAll(".line").data(data.lines).exit().remove()
 			#d3.select("#categories .category").remove()
 			#active_line = 0
+			if data.lines.length<=window.active_line
+				window.active_line = 0
 			draw_line(window.active_line,window.active_cat)
 			
 		)

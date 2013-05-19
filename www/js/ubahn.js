@@ -116,6 +116,7 @@ load_city = function(city) {
         return draw_line(i, active_cat);
       });
       d3.select("#lines").selectAll(".line").data(data.lines).exit().remove();
+      if (data.lines.length <= window.active_line) window.active_line = 0;
       return draw_line(window.active_line, window.active_cat);
     });
   });

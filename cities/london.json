@@ -4,7 +4,6 @@
     "metadata_suffix":"buy_monthly",
     "country": "United Kingdom", 
     "currency": "£",
-    "pricerange": 4000000,
     "lines": [
         {
             "background-color": "#dc241f", 
