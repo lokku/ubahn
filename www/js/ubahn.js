@@ -1,4 +1,4 @@
-var active_line, categoryText, data, draw_line, getMaxPrice, graph, hideLabel, intf, is_ff, is_label_hovered, label, left_padding, load_city, max_price, padding, renderCategories, renderList, showLabel, svg, text_padding, xAxis, yAxis;
+var active_line, categoryText, data, draw_line, getMaxPrice, graph, hideLabel, intf, is_ff, is_label_hovered, label, left_padding, load_city, max_price, p, padding, renderCategories, renderList, showLabel, svg, text_padding, xAxis, yAxis;
 
 padding = 30;
 
@@ -116,8 +116,7 @@ load_city = function(city) {
         return draw_line(i, active_cat);
       });
       d3.select("#lines").selectAll(".line").data(data.lines).exit().remove();
-      active_line = 0;
-      return draw_line(active_line, window.active_cat);
+      return draw_line(window.active_line, window.active_cat);
     });
   });
 };
@@ -283,6 +282,7 @@ draw_line = function(line_index, category) {
   }).transition().duration(transition).attr("r", 4);
   circles.exit().remove();
   renderCategories(line_index, category);
+  window.location.hash = active_city + "|" + line_index + "|" + category;
   return true;
 };
 
@@ -314,6 +314,19 @@ hideLabel = function() {
     return label.transition().duration(window.transition / 2).style("opacity", 0).transition().duration(0).style("display", "none");
   }
 };
+
+window.active_line = 0;
+
+if (window.location.hash !== "") {
+  p = window.location.hash.slice(1).split("|");
+  if (p.length > 0 && p[0].length > 0) window.active_city = p[0];
+  if (p.length > 1 && p[1].length > 0 && _.isNumber(+p[1])) {
+    window.active_line = +p[1];
+  }
+  if (p.length > 2 && p[2].length > 0 && (p[2] === 'all' || _.isNumber(+p[2]))) {
+    window.active_cat = p[2];
+  }
+}
 
 renderList(window.cities, window.active_city);
 

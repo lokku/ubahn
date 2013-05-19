@@ -76,8 +76,8 @@ load_city = (city) ->
 				.on("click",(d,i) -> d3.event.stopPropagation();draw_line(i,active_cat))
 			d3.select("#lines").selectAll(".line").data(data.lines).exit().remove()
 			#d3.select("#categories .category").remove()
-			active_line = 0
-			draw_line(active_line,window.active_cat)
+			#active_line = 0
+			draw_line(window.active_line,window.active_cat)
 			
 		)
 	)
@@ -184,7 +184,7 @@ draw_line = (line_index,category) ->
 
 	circles.exit().remove()
 	renderCategories(line_index,category)
-	#window.location.hash=active_city+"|"+line_index+"|"+category
+	window.location.hash=active_city+"|"+line_index+"|"+category
 	return true
 
 
@@ -228,7 +228,14 @@ hideLabel = ()	 ->
 	if not is_label_hovered
 		#console.log("Hiding hover")
 		label.transition().duration(window.transition/2).style("opacity",0).transition().duration(0).style("display","none")
-
-
+window.active_line = 0
+if window.location.hash!=""
+	p = window.location.hash.slice(1).split("|")
+	if p.length>0 and p[0].length>0
+		window.active_city=p[0]
+	if p.length>1 and p[1].length>0 and _.isNumber(+p[1])
+		window.active_line = +p[1]
+	if p.length>2 and p[2].length>0 and (p[2]=='all' or _.isNumber(+p[2]))
+		window.active_cat = p[2]
 renderList(window.cities, window.active_city)
 load_city(window.active_city)
