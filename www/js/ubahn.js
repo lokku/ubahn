@@ -86,7 +86,7 @@ load_city = function(city) {
           val = _ref[_j];
           val.price = +val.price;
           val.num = +val.num;
-        }
+        }console.log("key " + station.key);
         data.stations[station.key].prices = station.values;
       }
       d3.select("#lines").selectAll(".line").data(data.lines).enter().append("a").attr("id", function(d, i) {
