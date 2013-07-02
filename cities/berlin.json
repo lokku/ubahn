@@ -197,6 +197,7 @@
 				"gneisenaustrasse_berlin-u-bahn",
 				"suedstern_berlin-u-bahn",
 				"hermannplatz_berlin-u-bahn",
+				"rathaus-neukolln_berlin-u-bahn",
 				"karl-marx-strasse_berlin-u-bahn",
 				"neukoelln_berlin-u-bahn",
 				"grenzallee_berlin-u-bahn",
@@ -505,6 +506,10 @@
         },
         "neukoelln_berlin-u-bahn": {
             "name": "Neukölln", 
+            "nestoria_code": "neukoelln_berlin-u-bahn"
+        },
+        "rathaus-neukolln_berlin-u-bahn": {
+            "name": "Rathaus Neukölln", 
             "nestoria_code": "neukoelln_berlin-u-bahn"
         },
         "grenzallee_berlin-u-bahn": {
@@ -922,7 +927,7 @@
         },
         "zoologischer_berlin-u-bahn": {
             "name": "Zoologischer Garten", 
-            "nestoria_code": "uhlandstrasse_berlin-u-bahn"
+            "nestoria_code": "bahnhof-zoologischer-garten_berlin-u-bahn"
         },
         "ernst-reuter-platz_berlin-u-bahn": {
             "name": "Ernst-Reuter-Platz", 
