@@ -224,7 +224,7 @@
         },
         {
             "background-color": "#ffce00", 
-            "color": "white", 
+            "color": "black", 
             "name": "Circle", 
             "stations": [
             "hammersmith-distandpicc-line",
@@ -444,7 +444,7 @@
 			"colliers-wood",
 			"south-wimbledon",
 			"morden"
-						
+            
             ]
         },
         {
