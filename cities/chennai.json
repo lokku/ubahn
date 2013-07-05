@@ -1,0 +1,182 @@
+{
+    "api": "http://api.nestoria.in/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "India", 
+    "currency": "RS",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#0A79EA", 
+            "color": "white", 
+            "name": "Line 1", 
+            "stations": [
+                "footscray",
+                "kensington_melbourne",
+				"parkville",
+				"melbourne-cbd",
+				"south-yarra"
+                
+            ]
+        },
+        {
+            "background-color": "#FF0000", 
+            "color": "white", 
+            "name": "Line 2", 
+            "stations": [
+                "footscray",
+                "kensington_melbourne",
+				"parkville",
+				"melbourne-cbd",
+				"south-yarra"
+                
+            ]
+        }
+        
+    ], 
+    "name": "Chennai", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"washermanpet": {
+			"name": "Washermanpet",
+			"nestoria_code": "washermanpet"
+		},
+		"mannady": {
+			"name": "Mannadi",
+			"nestoria_code": "mannady"
+		},
+		"parkville": {
+			"name": "High Court",
+			"nestoria_code": "parkville"
+		},
+		"melbourne-cbd": {
+			"name": "Chennai Central",
+			"nestoria_code": "melbourne-cbd"
+		},
+		"south-yarra": {
+			"name": "Government Estate",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "LIC Building",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Thousand Lights",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Gemini",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Teynampet",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Chamier's Road",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Saidapet",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Velachari Road",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Guindy",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Alandur",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Training Academy",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Airlines Colony",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Meenambakkam",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Chennai Airport",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Egmore",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Nehru Park",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Kilpauk Medical Clg",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Aminjikarai",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Shenoy Nagar",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Tower",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Anna Nagar East",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Anna Nagar",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Tirumangalam",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Koyambedu",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "OMBT",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Arumbakkam",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Vadapalani",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "Ashok Nagar",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "K K Nagar",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "SIDCO",
+			"nestoria_code": "south-yarra"
+		},
+		"south-yarra": {
+			"name": "St. Thomas Mount",
+			"nestoria_code": "south-yarra"
+		}
+	}
+}

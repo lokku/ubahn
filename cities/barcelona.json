@@ -1,0 +1,647 @@
+{
+    "api": "http://api.nestoria.es/api?country=es&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Spain", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#DC241F", 
+            "color": "white", 
+            "name": "L1", 
+            "stations": [
+                "hospital-de-bellvitge",
+				"bellvitge",
+				"av-carrilet",
+				"rambla-de-just-oliveras",
+				"can-serra_barcelona",
+				"florida",
+				"torrassa",
+				"mercat-nou",
+				"placa-de-sants",
+				"hostafrancs_barcelona",
+				"espanya",
+				"rocafort_barcelona",
+				"urgell",
+				"universitat_barcelona",
+				"catalunya",
+				"urquinaona",
+				"arc-de-triomf",
+				"marina_barcelona",
+				"glories",
+				"clot",
+				"navas_barcelona",
+				"sagrera_barcelona",
+				"fabra-i-puig",
+				"sant-andreu_barcelona",
+				"torres-i-bages",
+				"trinitat-vella",
+				"baro-de-viver",
+				"santa-coloma_barcelona",
+				"fondo_barcelona"
+                
+            ]
+        },
+        {
+            "background-color": "#9E469C", 
+            "color": "white", 
+            "name": "L2", 
+            "stations": [
+                "parallell",
+				"sant-antoni_barcelona-1",
+				"universitat_barcelona",
+				"passeig-de-gracia",
+				"tetuan",
+				"monumental",
+				"sagrada-familia",
+				"encants",
+				"clot",
+				"bac-de-roda_barcelona",
+				"sant-marti",
+                "la-pau",
+                "la-verneda",
+                "artigues-sant-adria",
+                "sant-roc_badalona",
+                "gorg",
+                "pep-ventura"
+                                
+            ]
+        },
+        {
+            "background-color": "#1EB53A", 
+            "color": "white", 
+            "name": "L3", 
+            "stations": [
+                "zona-universitaria",
+                "palau-reial",
+                "maria-cristina",
+                "les-corts",
+                "placa-del-centre",
+                "sants-estacio",
+                "tarragona_barcelona-1",
+                "espanya",
+                "poble-sec_barcelona-1",
+                "parallell",
+                "drassanes",
+                "liceu",
+                "catalunya",
+                "passeig-de-gracia",
+                "diagonal_barcelona",
+                "lesseps",
+                "vallcarca_barcelona-1",
+                "penitents",
+                "vall-dhebron",
+                "montbau",
+                "mundet",
+                "valldaura",
+                "canyelles_barcelona-1",
+                "roquetes-verdum",
+                "trinitat-nova"
+                
+            ]
+        },
+        {
+            "background-color": "#EAAF0F", 
+            "color": "black", 
+            "name": "L4", 
+            "stations": [
+                "trinitat-nova",
+                "via-julia",
+                "llucmajor",
+                "maragall",
+                "hospital-de-sant-pau",
+                "joanic",
+                "verdaguer",
+                "girona_barcelona",
+                "passeig-de-gracia",
+                "urquinaona",
+                "jaume-i",
+                "barceloneta",
+                "ciutadella",
+                "bogatell",
+                "poblenou_barcelona",
+                "selva-de-mar_barcelona",
+                "el-maresme-forum",
+                "besos-mar",
+                "besos",
+                "la-pau"
+                
+            ]
+        },
+        {
+            "background-color": "#00428B", 
+            "color": "white", 
+            "name": "L5", 
+            "stations": [
+                "cornella-centre",
+                "la-gavarra",
+                "sant-ildefons",
+                "can-boixeres",
+                "can-vidalet",
+                "pubilla-cases",
+                "collblanc",
+                "badal",
+                "placa-de-sants",
+                "sants-estacio",
+                "entenca",
+                "hospital-clinic",
+                "diagonal_barcelona",
+                "verdaguer",
+                "sagrada-familia",
+                "camp-de-larpa",
+                "sagrera_barcelona",
+                "congres",
+                "maragall",
+                "virrei-amat",
+                "vilapicina",
+                "horta_barcelona",
+                "carmel",
+                "el-coll",
+                "vall-dhebron"
+                
+            ]
+        },
+        {
+            "background-color": "#8977BA", 
+            "color": "white", 
+            "name": "L6", 
+            "stations": [
+                "passeig-de-la-reina-elisenda-de-montcada",
+                "sarria_barcelona-1",
+                "tres-torres",
+                "la-bonanova",
+                "muntaner",
+                "sant-gervasi",
+                "gracia",
+                "provenca",
+                "catalunya"
+            ]
+        },
+        {
+            "background-color": "#6D3000", 
+            "color": "white", 
+            "name": "L7", 
+            "stations": [
+                "avinguda-del-tibidabo",
+                "el-puxtet",
+                "padua",
+                "placa-molina",
+                "gracia",
+                "provenca",
+                "catalunya"
+                
+            ]
+        }
+        
+    ], 
+    "name": "Barcelona", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"avinguda-del-tibidabo": {
+            "name": "Avinguda Tibidabo", 
+            "nestoria_code": "avinguda-del-tibidabo"
+        },
+    	"el-puxtet": {
+            "name": "El Putxet", 
+            "nestoria_code": "carrer-de-buscarons"
+        },
+    	"padua": {
+            "name": "Pàdua", 
+            "nestoria_code": "carrer-del-putget"
+        },
+    	"placa-molina": {
+            "name": "Plaça Molina", 
+            "nestoria_code": "placa-molina"
+        },
+    	"passeig-de-la-reina-elisenda-de-montcada": {
+            "name": "Reina Elisenda", 
+            "nestoria_code": "passeig-de-la-reina-elisenda-de-montcada"
+        },
+    	"sarria_barcelona-1": {
+            "name": "Sarrià", 
+            "nestoria_code": "sarria_barcelona-1"
+        },
+    	"tres-torres": {
+            "name": "Les Tres Torres", 
+            "nestoria_code": "tres-torres"
+        },
+    	"la-bonanova": {
+            "name": "La Bonanova", 
+            "nestoria_code": "carrer-de-ganduxer"
+        },
+    	"muntaner": {
+            "name": "Muntaner", 
+            "nestoria_code": "sarria-sant-gervasi"
+        },
+    	"sant-gervasi": {
+            "name": "Sant Gervasi", 
+            "nestoria_code": "sant-gervasi"
+        },
+    	"gracia": {
+            "name": "Gràcia", 
+            "nestoria_code": "gracia"
+        },
+        "provenca": {
+            "name": "Provença", 
+            "nestoria_code": "diagonal_barcelona"
+        },
+    	"cornella-centre": {
+            "name": "Cornellà Centre", 
+            "nestoria_code": "cornella-centre"
+        },
+    	"la-gavarra": {
+            "name": "Gavarra", 
+            "nestoria_code": "la-gavarra"
+        },
+    	"sant-ildefons": {
+            "name": "Sant Ildefons", 
+            "nestoria_code": "sant-ildefons"
+        },
+    	"can-boixeres": {
+            "name": "Can Boixeres", 
+            "nestoria_code": "can-boixeres"
+        },
+    	"can-vidalet": {
+            "name": "Can Vidalet", 
+            "nestoria_code": "can-vidalet"
+        },
+    	"pubilla-cases": {
+            "name": "Pubilla Cases", 
+            "nestoria_code": "pubilla-cases"
+        },
+    	"collblanc": {
+            "name": "Collblanc", 
+            "nestoria_code": "collblanc"
+        },
+    	"badal": {
+            "name": "Badal", 
+            "nestoria_code": "badal"
+        },
+    	"entenca": {
+            "name": "Entença", 
+            "nestoria_code": "entenca"
+        },
+    	"hospital-clinic": {
+            "name": "Hospital Clínic", 
+            "nestoria_code": "hospital-clinic"
+        },
+    	"camp-de-larpa": {
+            "name": "Camp de l'Arpa", 
+            "nestoria_code": "camp-de-larpa"
+        },
+    	"congres": {
+            "name": "Congrés", 
+            "nestoria_code": "congres"
+        },
+    	"virrei-amat": {
+            "name": "Virrei Amat", 
+            "nestoria_code": "virrei-amat"
+        },
+    	"vilapicina": {
+            "name": "Vilapicina", 
+            "nestoria_code": "vilapicina"
+        },
+    	"horta_barcelona": {
+            "name": "Horta", 
+            "nestoria_code": "horta_barcelona"
+        },
+    	"carmel": {
+            "name": "El Carmel", 
+            "nestoria_code": "carmel"
+        },
+    	"el-coll": {
+            "name": "El Coll | la Teixonera", 
+            "nestoria_code": "el-coll"
+        },
+   		"via-julia": {
+            "name": "Via Júlia", 
+            "nestoria_code": "via-julia"
+        },
+        "llucmajor": {
+            "name": "Llucmajor", 
+            "nestoria_code": "llucmajor"
+        },
+        "maragall": {
+            "name": "Maragall", 
+            "nestoria_code": "maragall"
+        },
+        "hospital-de-sant-pau": {
+            "name": "Guinardó | Hospital de Sant Pau", 
+            "nestoria_code": "hospital-de-sant-pau"
+        },
+        "joanic": {
+            "name": "Joanic", 
+            "nestoria_code": "joanic"
+        },
+        "verdaguer": {
+            "name": "Verdaguer", 
+            "nestoria_code": "verdaguer"
+        },
+        "girona_barcelona": {
+            "name": "Girona", 
+            "nestoria_code": "girona_barcelona"
+        },
+        "jaume-i": {
+            "name": "Jaume I", 
+            "nestoria_code": "jaume-i"
+        },
+        "barceloneta": {
+            "name": "Barceloneta", 
+            "nestoria_code": "barceloneta"
+        },
+        "ciutadella": {
+            "name": "Ciutadella | Vila Olímpica", 
+            "nestoria_code": "ciutadella"
+        },
+        "bogatell": {
+            "name": "Bogatell", 
+            "nestoria_code": "bogatell"
+        },
+        "llacuna_barcelona": {
+            "name": "Llacuna", 
+            "nestoria_code": "llacuna_barcelona"
+        },
+        "poblenou_barcelona": {
+            "name": "Poblenou", 
+            "nestoria_code": "poblenou_barcelona"
+        },
+        "selva-de-mar_barcelona": {
+            "name": "Selva de Mar", 
+            "nestoria_code": "selva-de-mar_barcelona"
+        },
+        "el-maresme-forum": {
+            "name": "El Maresme | Fòrum", 
+            "nestoria_code": "el-maresme-forum"
+        },
+        "besos-mar": {
+            "name": "Besòs Mar", 
+            "nestoria_code": "besos-mar"
+        },
+        "besos": {
+            "name": "Besòs", 
+            "nestoria_code": "besos"
+        },
+    	"zona-universitaria": {
+            "name": "Zona Universitària", 
+            "nestoria_code": "zona-universitaria"
+        },
+        "palau-reial": {
+            "name": "Palau Reial", 
+            "nestoria_code": "palau-reial"
+        },
+        "maria-cristina": {
+            "name": "Maria Cristina", 
+            "nestoria_code": "maria-cristina"
+        },
+        "les-corts": {
+            "name": "Les Corts", 
+            "nestoria_code": "les-corts"
+        },
+        "placa-del-centre": {
+            "name": "Plaça del Centre", 
+            "nestoria_code": "placa-del-centre"
+        },
+        "sants-estacio": {
+            "name": "Sants-Estació", 
+            "nestoria_code": "sants-estacio"
+        },
+        "tarragona_barcelona-1": {
+            "name": "Tarragona", 
+            "nestoria_code": "tarragona_barcelona-1"
+        },
+        "poble-sec_barcelona-1": {
+            "name": "Poble Sec", 
+            "nestoria_code": "poble-sec_barcelona-1"
+        },
+        "drassanes": {
+            "name": "Drassanes", 
+            "nestoria_code": "drassanes"
+        },
+        "liceu": {
+            "name": "Liceu", 
+            "nestoria_code": "liceu"
+        },
+        "diagonal_barcelona": {
+            "name": "Diagonal", 
+            "nestoria_code": "diagonal_barcelona"
+        },
+        "lesseps": {
+            "name": "Lesseps", 
+            "nestoria_code": "lesseps"
+        },
+        "vallcarca_barcelona-1": {
+            "name": "Vallcarca", 
+            "nestoria_code": "vallcarca_barcelona-1"
+        },
+        "penitents": {
+            "name": "Penitents", 
+            "nestoria_code": "penitents"
+        },
+        "vall-dhebron": {
+            "name": "Vall d'Hebron", 
+            "nestoria_code": "vall-dhebron"
+        },
+        "montbau": {
+            "name": "Montbau", 
+            "nestoria_code": "montbau"
+        },
+        "mundet": {
+            "name": "Mundet", 
+            "nestoria_code": "mundet"
+        },
+        "valldaura": {
+            "name": "Valldaura", 
+            "nestoria_code": "valldaura"
+        },
+        "canyelles_barcelona-1": {
+            "name": "Canyelles", 
+            "nestoria_code": "canyelles_barcelona-1"
+        },
+        "roquetes-verdum": {
+            "name": "Roquetes", 
+            "nestoria_code": "roquetes-verdum"
+        },
+        "trinitat-nova": {
+            "name": "Trinitat Nova", 
+            "nestoria_code": "trinitat-nova"
+        },
+    	"parallell": {
+            "name": "Paral·lel", 
+            "nestoria_code": "parallell"
+        },
+        "sant-antoni_barcelona-1": {
+            "name": "Sant Antoni", 
+            "nestoria_code": "sant-antoni_barcelona-1"
+        },
+        "passeig-de-gracia": {
+            "name": "Passeig de Gràcia", 
+            "nestoria_code": "passeig-de-gracia"
+        },
+        "tetuan": {
+            "name": "Tetuan", 
+            "nestoria_code": "tetuan"
+        },
+        "monumental": {
+            "name": "Monumental", 
+            "nestoria_code": "monumental"
+        },
+        "sagrada-familia": {
+            "name": "Sagrada Família", 
+            "nestoria_code": "sagrada-familia"
+        },
+        "encants": {
+            "name": "Encants", 
+            "nestoria_code": "encants"
+        },
+        "bac-de-roda_barcelona": {
+            "name": "Bac de Roda", 
+            "nestoria_code": "bac-de-roda_barcelona"
+        },
+        "sant-marti": {
+            "name": "Sant Martí", 
+            "nestoria_code": "sant-marti"
+        },
+        "la-pau": {
+            "name": "La Pau", 
+            "nestoria_code": "la-pau"
+        },
+        "la-verneda": {
+            "name": "Verneda", 
+            "nestoria_code": "la-verneda"
+        },
+        "artigues-sant-adria": {
+            "name": "Artigues-Sant Adrià", 
+            "nestoria_code": "artigues-sant-adria"
+        },
+        "sant-roc_badalona": {
+            "name": "Sant Roc", 
+            "nestoria_code": "sant-roc_badalona"
+        },
+        "gorg": {
+            "name": "Gorg", 
+            "nestoria_code": "gorg"
+        },
+        "pep-ventura": {
+            "name": "Pep Ventura", 
+            "nestoria_code": "pep-ventura"
+        },
+    	"hospital-de-bellvitge": {
+            "name": "Hospital de Bellvitge", 
+            "nestoria_code": "hospital-de-bellvitge"
+        },
+        "bellvitge": {
+            "name": "Bellvitge", 
+            "nestoria_code": "bellvitge"
+        },
+        "av-carrilet": {
+            "name": "Av. Carrilet", 
+            "nestoria_code": "av-carrilet"
+        },
+        "rambla-de-just-oliveras": {
+            "name": "Rambla Just Oliveras", 
+            "nestoria_code": "rambla-de-just-oliveras"
+        },
+        "can-serra_barcelona": {
+            "name": "Can Serra", 
+            "nestoria_code": "can-serra_barcelona"
+        },
+        "florida": {
+            "name": "Florida", 
+            "nestoria_code": "florida"
+        },
+        "torrassa": {
+            "name": "Torrassa", 
+            "nestoria_code": "torrassa"
+        },
+        "mercat-nou": {
+            "name": "Mercat Nou", 
+            "nestoria_code": "mercat-nou"
+        },
+        "placa-de-sants": {
+            "name": "Plaça de Sants", 
+            "nestoria_code": "placa-de-sants"
+        },
+        "hostafrancs_barcelona": {
+            "name": "Hostafrancs", 
+            "nestoria_code": "hostafrancs_barcelona"
+        },
+        "espanya": {
+            "name": "Espanya", 
+            "nestoria_code": "espanya"
+        },
+        "rocafort_barcelona": {
+            "name": "Rocafort", 
+            "nestoria_code": "rocafort_barcelona"
+        },
+        "urgell": {
+            "name": "Urgell", 
+            "nestoria_code": "urgell"
+        },
+        "universitat_barcelona": {
+            "name": "Universitat", 
+            "nestoria_code": "universitat_barcelona"
+        },
+        "catalunya": {
+            "name": "Catalunya", 
+            "nestoria_code": "catalunya"
+        },
+        "urquinaona": {
+            "name": "Urquinaona", 
+            "nestoria_code": "urquinaona"
+        },
+        "arc-de-triomf": {
+            "name": "Arc de Triomf", 
+            "nestoria_code": "arc-de-triomf"
+        },
+        "marina_barcelona": {
+            "name": "Marina", 
+            "nestoria_code": "marina_barcelona"
+        },
+        "glories": {
+            "name": "Glòries", 
+            "nestoria_code": "glories"
+        },
+        "clot": {
+            "name": "Clot", 
+            "nestoria_code": "clot"
+        },
+        "navas_barcelona": {
+            "name": "Navas", 
+            "nestoria_code": "navas_barcelona"
+        },
+        "sagrera_barcelona": {
+            "name": "La Sagrera", 
+            "nestoria_code": "sagrera_barcelona"
+        },
+        "fabra-i-puig": {
+            "name": "Fabra i Puig", 
+            "nestoria_code": "fabra-i-puig"
+        },
+        "sant-andreu_barcelona": {
+            "name": "Sant Andreu", 
+            "nestoria_code": "sant-andreu_barcelona"
+        },
+        "torres-i-bages": {
+            "name": "Torras i Bages", 
+            "nestoria_code": "torres-i-bages"
+        },
+        "trinitat-vella": {
+            "name": "Trinitat Vella", 
+            "nestoria_code": "trinitat-vella"
+        },
+        "baro-de-viver": {
+            "name": "Baró de Viver", 
+            "nestoria_code": "baro-de-viver"
+        },
+        "santa-coloma_barcelona": {
+            "name": "Santa Coloma", 
+            "nestoria_code": "santa-coloma_barcelona"
+        },
+        "fondo_barcelona": {
+            "name": "Fondo", 
+            "nestoria_code": "fondo_barcelona"
+        }
+    }
+}

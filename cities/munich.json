@@ -1,0 +1,534 @@
+{
+    "api": "http://api.nestoria.de/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Germany", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#2C611D", 
+            "color": "white", 
+            "name": "U1", 
+            "stations": [
+                "olympia-einkaufszentrum_muenchen-u-bahn",
+                "rotkreuzplatz_muenchen-u-bahn",
+                "central-station_muenchen-u-bahn",
+                "sendlinger-tor_muenchen-u-bahn",
+                "kolumbusplatz_muenchen-u-bahn",
+                "mangfallplatz_muenchen-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#98001B", 
+            "color": "white", 
+            "name": "U2", 
+            "stations": [
+                "feldmoching",
+                "harthof_muenchen-u-bahn",
+                "scheidplatz_muenchen-u-bahn",
+                "central-station_muenchen-u-bahn",
+                "sendlinger-tor_muenchen-u-bahn",
+                "kolumbusplatz_muenchen-u-bahn",
+                "giesing_muenchen-u-bahn",
+                "innsbrucker-ring_muenchen-u-bahn",
+                "trudering_muenchen-u-bahn",
+                "messestadt-ost_muenchen-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#E54D0F", 
+            "color": "white", 
+            "name": "U3", 
+            "stations": [
+                "moosach_muenchen-u-bahn",
+				"olympia-einkaufszentrum_muenchen-u-bahn",
+				"olympiazentrum_muenchen-u-bahn",
+				"scheidplatz_muenchen-u-bahn",
+				"muenchner-freiheit_muenchen-u-bahn",
+				"odeonsplatz_muenchen-u-bahn",
+				"marienplatz_muenchen-u-bahn",
+				"sendlinger-tor_muenchen-u-bahn",
+				"implerstrasse_muenchen-u-bahn",
+				"obersendling_muenchen-u-bahn",
+				"fuerstenried-west_muenchen-u-bahn"
+				
+            ]
+        },
+        {
+            "background-color": "#139A66", 
+            "color": "white", 
+            "name": "U4", 
+            "stations": [
+                "westendstrasse_muenchen-u-bahn",
+				"heimeranplatz_muenchen-u-bahn",
+				"central-station_muenchen-u-bahn",
+				"karlsplatz-stachus_muenchen-u-bahn",
+				"odeonsplatz_muenchen-u-bahn",
+				"lehel_muenchen-u-bahn",
+				"max-weber-platz_muenchen-u-bahn",
+				"arabellapark_muenchen-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#954F06", 
+            "color": "white", 
+            "name": "U5", 
+            "stations": [
+                "laimer-platz_muenchen-u-bahn",
+				"westendstrasse_muenchen-u-bahn",
+				"heimeranplatz_muenchen-u-bahn",
+				"central-station_muenchen-u-bahn",
+				"karlsplatz-stachus_muenchen-u-bahn",
+				"odeonsplatz_muenchen-u-bahn",
+				"lehel_muenchen-u-bahn",
+				"max-weber-platz_muenchen-u-bahn",
+				"ostbahnhof_muenchen-u-bahn",
+				"innsbrucker-ring_muenchen-u-bahn",
+				"neuperlach-sued_muenchen-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#00449E", 
+            "color": "white", 
+            "name": "U6", 
+            "stations": [
+                "garching-forschungszentrum_muenchen-u-bahn",
+				"froettmaning_muenchen-u-bahn",
+				"freimann_muenchen-u-bahn",
+				"studentenstadt_muenchen-u-bahn",
+				"muenchner-freiheit_muenchen-u-bahn",
+				"odeonsplatz_muenchen-u-bahn",
+				"marienplatz_muenchen-u-bahn",
+				"sendlinger-tor_muenchen-u-bahn",
+				"implerstrasse_muenchen-u-bahn",
+				"harras_muenchen-u-bahn",
+				"klinikum-grosshadern_muenchen-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#B3AD61", 
+            "color": "white", 
+            "name": "U7", 
+            "stations": [
+                "westfriedhof_muenchen-u-bahn",
+				"gern_muenchen-u-bahn",
+				"rotkreuzplatz_muenchen-u-bahn",
+				"maillingerstrasse_muenchen-u-bahn",
+				"stiglmaierplatz_muenchen-u-bahn",
+				"central-station_muenchen-u-bahn",
+				"sendlinger-tor_muenchen-u-bahn",
+				"fraunhoferstrasse_muenchen-u-bahn",
+				"kolumbusplatz_muenchen-u-bahn",
+				"silberhornstrasse_muenchen-u-bahn",
+				"untersbergstrasse_muenchen-u-bahn",
+				"giesing_muenchen-u-bahn",
+				"karl-preis-platz_muenchen-u-bahn",
+				"innsbrucker-ring_muenchen-u-bahn",
+				"michaelibad_muenchen-u-bahn",
+				"quiddestrasse_muenchen-u-bahn",
+				"neuperlach-zentrum_muenchen-u-bahn"
+                
+            ]
+        }
+        
+    ], 
+    "name": "Munich", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"aidenbachstrasse_muenchen-u-bahn": {
+            "name": "Aidenbachstraße", 
+            "nestoria_code": "aidenbachstrasse_muenchen-u-bahn"
+        },
+        "alte-heide_muenchen-u-bahn": {
+            "name": "Alte Heide", 
+            "nestoria_code": "alte-heide_muenchen-u-bahn"
+        },
+        "am-hart_muenchen-u-bahn": {
+            "name": "Am Hart", 
+            "nestoria_code": "am-hart_muenchen-u-bahn"
+        },
+        "arabellapark_muenchen-u-bahn": {
+            "name": "Arabellapark", 
+            "nestoria_code": "arabellapark_muenchen-u-bahn"
+        },
+        "basler-strasse_muenchen-u-bahn": {
+            "name": "Basler Straße", 
+            "nestoria_code": "basler-strasse_muenchen-u-bahn"
+        },
+        "bonner-platz_muenchen-u-bahn": {
+            "name": "Bonner Platz", 
+            "nestoria_code": "bonner-platz_muenchen-u-bahn"
+        },
+        "brudermuehlstrasse_muenchen-u-bahn": {
+            "name": "Brudermühlstraße", 
+            "nestoria_code": "brudermuehlstrasse_muenchen-u-bahn"
+        },
+        "boehmerwaldplatz_muenchen-u-bahn": {
+            "name": "Böhmerwaldplatz", 
+            "nestoria_code": "boehmerwaldplatz_muenchen-u-bahn"
+        },
+        "candidplatz_muenchen-u-bahn": {
+            "name": "Candidplatz", 
+            "nestoria_code": "candidplatz_muenchen-u-bahn"
+        },
+        "central-station_muenchen-u-bahn": {
+            "name": "Central Station", 
+            "nestoria_code": "hauptbahnhof_muenchen-u-bahn"
+        },
+        "dietlindenstrasse_muenchen-u-bahn": {
+            "name": "Dietlindenstraße", 
+            "nestoria_code": "dietlindenstrasse_muenchen-u-bahn"
+        },
+        "duelferstrasse_muenchen-u-bahn": {
+            "name": "Dülferstraße", 
+            "nestoria_code": "duelferstrasse_muenchen-u-bahn"
+        },
+        "feldmoching": {
+            "name": "Feldmoching", 
+            "nestoria_code": "feldmoching"
+        },
+        "forstenrieder-allee_muenchen-u-bahn": {
+            "name": "Forstenrieder Allee", 
+            "nestoria_code": "forstenrieder-allee_muenchen-u-bahn"
+        },
+        "frankfurter-ring_muenchen-u-bahn": {
+            "name": "Frankfurter Ring", 
+            "nestoria_code": "frankfurter-ring_muenchen-u-bahn"
+        },
+        "fraunhoferstrasse_muenchen-u-bahn": {
+            "name": "Fraunhoferstraße", 
+            "nestoria_code": "fraunhoferstrasse_muenchen-u-bahn"
+        },
+        "freimann_muenchen-u-bahn": {
+            "name": "Freimann", 
+            "nestoria_code": "freimann_muenchen-u-bahn"
+        },
+        "friedenheimer-strasse_muenchen-u-bahn": {
+            "name": "Friedenheimer Straße", 
+            "nestoria_code": "friedenheimer-strasse_muenchen-u-bahn"
+        },
+        "froettmaning_muenchen-u-bahn": {
+            "name": "Fröttmaning", 
+            "nestoria_code": "froettmaning_muenchen-u-bahn"
+        },
+        "fuerstenried-west_muenchen-u-bahn": {
+            "name": "Fürstenried West", 
+            "nestoria_code": "fuerstenried-west_muenchen-u-bahn"
+        },
+        "garching_muenchen-u-bahn": {
+            "name": "Garching", 
+            "nestoria_code": "garching_muenchen-u-bahn"
+        },
+        "garching-forschungszentrum_muenchen-u-bahn": {
+            "name": "Garching-Forschungszentrum", 
+            "nestoria_code": "garching-forschungszentrum_muenchen-u-bahn"
+        },
+        "garching-hochbrueck_muenchen-u-bahn": {
+            "name": "Garching-Hochbrück", 
+            "nestoria_code": "garching-hochbrueck_muenchen-u-bahn"
+        },
+        "georg-brauchle-ring_muenchen-u-bahn": {
+            "name": "Georg-Brauchle-Ring", 
+            "nestoria_code": "georg-brauchle-ring_muenchen-u-bahn"
+        },
+        "gern_muenchen-u-bahn": {
+            "name": "Gern", 
+            "nestoria_code": "gern_muenchen-u-bahn"
+        },
+        "giesing_muenchen-u-bahn": {
+            "name": "Giesing", 
+            "nestoria_code": "giesing_muenchen-u-bahn"
+        },
+        "giselastrasse_muenchen-u-bahn": {
+            "name": "Giselastraße", 
+            "nestoria_code": "giselastrasse_muenchen-u-bahn"
+        },
+        "goetheplatz_muenchen-u-bahn": {
+            "name": "Goetheplatz", 
+            "nestoria_code": "goetheplatz_muenchen-u-bahn"
+        },
+        "grosshadern_muenchen-u-bahn": {
+            "name": "Großhadern", 
+            "nestoria_code": "grosshadern_muenchen-u-bahn"
+        },
+        "haderner-stern_muenchen-u-bahn": {
+            "name": "Haderner Stern", 
+            "nestoria_code": "haderner-stern_muenchen-u-bahn"
+        },
+        "harras_muenchen-u-bahn": {
+            "name": "Harras", 
+            "nestoria_code": "harras_muenchen-u-bahn"
+        },
+        "harthof_muenchen-u-bahn": {
+            "name": "Harthof", 
+            "nestoria_code": "harthof_muenchen-u-bahn"
+        },
+        "hasenbergl_muenchen-u-bahn": {
+            "name": "Hasenbergl", 
+            "nestoria_code": "hasenbergl_muenchen-u-bahn"
+        },
+        "hauptbahnhof_muenchen-u-bahn": {
+            "name": "Hauptbahnhof", 
+            "nestoria_code": "hauptbahnhof_muenchen-u-bahn"
+        },
+        "heimeranplatz_muenchen-u-bahn": {
+            "name": "Heimeranplatz", 
+            "nestoria_code": "heimeranplatz_muenchen-u-bahn"
+        },
+        "hohenzollernplatz_muenchen-u-bahn": {
+            "name": "Hohenzollernplatz", 
+            "nestoria_code": "hohenzollernplatz_muenchen-u-bahn"
+        },
+        "holzapfelkreuth_muenchen-u-bahn": {
+            "name": "Holzapfelkreuth", 
+            "nestoria_code": "holzapfelkreuth_muenchen-u-bahn"
+        },
+        "implerstrasse_muenchen-u-bahn": {
+            "name": "Implerstraße", 
+            "nestoria_code": "implerstrasse_muenchen-u-bahn"
+        },
+        "innsbrucker-ring_muenchen-u-bahn": {
+            "name": "Innsbrucker Ring", 
+            "nestoria_code": "innsbrucker-ring_muenchen-u-bahn"
+        },
+        "josephsburg_muenchen-u-bahn": {
+            "name": "Josephsburg", 
+            "nestoria_code": "josephsburg_muenchen-u-bahn"
+        },
+        "josephsplatz_muenchen-u-bahn": {
+            "name": "Josephsplatz", 
+            "nestoria_code": "josephsplatz_muenchen-u-bahn"
+        },
+        "karl-preis-platz_muenchen-u-bahn": {
+            "name": "Karl-Preis-Platz", 
+            "nestoria_code": "karl-preis-platz_muenchen-u-bahn"
+        },
+        "karlsplatz-stachus_muenchen-u-bahn": {
+            "name": "Karlsplatz (Stachus)", 
+            "nestoria_code": "karlsplatz-stachus_muenchen-u-bahn"
+        },
+        "kieferngarten_muenchen-u-bahn": {
+            "name": "Kieferngarten", 
+            "nestoria_code": "kieferngarten_muenchen-u-bahn"
+        },
+        "klinikum-grosshadern_muenchen-u-bahn": {
+            "name": "Klinikum Großhadern", 
+            "nestoria_code": "klinikum-grosshadern_muenchen-u-bahn"
+        },
+        "kolumbusplatz_muenchen-u-bahn": {
+            "name": "Kolumbusplatz", 
+            "nestoria_code": "kolumbusplatz_muenchen-u-bahn"
+        },
+        "kreillerstrasse_muenchen-u-bahn": {
+            "name": "Kreillerstraße", 
+            "nestoria_code": "kreillerstrasse_muenchen-u-bahn"
+        },
+        "koenigsplatz_muenchen-u-bahn": {
+            "name": "Königsplatz", 
+            "nestoria_code": "koenigsplatz_muenchen-u-bahn"
+        },
+        "laimer-platz_muenchen-u-bahn": {
+            "name": "Laimer Platz", 
+            "nestoria_code": "laimer-platz_muenchen-u-bahn"
+        },
+        "lehel_muenchen-u-bahn": {
+            "name": "Lehel", 
+            "nestoria_code": "lehel_muenchen-u-bahn"
+        },
+        "machtlfinger-strasse_muenchen-u-bahn": {
+            "name": "Machtlfinger Straße", 
+            "nestoria_code": "machtlfinger-strasse_muenchen-u-bahn"
+        },
+        "maillingerstrasse_muenchen-u-bahn": {
+            "name": "Maillingerstraße", 
+            "nestoria_code": "maillingerstrasse_muenchen-u-bahn"
+        },
+        "mangfallplatz_muenchen-u-bahn": {
+            "name": "Mangfallplatz", 
+            "nestoria_code": "mangfallplatz_muenchen-u-bahn"
+        },
+        "marienplatz_muenchen-u-bahn": {
+            "name": "Marienplatz", 
+            "nestoria_code": "marienplatz_muenchen-u-bahn"
+        },
+        "max-weber-platz_muenchen-u-bahn": {
+            "name": "Max-Weber-Platz", 
+            "nestoria_code": "max-weber-platz_muenchen-u-bahn"
+        },
+        "messestadt-ost_muenchen-u-bahn": {
+            "name": "Messestadt-Ost", 
+            "nestoria_code": "messestadt-ost_muenchen-u-bahn"
+        },
+        "messestadt-west_muenchen-u-bahn": {
+            "name": "Messestadt-West", 
+            "nestoria_code": "messestadt-west_muenchen-u-bahn"
+        },
+        "michaelibad_muenchen-u-bahn": {
+            "name": "Michaelibad", 
+            "nestoria_code": "michaelibad_muenchen-u-bahn"
+        },
+        "milbertshofen_muenchen-u-bahn": {
+            "name": "Milbertshofen", 
+            "nestoria_code": "milbertshofen_muenchen-u-bahn"
+        },
+        "moosach_muenchen-u-bahn": {
+            "name": "Moosach", 
+            "nestoria_code": "moosach"
+        },
+        "moosacher-st-martins-platz": {
+            "name": "Moosacher St.-Martins-Platz", 
+            "nestoria_code": "moosacher-st-martins-platz"
+        },
+        "moosfeld_muenchen-u-bahn": {
+            "name": "Moosfeld", 
+            "nestoria_code": "moosfeld_muenchen-u-bahn"
+        },
+        "muenchner-freiheit_muenchen-u-bahn": {
+            "name": "Münchner Freiheit", 
+            "nestoria_code": "muenchner-freiheit_muenchen-u-bahn"
+        },
+        "neuperlach-sued_muenchen-u-bahn": {
+            "name": "Neuperlach Süd", 
+            "nestoria_code": "neuperlach-sued_muenchen-u-bahn"
+        },
+        "neuperlach-zentrum_muenchen-u-bahn": {
+            "name": "Neuperlach Zentrum", 
+            "nestoria_code": "neuperlach-zentrum_muenchen-u-bahn"
+        },
+        "nordfriedhof_muenchen-u-bahn": {
+            "name": "Nordfriedhof", 
+            "nestoria_code": "nordfriedhof_muenchen-u-bahn"
+        },
+        "obersendling_muenchen-u-bahn": {
+            "name": "Obersendling", 
+            "nestoria_code": "obersendling_muenchen-u-bahn"
+        },
+        "oberwiesenfeld_muenchen-u-bahn": {
+            "name": "Oberwiesenfeld", 
+            "nestoria_code": "oberwiesenfeld_muenchen-u-bahn"
+        },
+        "odeonsplatz_muenchen-u-bahn": {
+            "name": "Odeonsplatz", 
+            "nestoria_code": "odeonsplatz_muenchen-u-bahn"
+        },
+        "olympia-einkaufszentrum_muenchen-u-bahn": {
+            "name": "Olympia-Einkaufszentrum", 
+            "nestoria_code": "nauener-platz_berlin-u-bahn"
+        },
+        "olympiazentrum_muenchen-u-bahn": {
+            "name": "Olympiazentrum", 
+            "nestoria_code": "olympiazentrum_muenchen-u-bahn"
+        },
+        "ostbahnhof_muenchen-u-bahn": {
+            "name": "Ostbahnhof", 
+            "nestoria_code": "nauener-platz_berlin-u-bahn"
+        },
+        "partnachplatz_muenchen-u-bahn": {
+            "name": "Partnachplatz", 
+            "nestoria_code": "partnachplatz_muenchen-u-bahn"
+        },
+        "petuelring_muenchen-u-bahn": {
+            "name": "Petuelring", 
+            "nestoria_code": "petuelring_muenchen-u-bahn"
+        },
+        "poccistrasse_muenchen-u-bahn": {
+            "name": "Poccistraße", 
+            "nestoria_code": "poccistrasse_muenchen-u-bahn"
+        },
+        "prinzregentenplatz_muenchen-u-bahn": {
+            "name": "Prinzregentenplatz", 
+            "nestoria_code": "prinzregentenplatz_muenchen-u-bahn"
+        },
+        "quiddestrasse_muenchen-u-bahn": {
+            "name": "Quiddestraße", 
+            "nestoria_code": "quiddestrasse_muenchen-u-bahn"
+        },
+        "richard-strauss-strasse_muenchen-u-bahn": {
+            "name": "Richard-Strauss-Straße", 
+            "nestoria_code": "richard-strauss-strasse_muenchen-u-bahn"
+        },
+        "rotkreuzplatz_muenchen-u-bahn": {
+            "name": "Rotkreuzplatz", 
+            "nestoria_code": "rotkreuzplatz_muenchen-u-bahn"
+        },
+        "scheidplatz_muenchen-u-bahn": {
+            "name": "Scheidplatz", 
+            "nestoria_code": "scheidplatz_muenchen-u-bahn"
+        },
+        "schwanthalerhoehe_muenchen-u-bahn": {
+            "name": "Schwanthalerhöhe", 
+            "nestoria_code": "schwanthalerhoehe_muenchen-u-bahn"
+        },
+        "sendlinger-tor_muenchen-u-bahn": {
+            "name": "Sendlinger Tor", 
+            "nestoria_code": "sendlinger-tor_muenchen-u-bahn"
+        },
+        "silberhornstrasse_muenchen-u-bahn": {
+            "name": "Silberhornstraße", 
+            "nestoria_code": "silberhornstrasse_muenchen-u-bahn"
+        },
+        "st-quirin-platz_muenchen-u-bahn": {
+            "name": "St.-Quirin-Platz", 
+            "nestoria_code": "st-quirin-platz_muenchen-u-bahn"
+        },
+        "stiglmaierplatz_muenchen-u-bahn": {
+            "name": "Stiglmaierplatz", 
+            "nestoria_code": "stiglmaierplatz_muenchen-u-bahn"
+        },
+        "studentenstadt_muenchen-u-bahn": {
+            "name": "Studentenstadt", 
+            "nestoria_code": "studentenstadt_muenchen-u-bahn"
+        },
+        "thalkirchen_muenchen-u-bahn": {
+            "name": "Thalkirchen", 
+            "nestoria_code": "thalkirchen_muenchen-u-bahn"
+        },
+        "therese-giehse-allee_muenchen-u-bahn": {
+            "name": "Therese-Giehse-Allee", 
+            "nestoria_code": "therese-giehse-allee_muenchen-u-bahn"
+        },
+        "theresienstrasse_muenchen-u-bahn": {
+            "name": "Theresienstraße", 
+            "nestoria_code": "theresienstrasse_muenchen-u-bahn"
+        },
+        "theresienwiese_muenchen-u-bahn": {
+            "name": "Theresienwiese", 
+            "nestoria_code": "theresienwiese_muenchen-u-bahn"
+        },
+        "trudering_muenchen-u-bahn": {
+            "name": "Trudering", 
+            "nestoria_code": "trudering_muenchen-u-bahn"
+        },
+        "universitaet_muenchen-u-bahn": {
+            "name": "Universität", 
+            "nestoria_code": "universitaet_muenchen-u-bahn"
+        },
+        "untersbergstrasse_muenchen-u-bahn": {
+            "name": "Untersbergstraße", 
+            "nestoria_code": "untersbergstrasse_muenchen-u-bahn"
+        },
+        "westendstrasse_muenchen-u-bahn": {
+            "name": "Westendstraße", 
+            "nestoria_code": "westendstrasse_muenchen-u-bahn"
+        },
+        "westfriedhof_muenchen-u-bahn": {
+            "name": "Westfriedhof", 
+            "nestoria_code": "westfriedhof_muenchen-u-bahn"
+        },
+        "westpark_muenchen-u-bahn": {
+            "name": "Westpark", 
+            "nestoria_code": "westpark_muenchen-u-bahn"
+        },
+        "wettersteinplatz_muenchen-u-bahn": {
+            "name": "Wettersteinplatz", 
+            "nestoria_code": "wettersteinplatz_muenchen-u-bahn"
+        }
+    }
+}

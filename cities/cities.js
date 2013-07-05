@@ -7,23 +7,26 @@ var eu_sqm_category_text = function(price,cat){
 }
 
 window.cities = [
-	{ 'key': 'barcelona', 'name': 'Barcelona' },
+	{ 'key': 'barcelona', 'name': 'Barcelona (wait-gl)' },
 	{ 'key': 'berlin', 'name': 'Berlin', 'categoryText' : eu_sqm_category_text },
-	{ 'key': 'chennai', 'name': 'Chennai' },
+	{ 'key': 'chennai', 'name': 'Chennai (To do)' },
 	{ 'key': 'hamburg', 'name': 'Hamburg' },
-	{ 'key': 'kolkatta', 'name': 'Kolkatta' },
+	{ 'key': 'kolkata', 'name': 'Kolkata (To do)' },
 	{ 'key' :'london', 'name': 'London' },
-	{ 'key': 'madrid', 'name': 'Madrid' },
+	{ 'key': 'madrid', 'name': 'Madrid (To do)' },
 	{ 'key': 'melbourne', 'name': 'Melbourne' },
-	{ 'key': 'mumbai', 'name': 'Mumbai' },
+	{ 'key': 'mumbai', 'name': 'Mumbai (To do)' },
 	{ 'key': 'munich', 'name': 'Munich' },
-	{ 'key': 'new_dehli', 'name': 'New Dehli' },
-	{ 'key': 'paris', 'name': 'Paris' },
-	{ 'key': 'rio', 'name': 'Rio de Janeiro' },
+	{ 'key': 'new_dehli', 'name': 'New Dehli (To do)' },
+	{ 'key': 'paris', 'name': 'Paris (To do)' },
+	{ 'key': 'rio', 'name': 'Rio de Janeiro (To do)' },
 	{ 'key': 'rome', 'name': 'Rome' },
-	{ 'key': 'sao_paulo', 'name': 'Sao Paulo' },
-	{ 'key': 'sydney', 'name': 'Sydney' },
+	{ 'key': 'sao_paulo', 'name': 'Sao Paulo' }
 ]
+
+//Sydney removed as the metro programme was abandoned.
+//São Paulo lines 4 to 6
+
 
 window.active_city = 'london'
 

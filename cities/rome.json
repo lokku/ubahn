@@ -1,0 +1,273 @@
+{
+    "api": "http://api.nestoria.it/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Italy", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#ED881C", 
+            "color": "white", 
+            "name": "Line A", 
+            "stations": [
+                "battistini",
+				"cornelia",
+				"baldo-degli-ubaldi",
+				"valle-aurelia",
+				"cipro-musei-vaticani",
+				"ottaviano-san-pietro",
+				"lepanto",
+				"flaminio-piazza-del-popolo",
+				"spagna_roma",
+				"barberini_roma",
+				"repubblica",
+				"termini_roma",
+				"vittorio-emanuele",
+				"manzoni_roma",
+				"san-giovanni",
+				"re-di-roma",
+				"ponte-lungo_roma",
+				"furio-camilo",
+				"colli-albani",
+				"arco-di-travertino",
+				"porta-furba-quadraro",
+				"numidio-quadrato",
+				"lucio-sestio",
+				"giulio-agricola",
+				"subaugusta",
+				"cinecitta",
+				"anagnina"
+				
+            ]
+        },
+        {
+            "background-color": "#005D9B", 
+            "color": "white", 
+            "name": "Line B", 
+            "stations": [
+                "rebibbia",
+				"ponte-mammolo",
+				"santa-maria-del-soccorso_roma",
+				"pietralata",
+				"monti-tiburtini",
+				"quintiliani",
+				"tiburtina",
+				"bologna_roma",
+				"policlinico_roma",
+				"castro-pretorio",
+				"termini_roma",
+				"cavour",
+				"colosseo",
+				"circo-massimo",
+				"piramide",
+				"garbatella",
+				"basilica-san-paolo",
+				"marconi_roma",
+				"eur-magliana",
+				"eur-palasport",
+				"eur-fermi",
+				"laurentina"
+				
+            ]
+        }
+        
+    ], 
+    "name": "Rome", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"battistini": {
+			"name": "Battistini",
+			"nestoria_code": "via-ennio-bonifazi"
+		},
+    	"cornelia": {
+			"name": "Cornelia",
+			"nestoria_code": "cornelia"
+		},
+    	"baldo-degli-ubaldi": {
+			"name": "Baldo degli Ubaldi",
+			"nestoria_code": "via-egidio-albornoz"
+		},
+    	"valle-aurelia": {
+			"name": "Valle Aurelia",
+			"nestoria_code": "valle-aurelia"
+		},
+    	"cipro-musei-vaticani": {
+			"name": "Cipro",
+			"nestoria_code": "cipro-musei-vaticani"
+		},
+    	"ottaviano-san-pietro": {
+			"name": "Ottaviano",
+			"nestoria_code": "ottaviano-san-pietro"
+		},
+    	"lepanto": {
+			"name": "Lepanto",
+			"nestoria_code": "lepanto"
+		},
+    	"flaminio-piazza-del-popolo": {
+			"name": "Flaminio",
+			"nestoria_code": "flaminio-piazza-del-popolo"
+		},
+    	"spagna_roma": {
+			"name": "Spagna",
+			"nestoria_code": "spagna_roma"
+		},
+    	"barberini_roma": {
+			"name": "Barberini",
+			"nestoria_code": "barberini_roma"
+		},
+    	"repubblica": {
+			"name": "Repubblica",
+			"nestoria_code": "repubblica"
+		},
+    	"termini_roma": {
+			"name": "Termini",
+			"nestoria_code": "termini_roma"
+		},
+    	"vittorio-emanuele": {
+			"name": "Vittorio Emanuele",
+			"nestoria_code": "vittorio-emanuele"
+		},
+    	"manzoni_roma": {
+			"name": "Manzoni",
+			"nestoria_code": "manzoni_roma"
+		},
+    	"san-giovanni": {
+			"name": "San Giovanni",
+			"nestoria_code": "san-giovanni"
+		},
+    	"re-di-roma": {
+			"name": "Re di Roma",
+			"nestoria_code": "via-vercelli_roma"
+		},
+    	"ponte-lungo_roma": {
+			"name": "Ponte Lungo",
+			"nestoria_code": "ponte-lungo_roma"
+		},
+    	"furio-camilo": {
+			"name": "Furio Camillo",
+			"nestoria_code": "furio-camilo"
+		},
+    	"colli-albani": {
+			"name": "Colli Albani",
+			"nestoria_code": "colli-albani"
+		},
+    	"arco-di-travertino": {
+			"name": "Arco di Travertino",
+			"nestoria_code": "arco-di-travertino"
+		},
+    	"porta-furba-quadraro": {
+			"name": "Porta Furba",
+			"nestoria_code": "porta-furba-quadraro"
+		},
+    	"numidio-quadrato": {
+			"name": "Numidio Quadrato",
+			"nestoria_code": "numidio-quadrato"
+		},
+    	"lucio-sestio": {
+			"name": "Lucio Sestio",
+			"nestoria_code": "lucio-sestio"
+		},
+    	"giulio-agricola": {
+			"name": "Giulio Agricola",
+			"nestoria_code": "giulio-agricola"
+		},
+    	"subaugusta": {
+			"name": "Subaugusta",
+			"nestoria_code": "subaugusta"
+		},
+    	"cinecitta": {
+			"name": "Cinecittà",
+			"nestoria_code": "cinecitta"
+		},
+    	"anagnina": {
+			"name": "Anagnina",
+			"nestoria_code": "anagnina"
+		},
+    	"rebibbia": {
+			"name": "Rebibbia",
+			"nestoria_code": "rebibbia"
+		},
+    	"ponte-mammolo": {
+			"name": "P.Mammolo",
+			"nestoria_code": "ponte-mammolo"
+		},
+    	"santa-maria-del-soccorso_roma": {
+			"name": "S.M.Soccorso",
+			"nestoria_code": "santa-maria-del-soccorso_roma"
+		},
+    	"pietralata": {
+			"name": "Pietralata",
+			"nestoria_code": "pietralata"
+		},
+    	"monti-tiburtini": {
+			"name": "M.Tiburtini",
+			"nestoria_code": "monti-tiburtini"
+		},
+    	"quintiliani": {
+			"name": "Quintiliani",
+			"nestoria_code": "quintiliani"
+		},
+    	"tiburtina": {
+			"name": "Tiburtina",
+			"nestoria_code": "tiburtina"
+		},
+    	"bologna_roma": {
+			"name": "Bologna",
+			"nestoria_code": "bologna_roma"
+		},
+    	"policlinico_roma": {
+			"name": "Policlinico",
+			"nestoria_code": "policlinico_roma"
+		},
+    	"castro-pretorio": {
+			"name": "Castro Pretorio",
+			"nestoria_code": "castro-pretorio"
+		},
+    	"cavour": {
+			"name": "Cavour",
+			"nestoria_code": "cavour"
+		},
+    	"colosseo": {
+			"name": "Colosseo",
+			"nestoria_code": "colosseo"
+		},
+    	"circo-massimo": {
+			"name": "Circo Massimo",
+			"nestoria_code": "circo-massimo"
+		},
+    	"piramide": {
+			"name": "Piramide",
+			"nestoria_code": "piramide"
+		},
+    	"garbatella": {
+			"name": "Garbatella",
+			"nestoria_code": "garbatella"
+		},
+    	"basilica-san-paolo": {
+			"name": "Basilica San Paolo",
+			"nestoria_code": "via-alessandro-severo_roma"
+		},
+    	"marconi_roma": {
+			"name": "Marconi",
+			"nestoria_code": "marconi_roma"
+		},
+    	"eur-magliana": {
+			"name": "EUR Magliana",
+			"nestoria_code": "eur-magliana"
+		},
+    	"eur-palasport": {
+			"name": "EUR Palasport",
+			"nestoria_code": "eur-palasport"
+		},
+    	"eur-fermi": {
+			"name": "EUR Fermi",
+			"nestoria_code": "eur-fermi"
+		},
+    	"laurentina": {
+			"name": "Laurentina",
+			"nestoria_code": "laurentina"
+		}
+	}
+}

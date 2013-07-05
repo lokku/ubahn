@@ -1,0 +1,298 @@
+{
+    "api": "http://api.nestoria.com.br/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Brazil", 
+    "currency": "R$",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#000080", 
+            "color": "white", 
+            "name": "Line 1", 
+            "stations": [
+                "tucuruvi",
+				"parada-inglesa",
+				"jardim-sao-paulo",
+				"santana",
+				"carandiru",
+				"portuguesa-tiete",
+				"armenia",
+				"tiradentes",
+				"sao-bento",
+				"se",
+				"liberdade",
+				"sao-joaquim",
+				"vergueiro",
+				"paraiso",
+				"ana-rosa",
+				"vila-mariana_sao-paulo-1",
+				"santa-cruz_sao-paulo",
+				"praca-da-arvore",
+				"saude",
+				"sao-judas_sao-paulo",
+				"conceicao_sao-paulo",
+				"jabaquara"
+				
+            ]
+        },
+        {
+            "background-color": "#008000", 
+            "color": "white", 
+            "name": "Line 2", 
+            "stations": [
+                "vila-madalena",
+				"sumare",
+				"clinicas",
+				"consolacao",
+				"trianon-masp",
+				"saude",
+				"paraiso",
+				"ana-rosa",
+				"chacara-klabin",
+				"saude",
+				"alto-do-ipiranga",
+				"sacoma",
+				"tamanduatei",
+				"vila-prudente"
+				
+            ]
+        },
+        {
+            "background-color": "#800000", 
+            "color": "white", 
+            "name": "Line 3", 
+            "stations": [
+                "palmeiras-barra-funda",
+				"marechal-deodoro",
+				"santa-cecilia",
+				"republica",
+				"anhangabau",
+				"se",
+				"pedro-ii",
+				"bras",
+				"bresser",
+				"belem",
+				"tatuape",
+				"carrao",
+				"penha",
+				"vila-matilde",
+				"guilhermina-esperanca",
+				"patriarca",
+				"artur-alvim",
+				"corinthians-itaquera"
+				
+            ]
+        }
+        
+    ], 
+    "name": "São Paulo", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"tucuruvi": {
+			"name": "Tucuruvi",
+			"nestoria_code": "tucuruvi"
+		},
+    	"parada-inglesa": {
+			"name": "Parada Inglesa",
+			"nestoria_code": "parada-inglesa"
+		},
+    	"jardim-sao-paulo": {
+			"name": "Jardim São Paulo-Ayrton Senna",
+			"nestoria_code": "jardim-sao-paulo_sao-paulo"
+		},
+    	"santana": {
+			"name": "Santana",
+			"nestoria_code": "santana"
+		},
+    	"carandiru": {
+			"name": "Carandiru",
+			"nestoria_code": "carandiru"
+		},
+    	"portuguesa-tiete": {
+			"name": "Portuguesa-Tietê",
+			"nestoria_code": "rua-eudoro-lemos"
+		},
+    	"armenia": {
+			"name": "Armênia",
+			"nestoria_code": "armenia"
+		},
+    	"tiradentes": {
+			"name": "Tiradentes",
+			"nestoria_code": "rua-jorge-miranda"
+		},
+    	"sao-bento": {
+			"name": "São Bento",
+			"nestoria_code": "ladeira-porto-geral"
+		},
+    	"se": {
+			"name": "Sé",
+			"nestoria_code": "praca-da-se"
+		},
+    	"liberdade": {
+			"name": "Liberdade",
+			"nestoria_code": "liberdade"
+		},
+    	"sao-joaquim": {
+			"name": "São Joaquim",
+			"nestoria_code": "rua-sao-joaquim_sao-paulo"
+		},
+    	"vergueiro": {
+			"name": "Vergueiro",
+			"nestoria_code": "vergueiro"
+		},
+    	"paraiso": {
+			"name": "Paraíso",
+			"nestoria_code": "rua-doutor-eduardo-amaro"
+		},
+    	"ana-rosa": {
+			"name": "Ana Rosa",
+			"nestoria_code": "ana-rosa"
+		},
+    	"vila-mariana_sao-paulo-1": {
+			"name": "Vila Mariana",
+			"nestoria_code": "vila-mariana_sao-paulo-1"
+		},
+    	"santa-cruz_sao-paulo": {
+			"name": "Santa Cruz",
+			"nestoria_code": "santa-cruz_sao-paulo"
+		},
+    	"praca-da-arvore": {
+			"name": "Praça da Árvore",
+			"nestoria_code": "praca-da-arvore"
+		},
+    	"saude": {
+			"name": "Saúde",
+			"nestoria_code": "saude"
+		},
+    	"sao-judas_sao-paulo": {
+			"name": "São Judas",
+			"nestoria_code": "sao-judas_sao-paulo"
+		},
+    	"conceicao_sao-paulo": {
+			"name": "Conceição",
+			"nestoria_code": "conceicao_sao-paulo"
+		},
+    	"jabaquara": {
+			"name": "Jabaquara",
+			"nestoria_code": "jabaquara"
+		},
+    	"vila-madalena": {
+			"name": "Vila Madalena",
+			"nestoria_code": "vila-madalena"
+		},
+    	"sumare": {
+			"name": "Sumaré",
+			"nestoria_code": "vila-madalena"
+		},
+    	"clinicas": {
+			"name": "Clínicas",
+			"nestoria_code": "vila-madalena"
+		},
+    	"consolacao": {
+			"name": "Consolação",
+			"nestoria_code": "consolacao"
+		},
+    	"trianon-masp": {
+			"name": "Trianon Masp",
+			"nestoria_code": "vila-madalena"
+		},
+    	"saude": {
+			"name": "Brigadeiro",
+			"nestoria_code": "saude"
+		},
+    	"chacara-klabin": {
+			"name": "Chácara Klabin",
+			"nestoria_code": "chacara-klabin"
+		},
+    	"saude": {
+			"name": "Santos-Imigrantes",
+			"nestoria_code": "vila-madalena"
+		},
+    	"alto-do-ipiranga": {
+			"name": "Alto do Ipiranga",
+			"nestoria_code": "alto-do-ipiranga_sao-paulo"
+		},
+    	"sacoma": {
+			"name": "Sacomã",
+			"nestoria_code": "rua-greenfeld_sao-paulo"
+		},
+    	"tamanduatei": {
+			"name": "Tamanduateí",
+			"nestoria_code": "vila-madalena"
+		},
+    	"vila-prudente": {
+			"name": "Vila Prudente",
+			"nestoria_code": "vila-prudente"
+		},
+    	"palmeiras-barra-funda": {
+			"name": "Palmeiras-Barra Funda",
+			"nestoria_code": "santa-cecilia"
+		},
+		"marechal-deodoro": {
+			"name": "Marechal Deodoro",
+			"nestoria_code": "santa-cecilia"
+		},
+		"santa-cecilia": {
+			"name": "Santa Cecília",
+			"nestoria_code": "santa-cecilia"
+		},
+		"republica": {
+			"name": "República",
+			"nestoria_code": "santa-cecilia"
+		},
+		"anhangabau": {
+			"name": "Anhangabaú",
+			"nestoria_code": "santa-cecilia"
+		},
+		"pedro-ii": {
+			"name": "Pedro II",
+			"nestoria_code": "santa-cecilia"
+		},
+		"bras": {
+			"name": "Brás",
+			"nestoria_code": "bras"
+		},
+		"bresser": {
+			"name": "Bresser-Mooca",
+			"nestoria_code": "bresser"
+		},
+		"belem": {
+			"name": "Belém",
+			"nestoria_code": "belenzinho"
+		},
+		"tatuape": {
+			"name": "Tatuapé",
+			"nestoria_code": "tatuape"
+		},
+		"carrao": {
+			"name": "Carrão",
+			"nestoria_code": "tatuape"
+		},
+		"penha": {
+			"name": "Penha",
+			"nestoria_code": "santa-cecilia"
+		},
+		"vila-matilde": {
+			"name": "Vila Matilde",
+			"nestoria_code": "vila-matilde"
+		},
+		"guilhermina-esperanca": {
+			"name": "Guilhermina-Esperança",
+			"nestoria_code": "guilhermina-esperanca"
+		},
+		"patriarca": {
+			"name": "Patriarca",
+			"nestoria_code": "cidade-patriarca"
+		},
+		"artur-alvim": {
+			"name": "Artur Alvim",
+			"nestoria_code": "artur-alvim"
+		},
+		"corinthians-itaquera": {
+			"name": "Corinthians-Itaquera",
+			"nestoria_code": "itaquera"
+		},
+	}
+}

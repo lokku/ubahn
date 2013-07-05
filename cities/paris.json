@@ -1,0 +1,1118 @@
+{
+    "api": "http://api.nestoria.fr/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "France", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#2C611D", 
+            "color": "white", 
+            "name": "1", 
+            "stations": [
+                "olympia-einkaufszentrum_muenchen-u-bahn"
+                
+            ]
+        }
+        
+    ], 
+    "name": "Paris", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"abbesses": {
+			"name": "Abbesses",
+			"nestoria_code": "abbesses"
+		},
+		"alesia": {
+			"name": "Alésia",
+			"nestoria_code": "alesia"
+		},
+		"alexandre-dumas": {
+			"name": "Alexandre Dumas",
+			"nestoria_code": "alexandre-dumas"
+		},
+		"alma": {
+			"name": "Alma – Marceau",
+			"nestoria_code": "alma"
+		},
+		"anatole-france": {
+			"name": "Anatole France",
+			"nestoria_code": "anatole-france"
+		},
+		"anvers": {
+			"name": "Anvers",
+			"nestoria_code": "anvers"
+		},
+		"argentine": {
+			"name": "Argentine",
+			"nestoria_code": "argentine"
+		},
+		"arts-et-metiers": {
+			"name": "Arts et Métiers",
+			"nestoria_code": "arts-et-metiers"
+		},
+		"gennevilliers": {
+			"name": "Asnières – Gennevilliers – Les Courtilles",
+			"nestoria_code": "gennevilliers"
+		},
+		"assemblee-nationale": {
+			"name": "Assemblée nationale",
+			"nestoria_code": "assemblee-nationale"
+		},
+		"aubervilliers": {
+			"name": "Aubervilliers – Pantin – Quatre Chemins",
+			"nestoria_code": "aubervilliers"
+		},
+		"avenue-emile-zola": {
+			"name": "Avenue Émile Zola",
+			"nestoria_code": "avenue-emile-zola_paris-2"
+		},
+		"avron": {
+			"name": "Avron",
+			"nestoria_code": "avron"
+		},
+		"bagneux": {
+			"name": "Bagneux",
+			"nestoria_code": "bagneux"
+		},
+		"balard": {
+			"name": "Balard",
+			"nestoria_code": "balard"
+		},
+		"barbes": {
+			"name": "Barbès – Rochechouart",
+			"nestoria_code": "barbes"
+		},
+		"basilique-de-saint-denis": {
+			"name": "Basilique de Saint-Denis",
+			"nestoria_code": "basilique-de-saint-denis"
+		},
+		"bastille": {
+			"name": "Bastille",
+			"nestoria_code": "bastille"
+		},
+		"bel-air": {
+			"name": "Bel-Air",
+			"nestoria_code": "bel-air"
+		},
+		"belleville": {
+			"name": "Belleville",
+			"nestoria_code": "belleville"
+		},
+		"bercy": {
+			"name": "Bercy",
+			"nestoria_code": "bercy"
+		},
+		"bibliotheque-francois-mitterrand": {
+			"name": "Bibliothèque François Mitterrand",
+			"nestoria_code": "bibliotheque-francois-mitterrand"
+		},
+		"billancourt": {
+			"name": "Billancourt",
+			"nestoria_code": "billancourt"
+		},
+		"bir-hakeim": {
+			"name": "Bir-Hakeim",
+			"nestoria_code": "bir-hakeim"
+		},
+		"blanche": {
+			"name": "Blanche",
+			"nestoria_code": "blanche_paris"
+		},
+		"bobigny–pablo-picasso": {
+			"name": "Bobigny – Pablo Picasso",
+			"nestoria_code": "pablo-picasso"
+		},
+		"boissiere": {
+			"name": "Boissière",
+			"nestoria_code": "boissiere"
+		},
+		"bolivar": {
+			"name": "Bolivar",
+			"nestoria_code": "bolivar"
+		},
+		"bonne-nouvelle": {
+			"name": "Bonne Nouvelle",
+			"nestoria_code": "bonne-nouvelle"
+		},
+		"botzaris": {
+			"name": "Botzaris",
+			"nestoria_code": "botzaris"
+		},
+		"boucicaut": {
+			"name": "Boucicaut",
+			"nestoria_code": "boucicaut"
+		},
+		"boulogne-jean-jaurès": {
+			"name": "Boulogne – Jean Jaurès",
+			"nestoria_code": "boulogne-jean-jaurès"
+		},
+		"boulogne-pont-de-saint-cloud": {
+			"name": "Boulogne – Pont de Saint-Cloud",
+			"nestoria_code": "pont-de-saint-cloud"
+		},
+		"bourse": {
+			"name": "Bourse",
+			"nestoria_code": "bourse"
+		},
+		"brochant": {
+			"name": "Brochant",
+			"nestoria_code": "brochant"
+		},
+		"breguet-sabin": {
+			"name": "Bréguet – Sabin",
+			"nestoria_code": "breguet-sabin"
+		},
+		"buttes-chaumont": {
+			"name": "Buttes Chaumont",
+			"nestoria_code": "buttes-chaumont"
+		},
+		"buzenval": {
+			"name": "Buzenval",
+			"nestoria_code": "buzenval"
+		},
+		"berault": {
+			"name": "Bérault",
+			"nestoria_code": "berault"
+		},
+		"cadet": {
+			"name": "Cadet",
+			"nestoria_code": "cadet"
+		},
+		"cambronne": {
+			"name": "Cambronne",
+			"nestoria_code": "cambronne"
+		},
+		"campo-formio": {
+			"name": "Campo-Formio",
+			"nestoria_code": "campo-formio"
+		},
+		"cardinal-lemoine": {
+			"name": "Cardinal Lemoine",
+			"nestoria_code": "cardinal-lemoine"
+		},
+		"carrefour-pleyel": {
+			"name": "Carrefour Pleyel",
+			"nestoria_code": "carrefour-pleyel"
+		},
+		"censier-daubenton": {
+			"name": "Censier – Daubenton",
+			"nestoria_code": "censier-–-daubenton"
+		},
+		"champs-elysees": {
+			"name": "Champs-Élysées – Clemenceau",
+			"nestoria_code": "champs-elysees"
+		},
+		"chardon-lagache": {
+			"name": "Chardon Lagache",
+			"nestoria_code": "chardon-lagache"
+		},
+		"charenton-ecoles": {
+			"name": "Charenton – Écoles",
+			"nestoria_code": "charenton_paris"
+		},
+		"charles-de-gaulle-etoile": {
+			"name": "Charles de Gaulle – Étoile",
+			"nestoria_code": "charles-de-gaulle-etoile"
+		},
+		"charles-michels": {
+			"name": "Charles Michels",
+			"nestoria_code": "charles-michels"
+		},
+		"charonne": {
+			"name": "Charonne",
+			"nestoria_code": "charonne"
+		},
+		"chemin-vert": {
+			"name": "Chemin Vert",
+			"nestoria_code": "chemin-vert"
+		},
+		"chevaleret": {
+			"name": "Chevaleret",
+			"nestoria_code": "chevaleret"
+		},
+		"chateau-deau": {
+			"name": "Château d'Eau",
+			"nestoria_code": "chateau-deau"
+		},
+		"chateau-de-vincennes": {
+			"name": "Château de Vincennes",
+			"nestoria_code": "chateau-de-vincennes"
+		},
+		"chateau-rouge": {
+			"name": "Château Rouge",
+			"nestoria_code": "chateau-rouge"
+		},
+		"chatelet": {
+			"name": "Châtelet",
+			"nestoria_code": "chatelet"
+		},
+		"châtillon-montrouge": {
+			"name": "Châtillon – Montrouge",
+			"nestoria_code": "châtillon-montrouge"
+		},
+		"cite": {
+			"name": "Cité",
+			"nestoria_code": "cite"
+		},
+		"cluny": {
+			"name": "Cluny – La Sorbonne",
+			"nestoria_code": "cluny_paris"
+		},
+		"colonel-fabien": {
+			"name": "Colonel Fabien",
+			"nestoria_code": "colonel-fabien"
+		},
+		"commerce": {
+			"name": "Commerce",
+			"nestoria_code": "commerce"
+		},
+		"concorde": {
+			"name": "Concorde",
+			"nestoria_code": "concorde_paris"
+		},
+		"convention": {
+			"name": "Convention",
+			"nestoria_code": "convention"
+		},
+		"corentin-cariou": {
+			"name": "Corentin Cariou",
+			"nestoria_code": "corentin-cariou"
+		},
+		"corentin-celton": {
+			"name": "Corentin Celton",
+			"nestoria_code": "corentin-celton"
+		},
+		"corvisart": {
+			"name": "Corvisart",
+			"nestoria_code": "corvisart"
+		},
+		"cour-saint-emilion": {
+			"name": "Cour Saint-Émilion",
+			"nestoria_code": "cour-saint-emilion"
+		},
+		"courcelles": {
+			"name": "Courcelles",
+			"nestoria_code": "courcelles_paris"
+		},
+		"couronnes": {
+			"name": "Couronnes",
+			"nestoria_code": "couronnes"
+		},
+		"crimee": {
+			"name": "Crimée",
+			"nestoria_code": "crimee"
+		},
+		"croix-de-chavaux": {
+			"name": "Croix de Chavaux",
+			"nestoria_code": "croix-de-chavaux"
+		},
+		"creteil-lechat": {
+			"name": "Créteil – l’Échat",
+			"nestoria_code": "creteil-lechat"
+		},
+		"creteil-prefecture": {
+			"name": "Créteil – Préfecture",
+			"nestoria_code": "creteil-prefecture"
+		},
+		"creteil-universite": {
+			"name": "Créteil – Université",
+			"nestoria_code": "creteil-universite"
+		},
+		"danube": {
+			"name": "Danube",
+			"nestoria_code": "danube"
+		},
+		"daumesnil": {
+			"name": "Daumesnil",
+			"nestoria_code": "daumesnil-metro"
+		},
+		"denfert-rochereau": {
+			"name": "Denfert-Rochereau",
+			"nestoria_code": "denfert-rochereau"
+		},
+		"dugommier": {
+			"name": "Dugommier",
+			"nestoria_code": "dugommier"
+		},
+		"dupleix": {
+			"name": "Dupleix",
+			"nestoria_code": "dupleix"
+		},
+		"duroc": {
+			"name": "Duroc",
+			"nestoria_code": "duroc"
+		},
+		"ecole-militaire": {
+			"name": "École Militaire",
+			"nestoria_code": "ecole-militaire"
+		},
+		"edgar-quinet": {
+			"name": "Edgar Quinet",
+			"nestoria_code": "edgar-quinet"
+		},
+		"eglise-dauteuil": {
+			"name": "Église d’Auteuil",
+			"nestoria_code": "eglise-dauteuil"
+		},
+		"eglise-de-pantin": {
+			"name": "Église de Pantin",
+			"nestoria_code": "eglise-de-pantin"
+		},
+		"esplanade-de-la-defense": {
+			"name": "Esplanade de la Défense",
+			"nestoria_code": "esplanade-de-la-defense"
+		},
+		"etienne-marcel": {
+			"name": "Étienne Marcel",
+			"nestoria_code": "etienne-marcel"
+		},
+		"europe": {
+			"name": "Europe",
+			"nestoria_code": "europe"
+		},
+		"exelmans": {
+			"name": "Exelmans",
+			"nestoria_code": "exelmans"
+		},
+		"faidherbe": {
+			"name": "Faidherbe – Chaligny",
+			"nestoria_code": "faidherbe"
+		},
+		"falguiere": {
+			"name": "Falguière",
+			"nestoria_code": "falguiere"
+		},
+		"filles-du-calvaire": {
+			"name": "Filles du Calvaire",
+			"nestoria_code": "filles-du-calvaire"
+		},
+		"fort-daubervilliers": {
+			"name": "Fort d’Aubervilliers",
+			"nestoria_code": "fort-daubervilliers"
+		},
+		"franklin-d-roosevelt": {
+			"name": "Franklin D. Roosevelt",
+			"nestoria_code": "franklin-d-roosevelt"
+		},
+		"felix-faure": {
+			"name": "Félix Faure",
+			"nestoria_code": "felix-faure_paris"
+		},
+		"gabriel-peri": {
+			"name": "Gabriel Péri",
+			"nestoria_code": "gabriel-peri"
+		},
+		"gallieni": {
+			"name": "Gallieni",
+			"nestoria_code": "gallieni"
+		},
+		"gambetta": {
+			"name": "Gambetta",
+			"nestoria_code": "gambetta"
+		},
+		"gare-de-lyon": {
+			"name": "Gare de Lyon",
+			"nestoria_code": "gare-de-lyon"
+		},
+		"gare-de-lest": {
+			"name": "Gare de l’Est",
+			"nestoria_code": "gare-de-lest_paris"
+		},
+		"gare-du-nord": {
+			"name": "Gare du Nord",
+			"nestoria_code": "gare-du-nord"
+		},
+		"gare-dausterlitz": {
+			"name": "Gare d’Austerlitz",
+			"nestoria_code": "gare-dausterlitz"
+		},
+		"gaite": {
+			"name": "Gaîté",
+			"nestoria_code": "gaite"
+		},
+		"george-v": {
+			"name": "George V",
+			"nestoria_code": "george-v-metro"
+		},
+		"glaciere": {
+			"name": "Glacière",
+			"nestoria_code": "glaciere"
+		},
+		"goncourt": {
+			"name": "Goncourt",
+			"nestoria_code": "goncourt_paris"
+		},
+		"grands-boulevards": {
+			"name": "Grands Boulevards",
+			"nestoria_code": "grands-boulevards"
+		},
+		"guy-moquet": {
+			"name": "Guy Môquet",
+			"nestoria_code": "guy-moquet"
+		},
+		"havre-caumartin": {
+			"name": "Havre – Caumartin",
+			"nestoria_code": "havre-caumartin"
+		},
+		"hoche": {
+			"name": "Hoche",
+			"nestoria_code": "hoche"
+		},
+		"hotel-de-ville": {
+			"name": "Hôtel de Ville",
+			"nestoria_code": "hotel-de-ville"
+		},
+		"invalides": {
+			"name": "Invalides",
+			"nestoria_code": "invalides"
+		},
+		"jacques-bonsergent": {
+			"name": "Jacques Bonsergent",
+			"nestoria_code": "jacques-bonsergent"
+		},
+		"jasmin": {
+			"name": "Jasmin",
+			"nestoria_code": "jasmin"
+		},
+		"jaures": {
+			"name": "Jaurès",
+			"nestoria_code": "jaures"
+		},
+		"javel-andre-citroen": {
+			"name": "Javel – André Citroën",
+			"nestoria_code": "javel-andre-citroen"
+		},
+
+		"jourdain": {
+			"name": "Jourdain",
+			"nestoria_code": "jourdain"
+		},
+		"jules-joffrin": {
+			"name": "Jules Joffrin",
+			"nestoria_code": "jules-joffrin"
+		},
+		"jussieu": {
+			"name": "Jussieu",
+			"nestoria_code": "jussieu"
+		},
+		"kleber": {
+			"name": "Kléber",
+			"nestoria_code": "kleber"
+		},
+		"la-chapelle": {
+			"name": "La Chapelle",
+			"nestoria_code": "la-chapelle"
+		},
+		"la-courneuve-8-mai-1945": {
+			"name": "La Courneuve – 8 Mai 1945",
+			"nestoria_code": "8-mai-1945"
+		},
+		"la-defense": {
+			"name": "La Défense – Grande Arche",
+			"nestoria_code": "la-defense"
+		},
+		"la-fourche": {
+			"name": "La Fourche",
+			"nestoria_code": "la-fourche"
+		},
+		"mabillon": {
+			"name": "Mabillon",
+			"nestoria_code": "mabillon"
+		},
+		"madeleine": {
+			"name": "Madeleine",
+			"nestoria_code": "madeleine_paris"
+		},
+		"mairie-dissy": {
+			"name": "Mairie d'Issy",
+			"nestoria_code": "mairie-dissy"
+		},
+		"mairie-de-clichy": {
+			"name": "Mairie de Clichy",
+			"nestoria_code": "mairie-de-clichy"
+		},
+		"mairie-de-montreuil": {
+			"name": "Mairie de Montreuil",
+			"nestoria_code": "mairie-de-montreuil"
+		},
+		"mairie-de-montrouge": {
+			"name": "Mairie de Montrouge",
+			"nestoria_code": "mairie-de-montrouge"
+		},
+		"mairie-de-saint-ouen": {
+			"name": "Mairie de Saint-Ouen",
+			"nestoria_code": "mairie-de-saint-ouen"
+		},
+		"mairie-des-lilas": {
+			"name": "Mairie des Lilas",
+			"nestoria_code": "mairie-des-lilas"
+		},
+		"mairie-divry": {
+			"name": "Mairie d’Ivry",
+			"nestoria_code": "mairie-divry"
+		},
+		"maison-blanche": {
+			"name": "Maison Blanche",
+			"nestoria_code": "maison-blanche_paris"
+		},
+		"maisons-alfort": {
+			"name": "Maisons-Alfort – Stade",
+			"nestoria_code": "maisons-alfort"
+		},
+		"malakoff-plateau-de-vanves": {
+			"name": "Malakoff – Plateau de Vanves",
+			"nestoria_code": "malakoff-–-plateau-de-vanves"
+		},
+		"malakoff-rue-etienne-dolet": {
+			"name": "Malakoff – Rue Étienne Dolet",
+			"nestoria_code": "malakoff-rue-etienne-dolet"
+		},
+		"malesherbes": {
+			"name": "Malesherbes",
+			"nestoria_code": "malesherbes_paris"
+		},
+		"maraichers": {
+			"name": "Maraîchers",
+			"nestoria_code": "maraichers"
+		},
+		"marcadet-poissonniers": {
+			"name": "Marcadet – Poissonniers",
+			"nestoria_code": "marcadet"
+		},
+		"marcel-sembat": {
+			"name": "Marcel Sembat",
+			"nestoria_code": "marcel-sembat"
+		},
+		"marx-dormoy": {
+			"name": "Marx Dormoy",
+			"nestoria_code": "marx-dormoy"
+		},
+		"maubert-mutualite": {
+			"name": "Maubert-Mutualité",
+			"nestoria_code": "maubert_paris"
+		},
+		"michel-bizot": {
+			"name": "Michel Bizot",
+			"nestoria_code": "michel-bizot"
+		},
+		"michel-ange-auteuil": {
+			"name": "Michel-Ange – Auteuil",
+			"nestoria_code": "auteuil"
+		},
+		"michel-ange-molitor": {
+			"name": "Michel-Ange – Molitor",
+			"nestoria_code": "michel-ange-molitor"
+		},
+		"mirabeau": {
+			"name": "Mirabeau",
+			"nestoria_code": "mirabeau"
+		},
+		"miromesnil": {
+			"name": "Miromesnil",
+			"nestoria_code": "miromesnil"
+		},
+		"monceau": {
+			"name": "Monceau",
+			"nestoria_code": "monceau"
+		},
+		"montgallet": {
+			"name": "Montgallet",
+			"nestoria_code": "montgallet"
+		},
+		"montparnasse": {
+			"name": "Montparnasse – Bienvenüe",
+			"nestoria_code": "montparnasse_paris"
+		},
+		"mouton-duvernet": {
+			"name": "Mouton-Duvernet",
+			"nestoria_code": "mouton-duvernet"
+		},
+		"menilmontant": {
+			"name": "Ménilmontant",
+			"nestoria_code": "menilmontant"
+		},
+		"nation": {
+			"name": "Nation",
+			"nestoria_code": "nation"
+		},
+		"nationale": {
+			"name": "Nationale",
+			"nestoria_code": "nationale"
+		},
+		"notre-dame-de-lorette": {
+			"name": "Notre-Dame-de-Lorette",
+			"nestoria_code": "notre-dame-de-lorette"
+		},
+		"notre-dame-des-champs": {
+			"name": "Notre-Dame-des-Champs",
+			"nestoria_code": "notre-dame-des-champs"
+		},
+		"oberkampf": {
+			"name": "Oberkampf",
+			"nestoria_code": "oberkampf"
+		},
+		"odeon": {
+			"name": "Odéon",
+			"nestoria_code": "odeon"
+		},
+		"olympiades": {
+			"name": "Olympiades",
+			"nestoria_code": "olympiades"
+		},
+		"opera_paris": {
+			"name": "Opéra",
+			"nestoria_code": "opera_paris"
+		},
+		"ourcq": {
+			"name": "Ourcq",
+			"nestoria_code": "ourcq"
+		},
+		"parmentier": {
+			"name": "Parmentier",
+			"nestoria_code": "parmentier"
+		},
+		"passy": {
+			"name": "Passy",
+			"nestoria_code": "passy"
+		},
+		"pasteur": {
+			"name": "Pasteur",
+			"nestoria_code": "pasteur-montparnasse"
+		},
+		"pelleport": {
+			"name": "Pelleport",
+			"nestoria_code": "pelleport"
+		},
+		"pereire": {
+			"name": "Pereire",
+			"nestoria_code": "pereire"
+		},
+		"pernety": {
+			"name": "Pernety",
+			"nestoria_code": "pernety"
+		},
+		"philippe-auguste": {
+			"name": "Philippe Auguste",
+			"nestoria_code": "philippe-auguste"
+		},
+		"picpus": {
+			"name": "Picpus",
+			"nestoria_code": "picpus"
+		},
+		"pierre-et-marie-curie": {
+			"name": "Pierre et Marie Curie",
+			"nestoria_code": "pierre-et-marie-curie"
+		},
+		"pigalle": {
+			"name": "Pigalle",
+			"nestoria_code": "pigalle"
+		},
+		"place-ditalie": {
+			"name": "Place d'Italie",
+			"nestoria_code": "place-ditalie"
+		},
+		"place-de-clichy": {
+			"name": "Place de Clichy",
+			"nestoria_code": "place-de-clichy"
+		},
+		"place-des-fetes": {
+			"name": "Place des Fêtes",
+			"nestoria_code": "place-des-fetes"
+		},
+		"place-monge": {
+			"name": "Place Monge",
+			"nestoria_code": "place-monge"
+		},
+		"plaisance": {
+			"name": "Plaisance",
+			"nestoria_code": "plaisance"
+		},
+		"pointe-du-lac": {
+			"name": "Pointe du Lac",
+			"nestoria_code": "pointe-du-lac"
+		},
+		"poissonnière": {
+			"name": "Poissonnière",
+			"nestoria_code": "poissonnière"
+		},
+		"pont-de-levallois": {
+			"name": "Pont de Levallois – Bécon",
+			"nestoria_code": "pont-de-levallois"
+		},
+		"pont-de-neuilly": {
+			"name": "Pont de Neuilly",
+			"nestoria_code": "pont-de-neuilly"
+		},
+		"pont-de-sevres": {
+			"name": "Pont de Sèvres",
+			"nestoria_code": "pont-de-sevres"
+		},
+		"pont-marie": {
+			"name": "Pont Marie",
+			"nestoria_code": "pont-marie"
+		},
+		"pont-neuf": {
+			"name": "Pont Neuf",
+			"nestoria_code": "pont-neuf_paris"
+		},
+		"porte-divry": {
+			"name": "Porte d'Ivry",
+			"nestoria_code": "porte-divry"
+		},
+		"porte-dorleans": {
+			"name": "Porte d’Orléans",
+			"nestoria_code": "porte-dorleans"
+		},
+		"porte-dauphine": {
+			"name": "Porte Dauphine",
+			"nestoria_code": "porte-dauphine"
+		},
+		"porte-de-bagnolet": {
+			"name": "Porte de Bagnolet",
+			"nestoria_code": "porte-de-bagnolet"
+		},
+		"porte-de-champerret": {
+			"name": "Porte de Champerret",
+			"nestoria_code": "porte-de-champerret"
+		},
+		"porte-de-charenton": {
+			"name": "Porte de Charenton",
+			"nestoria_code": "porte-de-charenton"
+		},
+		"porte-de-choisy": {
+			"name": "Porte de Choisy",
+			"nestoria_code": "porte-de-choisy"
+		},
+		"porte-de-clichy": {
+			"name": "Porte de Clichy",
+			"nestoria_code": "porte-de-clichy"
+		},
+		"porte-de-clignancourt": {
+			"name": "Porte de Clignancourt",
+			"nestoria_code": "porte-de-clignancourt"
+		},
+		"porte-de-la-chapelle": {
+			"name": "Porte de la Chapelle",
+			"nestoria_code": "porte-de-la-chapelle"
+		},
+		"porte-de-la-villette": {
+			"name": "Porte de la Villette",
+			"nestoria_code": "porte-de-la-villette"
+		},
+		"porte-de-montreuil": {
+			"name": "Porte de Montreuil",
+			"nestoria_code": "porte-de-montreuil"
+		},
+		"porte-de-pantin": {
+			"name": "Porte de Pantin",
+			"nestoria_code": "porte-de-pantin"
+		},
+		"porte-de-saint-cloud": {
+			"name": "Porte de Saint-Cloud",
+			"nestoria_code": "porte-de-saint-cloud"
+		},
+		"porte-de-saint-ouen": {
+			"name": "Porte de Saint-Ouen",
+			"nestoria_code": "porte-de-saint-ouen"
+		},
+		"porte-de-vanves": {
+			"name": "Porte de Vanves",
+			"nestoria_code": "porte-de-vanves"
+		},
+		"porte-de-versailles": {
+			"name": "Porte de Versailles",
+			"nestoria_code": "porte-de-versailles"
+		},
+		"porte-de-vincennes": {
+			"name": "Porte de Vincennes",
+			"nestoria_code": "porte-de-vincennes"
+		},
+		"porte-des-lilas": {
+			"name": "Porte des Lilas",
+			"nestoria_code": "porte-des-lilas"
+		},
+		"porte-doree": {
+			"name": "Porte Dorée",
+			"nestoria_code": "porte-doree"
+		},
+		"porte-maillot": {
+			"name": "Porte Maillot",
+			"nestoria_code": "porte-maillot"
+		},
+		"pre-saint-gervais": {
+			"name": "Pré Saint-Gervais",
+			"nestoria_code": "pre-saint-gervais"
+		},
+		"pyramides": {
+			"name": "Pyramides",
+			"nestoria_code": "pyramides"
+		},
+		"pyrenees": {
+			"name": "Pyrénées",
+			"nestoria_code": "pyrenees_paris"
+		},
+		"pere-lachaise": {
+			"name": "Père Lachaise",
+			"nestoria_code": "pere-lachaise"
+		},
+		"quai-de-la-gare": {
+			"name": "Quai de la Gare",
+			"nestoria_code": "quai-de-la-gare"
+		},
+		"quai-de-la-rapee": {
+			"name": "Quai de la Rapée",
+			"nestoria_code": "quai-de-la-rapee"
+		},
+		"quatre-septembre": {
+			"name": "Quatre-Septembre",
+			"nestoria_code": "quatre-septembre"
+		},
+		"rambuteau": {
+			"name": "Rambuteau",
+			"nestoria_code": "rambuteau"
+		},
+		"ranelagh": {
+			"name": "Ranelagh",
+			"nestoria_code": "ranelagh"
+		},
+		"raspail": {
+			"name": "Raspail",
+			"nestoria_code": "raspail"
+		},
+		"reaumur-sebastopol": {
+			"name": "Réaumur – Sébastopol",
+			"nestoria_code": "reaumur-sebastopol"
+		},
+		"rennes": {
+			"name": "Rennes",
+			"nestoria_code": "rennes_paris-6e-arrondissement"
+		},
+		"reuilly-diderot": {
+			"name": "Reuilly – Diderot",
+			"nestoria_code": "reuilly"
+		},
+		"richard-lenoir": {
+			"name": "Richard-Lenoir",
+			"nestoria_code": "richard-lenoir"
+		},
+		"richelieu-drouot": {
+			"name": "Richelieu – Drouot",
+			"nestoria_code": "richelieu-drouot"
+		},
+		"riquet": {
+			"name": "Riquet",
+			"nestoria_code": "riquet_paris"
+		},
+		"robespierre": {
+			"name": "Robespierre",
+			"nestoria_code": "robespierre"
+		},
+		"rome": {
+			"name": "Rome",
+			"nestoria_code": "rome_paris"
+		},
+		"rue-de-la-pompe": {
+			"name": "Rue de la Pompe",
+			"nestoria_code": "rue-de-la-pompe"
+		},
+		"rue-des-boulets": {
+			"name": "Rue des Boulets",
+			"nestoria_code": "rue-des-boulets"
+		},
+		"rue-du-bac": {
+			"name": "Rue du Bac",
+			"nestoria_code": "rue-du-bac"
+		},
+		"rue-saint-maur": {
+			"name": "Rue Saint-Maur",
+			"nestoria_code": "rue-saint-maur_paris"
+		},
+		"republique": {
+			"name": "République",
+			"nestoria_code": "republique"
+		},
+		"saint-ambroise": {
+			"name": "Saint-Ambroise",
+			"nestoria_code": "saint-ambroise_paris"
+		},
+		"saint-augustin": {
+			"name": "Saint-Augustin",
+			"nestoria_code": "saint-augustin"
+		},
+		"saint-denis-porte-de-paris": {
+			"name": "Saint-Denis – Porte de Paris",
+			"nestoria_code": "saint-denis-porte-de-paris"
+		},
+		"saint-denis-universite": {
+			"name": "Saint-Denis – Université",
+			"nestoria_code": "saint-denis-universite"
+		},
+		"saint-fargeau": {
+			"name": "Saint-Fargeau",
+			"nestoria_code": "saint-fargeau_paris"
+		},
+		"saint-francois-xavier": {
+			"name": "Saint-François-Xavier",
+			"nestoria_code": "saint-francois-xavier"
+		},
+		"saint-georges": {
+			"name": "Saint-Georges",
+			"nestoria_code": "saint-georges_paris"
+		},
+		"saint-germain-des-pres": {
+			"name": "Saint-Germain-des-Prés",
+			"nestoria_code": "saint-germain-des-pres"
+		},
+		"saint-jacques": {
+			"name": "Saint-Jacques",
+			"nestoria_code": "saint-jacques_paris"
+		},
+		"saint-lazare": {
+			"name": "Saint-Lazare",
+			"nestoria_code": "saint-lazare_paris"
+		},
+		"saint-mande": {
+			"name": "Saint-Mandé",
+			"nestoria_code": "saint-mande"
+		},
+		"saint-marcel": {
+			"name": "Saint-Marcel",
+			"nestoria_code": "saint-marcel"
+		},
+		"saint-michel": {
+			"name": "Saint-Michel",
+			"nestoria_code": "saint-michel"
+		},
+		"saint-paul": {
+			"name": "Saint-Paul",
+			"nestoria_code": "saint-paul"
+		},
+		"saint-philippe-du-roule": {
+			"name": "Saint-Philippe du Roule",
+			"nestoria_code": "saint-philippe-du-roule"
+		},
+		"saint-placide": {
+			"name": "Saint-Placide",
+			"nestoria_code": "saint-placide"
+		},
+		"saint-sulpice": {
+			"name": "Saint-Sulpice",
+			"nestoria_code": "saint-sulpice"
+		},
+		"saint-sebastien-froissart": {
+			"name": "Saint-Sébastien – Froissart",
+			"nestoria_code": "saint-sebastien_paris"
+		},
+		"sentier": {
+			"name": "Sentier",
+			"nestoria_code": "sentier"
+		},
+		"simplon": {
+			"name": "Simplon",
+			"nestoria_code": "simplon"
+		},
+		"solferino": {
+			"name": "Solférino",
+			"nestoria_code": "solferino_paris"
+		},
+		"stalingrad": {
+			"name": "Stalingrad",
+			"nestoria_code": "stalingrad"
+		},
+		"strasbourg-saint-denis": {
+			"name": "Strasbourg – Saint-Denis",
+			"nestoria_code": "strasbourg_paris"
+		},
+		"sully-morland": {
+			"name": "Sully – Morland",
+			"nestoria_code": "sully-morland"
+		},
+		"sevres-babylone": {
+			"name": "Sèvres – Babylone",
+			"nestoria_code": "sevres-babylone"
+		},
+		"lecourbe": {
+			"name": "Sèvres – Lecourbe",
+			"nestoria_code": "lecourbe"
+		},
+		"segur": {
+			"name": "Ségur",
+			"nestoria_code": "segur_paris"
+		},
+		"temple": {
+			"name": "Temple",
+			"nestoria_code": "temple"
+		},
+		"ternes": {
+			"name": "Ternes",
+			"nestoria_code": "ternes"
+		},
+		"tolbiac": {
+			"name": "Tolbiac",
+			"nestoria_code": "tolbiac"
+		},
+		"trinite": {
+			"name": "Trinité – d'Estienne d'Orves",
+			"nestoria_code": "trinite"
+		},
+		"trocadero": {
+			"name": "Trocadéro",
+			"nestoria_code": "trocadero"
+		},
+		"tuileries": {
+			"name": "Tuileries",
+			"nestoria_code": "tuileries"
+		},
+		"telegraphe": {
+			"name": "Télégraphe",
+			"nestoria_code": "telegraphe"
+		},
+		"vaneau": {
+			"name": "Vaneau",
+			"nestoria_code": "vaneau"
+		},
+		"varenne": {
+			"name": "Varenne",
+			"nestoria_code": "varenne_paris"
+		},
+		"vaugirard": {
+			"name": "Vaugirard",
+			"nestoria_code": "vaugirard"
+		},
+		"vavin": {
+			"name": "Vavin",
+			"nestoria_code": "vavin"
+		},
+		"victor-hugo": {
+			"name": "Victor Hugo",
+			"nestoria_code": "victor-hugo"
+		},
+		"villejuif-louis-aragon": {
+			"name": "Villejuif – Louis Aragon",
+			"nestoria_code": "villejuif-louis-aragon"
+		},
+		"villejuif-leo-lagrange": {
+			"name": "Villejuif – Léo Lagrange",
+			"nestoria_code": "villejuif-leo-lagrange"
+		},
+		"villiers": {
+			"name": "Villiers",
+			"nestoria_code": "villiers"
+		},
+		"volontaires": {
+			"name": "Volontaires",
+			"nestoria_code": "volontaires"
+		},
+		"voltaire": {
+			"name": "Voltaire",
+			"nestoria_code": "voltaire"
+		},
+		"wagram": {
+			"name": "Wagram",
+			"nestoria_code": "wagram"
+		}
+	}
+}

@@ -1,0 +1,518 @@
+{
+    "api": "http://api.nestoria.de/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Germany", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#0066FF", 
+            "color": "white", 
+            "name": "U1", 
+            "stations": [
+                "norderstedt-mitte_hamburg-u-bahn",
+                "richtweg_hamburg-u-bahn",
+                "garstedt_hamburg-u-bahn",
+                "ochsenzoll",
+                "kiwittsmoor_hamburg-u-bahn",
+                "langenhorn-nord_hamburg-u-bahn",
+                "langenhorn-markt_hamburg-u-bahn",
+                "fuhlsbuettel-nord_hamburg-u-bahn",
+                "fuhlsbuettel_hamburg-u-bahn",
+                "klein-borstel_hamburg-u-bahn",
+                "ohlsdorf",
+                "sengelmannstrasse_hamburg-u-bahn",
+                "alsterdorf_hamburg-u-bahn",
+                "lattenkamp_hamburg-u-bahn",
+                "hudtwalckerstrasse_hamburg-u-bahn",
+                "kellinghusenstrasse_hamburg-u-bahn",
+                "klosterstern_hamburg-u-bahn",
+                "hallerstrasse_hamburg-u-bahn",
+                "stephansplatz_hamburg-u-bahn",
+                "jungfernstieg_hamburg-u-bahn",
+                "messberg_hamburg-u-bahn",
+                "steinstrasse_hamburg-u-bahn",
+                "hauptbahnhof-sued_hamburg-u-bahn",
+                "lohmuehlenstrasse_hamburg-u-bahn",
+                "luebecker-strasse_hamburg-u-bahn",
+                "wartenau_hamburg-u-bahn",
+                "ritterstrasse_hamburg-u-bahn",
+                "wandsbeker-chaussee_hamburg-u-bahn",
+                "wandsbek-markt_hamburg-u-bahn",
+				"strassburger-strasse_hamburg-u-bahn",
+				"alter-teichweg_hamburg-u-bahn",
+				"wandsbek-gartenstadt_hamburg-u-bahn-hamburg",
+				"trabrennbahn_hamburg-u-bahn",
+				"farmsen_hamburg-u-bahn",
+				"berne_hamburg-u-bahn",
+				"meiendorfer-weg_hamburg-u-bahn",
+				"volksdorf_hamburg-u-bahn",
+				"buckhorn_hamburg-u-bahn",
+				"hoisbuettel_hamburg-u-bahn",
+				"ohlstedt_hamburg-u-bahn"
+                
+            ]
+        },
+        {
+            "background-color": "#D71910", 
+            "color": "white", 
+            "name": "U2", 
+            "stations": [
+                "niendorf-nord_hamburg-u-bahn",
+                "schippelsweg_hamburg-u-bahn",
+				"joachim-maehl-strasse_hamburg-u-bahn",
+				"niendorf-markt_hamburg-u-bahn",
+				"hagendeel_hamburg-u-bahn",
+				"hagenbecks-tierpark_hamburg-u-bahn",
+				"lutterothstrasse_hamburg-u-bahn",
+				"osterstrasse_hamburg-u-bahn",
+				"emilienstrasse_hamburg-u-bahn",
+				"christuskirche_hamburg-u-bahn",
+				"schlump_hamburg-u-bahn",
+				"messehallen_hamburg-u-bahn",
+				"gaensemarkt_hamburg-u-bahn",
+				"jungfernstieg_hamburg-u-bahn",
+				"hauptbahnhof-nord_hamburg-u-bahn",
+				"berliner-tor_hamburg-u-bahn",
+				"burgstrasse_hamburg-u-bahn",
+				"hammer-kirche_hamburg-u-bahn",
+				"rauhes-haus_hamburg-u-bahn",
+				"horner-rennbahn_hamburg-u-bahn",
+				"legienstrasse_hamburg-u-bahn",
+				"billstedt_hamburg-u-bahn",
+				"merkenstrasse_hamburg-u-bahn",
+				"steinfurther-allee_hamburg-u-bahn",
+				"muemmelmannsberg_hamburg-u-bahn"
+            ]
+        },
+        {
+            "background-color": "#FFFF00", 
+            "color": "black", 
+            "name": "U3", 
+            "stations": [
+                "barmbek_hamburg-u-bahn",
+				"saarlandstrasse_hamburg-u-bahn",
+				"borgweg_hamburg-u-bahn",
+				"sierichstrasse_hamburg-u-bahn",
+				"kellinghusenstrasse_hamburg-u-bahn",
+				"eppendorfer-baum_hamburg-u-bahn",
+				"hoheluftbruecke_hamburg-u-bahn",
+				"schlump_hamburg-u-bahn",
+				"sternschanze_hamburg-u-bahn",
+				"feldstrasse_hamburg-u-bahn",
+				"st-pauli_hamburg-u-bahn",
+				"landungsbruecken_hamburg-u-bahn",
+				"baumwall_hamburg-u-bahn",
+				"roedingsmarkt_hamburg-u-bahn",
+				"rathaus_hamburg-u-bahn",
+				"moenckebergstrasse_hamburg-u-bahn",
+				"hauptbahnhof-sued_hamburg-u-bahn",
+				"berliner-tor_hamburg-u-bahn",
+				"luebecker-strasse_hamburg-u-bahn",
+				"uhlandstrasse_hamburg-u-bahn",
+				"mundsburg_hamburg-u-bahn",
+				"hamburger-strasse_hamburg-u-bahn",
+				"dehnhaide_hamburg-u-bahn",
+				"barmbek_hamburg-u-bahn",
+				"habichtstrasse_hamburg-u-bahn",
+				"wandsbek-gartenstadt_hamburg-u-bahn-hamburg"
+				
+            ]
+        },
+        {
+            "background-color": "#029189", 
+            "color": "white", 
+            "name": "U4", 
+            "stations": [
+                "hafencity-universitaet_hamburg-u-bahn",
+				"ueberseequartier_hamburg-u-bahn",
+				"jungfernstieg_hamburg-u-bahn",
+				"hauptbahnhof-nord_hamburg-u-bahn",
+				"berliner-tor_hamburg-u-bahn",
+				"burgstrasse_hamburg-u-bahn",
+				"hammer-kirche_hamburg-u-bahn",
+				"rauhes-haus_hamburg-u-bahn",
+				"horner-rennbahn_hamburg-u-bahn",
+				"legienstrasse_hamburg-u-bahn",
+				"billstedt_hamburg-u-bahn"
+				
+            ]
+        }
+        
+    ], 
+    "name": "Hamburg", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": { 
+    	 "hafencity-universitaet_hamburg-u-bahn": {
+            "name": "HafenCity Universität", 
+            "nestoria_code": "hafencity-universitaet_hamburg-u-bahn"
+        },
+    	 "ueberseequartier_hamburg-u-bahn": {
+            "name": "Überseequartier", 
+            "nestoria_code": "ueberseequartier_hamburg-u-bahn"
+        },
+    	 "burgstrasse_hamburg-u-bahn": {
+            "name": "Burgstraße", 
+            "nestoria_code": "burgstrasse_hamburg-u-bahn"
+        },
+    	 "hammer-kirche_hamburg-u-bahn": {
+            "name": "Hammer Kirche", 
+            "nestoria_code": "hammer-kirche_hamburg-u-bahn"
+        },
+    	 "rauhes-haus_hamburg-u-bahn": {
+            "name": "Rauhes Haus", 
+            "nestoria_code": "rauhes-haus_hamburg-u-bahn"
+        },
+    	 "horner-rennbahn_hamburg-u-bahn": {
+            "name": "Horner Rennbahn", 
+            "nestoria_code": "horner-rennbahn_hamburg-u-bahn"
+        },
+    	 "legienstrasse_hamburg-u-bahn": {
+            "name": "Legienstraße", 
+            "nestoria_code": "legienstrasse_hamburg-u-bahn"
+        },
+    	 "billstedt_hamburg-u-bahn": {
+            "name": "Billstedt", 
+            "nestoria_code": "billstedt_hamburg-u-bahn"
+        },
+    	 "barmbek_hamburg-u-bahn": {
+            "name": "Barmbek", 
+            "nestoria_code": "barmbek_hamburg-u-bahn"
+        },
+    	 "landungsbruecken_hamburg-u-bahn": {
+            "name": "Landungsbrücken", 
+            "nestoria_code": "landungsbruecken_hamburg-u-bahn"
+        },
+    	 "saarlandstrasse_hamburg-u-bahn": {
+            "name": "Saarlandstraße", 
+            "nestoria_code": "saarlandstrasse_hamburg-u-bahn"
+        },
+    	 "borgweg_hamburg-u-bahn": {
+            "name": "Borgweg", 
+            "nestoria_code": "borgweg_hamburg-u-bahn"
+        },
+    	 "sierichstrasse_hamburg-u-bahn": {
+            "name": "Sierichstraße", 
+            "nestoria_code": "sierichstrasse_hamburg-u-bahn"
+        },
+    	 "eppendorfer-baum_hamburg-u-bahn": {
+            "name": "Eppendorfer Baum", 
+            "nestoria_code": "eppendorfer-baum_hamburg-u-bahn"
+        },
+    	 "hoheluftbruecke_hamburg-u-bahn": {
+            "name": "Hoheluftbrücke", 
+            "nestoria_code": "hoheluftbruecke_hamburg-u-bahn"
+        },
+    	 "sternschanze_hamburg-u-bahn": {
+            "name": "Sternschanze", 
+            "nestoria_code": "sternschanze_hamburg-u-bahn"
+        },
+    	 "feldstrasse_hamburg-u-bahn": {
+            "name": "Feldstraße", 
+            "nestoria_code": "feldstrasse_hamburg-u-bahn"
+        },
+    	 "st-pauli_hamburg-u-bahn": {
+            "name": "St. Pauli", 
+            "nestoria_code": "st-pauli_hamburg-u-bahn"
+        },
+    	 "baumwall_hamburg-u-bahn": {
+            "name": "Baumwall", 
+            "nestoria_code": "baumwall_hamburg-u-bahn"
+        },
+    	 "roedingsmarkt_hamburg-u-bahn": {
+            "name": "Rödingsmarkt", 
+            "nestoria_code": "roedingsmarkt_hamburg-u-bahn"
+        },
+    	 "rathaus_hamburg-u-bahn": {
+            "name": "Rathaus", 
+            "nestoria_code": "rathaus_hamburg-u-bahn"
+        },
+    	 "moenckebergstrasse_hamburg-u-bahn": {
+            "name": "Mönckebergstraße", 
+            "nestoria_code": "moenckebergstrasse_hamburg-u-bahn"
+        },
+    	 "uhlandstrasse_hamburg-u-bahn": {
+            "name": "Uhlandstraße", 
+            "nestoria_code": "uhlandstrasse_hamburg-u-bahn"
+        },
+    	 "mundsburg_hamburg-u-bahn": {
+            "name": "Mundsburg", 
+            "nestoria_code": "mundsburg_hamburg-u-bahn"
+        },
+    	 "hamburger-strasse_hamburg-u-bahn": {
+            "name": "Hamburger Straße", 
+            "nestoria_code": "hamburger-strasse_hamburg-u-bahn"
+        },
+    	 "dehnhaide_hamburg-u-bahn": {
+            "name": "Dehnhaide", 
+            "nestoria_code": "dehnhaide_hamburg-u-bahn"
+        },
+    	 "barmbek_hamburg-u-bahn": {
+            "name": "Barmbek", 
+            "nestoria_code": "barmbek_hamburg-u-bahn"
+        },
+    	 "habichtstrasse_hamburg-u-bahn": {
+            "name": "Habichtstraße", 
+            "nestoria_code": "habichtstrasse_hamburg-u-bahn"
+        },
+    	 "hauptbahnhof-nord_hamburg-u-bahn": {
+            "name": "Hauptbahnhof Nord", 
+            "nestoria_code": "hauptbahnhof-nord_hamburg-u-bahn"
+        },
+        "niendorf-nord_hamburg-u-bahn": {
+            "name": "Niendorf Nord", 
+            "nestoria_code": "niendorf-nord_hamburg-u-bahn"
+        },
+    	"schippelsweg_hamburg-u-bahn": {
+            "name": "Schippelsweg", 
+            "nestoria_code": "schippelsweg_hamburg-u-bahn"
+        },
+    	"joachim-maehl-strasse_hamburg-u-bahn": {
+            "name": "Joachim-Mähl-Straße", 
+            "nestoria_code": "joachim-maehl-strasse_hamburg-u-bahn"
+        },
+    	"niendorf-markt_hamburg-u-bahn": {
+            "name": "Niendorf Markt", 
+            "nestoria_code": "niendorf-markt_hamburg-u-bahn"
+        },
+    	"hagendeel_hamburg-u-bahn": {
+            "name": "Hagendeel", 
+            "nestoria_code": "hagendeel_hamburg-u-bahn"
+        },
+    	"hagenbecks-tierpark_hamburg-u-bahn": {
+            "name": "Hagenbecks Tierpark", 
+            "nestoria_code": "hagenbecks-tierpark_hamburg-u-bahn"
+        },
+    	 "lutterothstrasse_hamburg-u-bahn": {
+            "name": "Lutterothstraße", 
+            "nestoria_code": "lutterothstrasse_hamburg-u-bahn"
+        },
+    	 "osterstrasse_hamburg-u-bahn": {
+            "name": "Osterstraße", 
+            "nestoria_code": "osterstrasse_hamburg-u-bahn"
+        },
+    	 "emilienstrasse_hamburg-u-bahn": {
+            "name": "Emilienstraße", 
+            "nestoria_code": "emilienstrasse_hamburg-u-bahn"
+        },
+    	 "christuskirche_hamburg-u-bahn": {
+            "name": "Christuskirche", 
+            "nestoria_code": "christuskirche_hamburg-u-bahn"
+        },
+    	 "schlump_hamburg-u-bahn": {
+            "name": "Schlump", 
+            "nestoria_code": "schlump_hamburg-u-bahn"
+        },
+    	 "messehallen_hamburg-u-bahn": {
+            "name": "Messehallen", 
+            "nestoria_code": "messehallen_hamburg-u-bahn"
+        },
+    	 "gaensemarkt_hamburg-u-bahn": {
+            "name": "Gänsemarkt", 
+            "nestoria_code": "gaensemarkt_hamburg-u-bahn"
+        },
+    	 "berliner-tor_hamburg-u-bahn": {
+            "name": "Berliner Tor", 
+            "nestoria_code": "berliner-tor_hamburg-u-bahn"
+        },
+    	 "burgstrasse_hamburg-u-bahn": {
+            "name": "Burgstraße", 
+            "nestoria_code": "burgstrasse_hamburg-u-bahn"
+        },
+    	 "hammer-kirche_hamburg-u-bahn": {
+            "name": "Hammer Kirche", 
+            "nestoria_code": "hammer-kirche_hamburg-u-bahn"
+        },
+    	 "rauhes-haus_hamburg-u-bahn": {
+            "name": "Rauhes Haus", 
+            "nestoria_code": "rauhes-haus_hamburg-u-bahn"
+        },
+    	 "horner-rennbahn_hamburg-u-bahn": {
+            "name": "Horner Rennbahn", 
+            "nestoria_code": "horner-rennbahn_hamburg-u-bahn"
+        },
+    	 "legienstrasse_hamburg-u-bahn": {
+            "name": "Legienstraße", 
+            "nestoria_code": "legienstrasse_hamburg-u-bahn"
+        },
+    	 "billstedt_hamburg-u-bahn": {
+            "name": "Billstedt", 
+            "nestoria_code": "billstedt_hamburg-u-bahn"
+        },
+    	 "merkenstrasse_hamburg-u-bahn": {
+            "name": "Merkenstraße", 
+            "nestoria_code": "merkenstrasse_hamburg-u-bahn"
+        },
+    	 "steinfurther-allee_hamburg-u-bahn": {
+            "name": "Steinfurther Allee", 
+            "nestoria_code": "steinfurther-allee_hamburg-u-bahn"
+        },
+    	 "muemmelmannsberg_hamburg-u-bahn": {
+            "name": "Mümmelmannsberg", 
+            "nestoria_code": "muemmelmannsberg_hamburg-u-bahn"
+        },
+    	"norderstedt-mitte_hamburg-u-bahn": {
+            "name": "Norderstedt Mitte", 
+            "nestoria_code": "norderstedt-mitte_hamburg-u-bahn"
+        },
+        "richtweg_hamburg-u-bahn": {
+            "name": "Richtweg", 
+            "nestoria_code": "richtweg_hamburg-u-bahn"
+        },
+        "garstedt_hamburg-u-bahn": {
+            "name": "Garstedt", 
+            "nestoria_code": "garstedt_hamburg-u-bahn"
+        },
+        "ochsenzoll": {
+            "name": "Ochsenzoll", 
+            "nestoria_code": "ochsenzoll"
+        },
+        "kiwittsmoor_hamburg-u-bahn": {
+            "name": "Kiwittsmoor", 
+            "nestoria_code": "kiwittsmoor_hamburg-u-bahn"
+        },
+        "langenhorn-nord_hamburg-u-bahn": {
+            "name": "Langenhorn Nord", 
+            "nestoria_code": "langenhorn-nord_hamburg-u-bahn"
+        },
+        "langenhorn-markt_hamburg-u-bahn": {
+            "name": "Langenhorn Markt", 
+            "nestoria_code": "langenhorn-markt_hamburg-u-bahn"
+        },
+        "fuhlsbuettel-nord_hamburg-u-bahn": {
+            "name": "Fuhlsbüttel Nord", 
+            "nestoria_code": "fuhlsbuettel-nord_hamburg-u-bahn"
+        },
+        "fuhlsbuettel_hamburg-u-bahn": {
+            "name": "Fuhlsbüttel", 
+            "nestoria_code": "fuhlsbuettel_hamburg-u-bahn"
+        },
+        "klein-borstel_hamburg-u-bahn": {
+            "name": "Klein Borstel", 
+            "nestoria_code": "klein-borstel_hamburg-u-bahn"
+        },
+        "ohlsdorf": {
+            "name": "Ohlsdorf", 
+            "nestoria_code": "ohlsdorf"
+        },
+        "sengelmannstrasse_hamburg-u-bahn": {
+            "name": "Sengelmannstraße", 
+            "nestoria_code": "sengelmannstrasse_hamburg-u-bahn"
+        },
+        "alsterdorf_hamburg-u-bahn": {
+            "name": "Alsterdorf", 
+            "nestoria_code": "alsterdorf_hamburg-u-bahn"
+        },
+        "lattenkamp_hamburg-u-bahn": {
+            "name": "Lattenkamp", 
+            "nestoria_code": "lattenkamp_hamburg-u-bahn"
+        },
+        "hudtwalckerstrasse_hamburg-u-bahn": {
+            "name": "Hudtwalckerstraße", 
+            "nestoria_code": "hudtwalckerstrasse_hamburg-u-bahn"
+        },
+        "kellinghusenstrasse_hamburg-u-bahn": {
+            "name": "Kellinghusenstraße", 
+            "nestoria_code": "kellinghusenstrasse_hamburg-u-bahn"
+        },
+        "klosterstern_hamburg-u-bahn": {
+            "name": "Klosterstern", 
+            "nestoria_code": "klosterstern_hamburg-u-bahn"
+        },
+        "hallerstrasse_hamburg-u-bahn": {
+            "name": "Hallerstraße", 
+            "nestoria_code": "hallerstrasse_hamburg-u-bahn"
+        },
+        "stephansplatz_hamburg-u-bahn": {
+            "name": "Stephansplatz", 
+            "nestoria_code": "stephansplatz_hamburg-u-bahn"
+        },
+        "jungfernstieg_hamburg-u-bahn": {
+            "name": "Jungfernstieg", 
+            "nestoria_code": "jungfernstieg_hamburg-u-bahn"
+        },
+        "messberg_hamburg-u-bahn": {
+            "name": "Meßberg", 
+            "nestoria_code": "messberg_hamburg-u-bahn"
+        },
+        "steinstrasse_hamburg-u-bahn": {
+            "name": "Steinstraße", 
+            "nestoria_code": "steinstrasse_hamburg-u-bahn"
+        },
+        "hauptbahnhof-sued_hamburg-u-bahn": {
+            "name": "Hauptbahnhof Süd", 
+            "nestoria_code": "hauptbahnhof-sued_hamburg-u-bahn"
+        },
+        "lohmuehlenstrasse_hamburg-u-bahn": {
+            "name": "Lohmühlenstraße", 
+            "nestoria_code": "lohmuehlenstrasse_hamburg-u-bahn"
+        },
+        "luebecker-strasse_hamburg-u-bahn": {
+            "name": "Lübecker Straße", 
+            "nestoria_code": "luebecker-strasse_hamburg-u-bahn"
+        },
+        "wartenau_hamburg-u-bahn": {
+            "name": "Wartenau", 
+            "nestoria_code": "wartenau_hamburg-u-bahn"
+        },
+        "ritterstrasse_hamburg-u-bahn": {
+            "name": "Ritterstraße", 
+            "nestoria_code": "ritterstrasse_hamburg-u-bahn"
+        },
+        "wandsbeker-chaussee_hamburg-u-bahn": {
+            "name": "Wandsbeker Chaussee", 
+            "nestoria_code": "wandsbeker-chaussee_hamburg-u-bahn"
+        },
+         "wandsbek-markt_hamburg-u-bahn": {
+            "name": "Wandsbek Markt", 
+            "nestoria_code": "wandsbek-markt_hamburg-u-bahn"
+        },
+        "strassburger-strasse_hamburg-u-bahn": {
+            "name": "Straßburger Straße", 
+            "nestoria_code": "strassburger-strasse_hamburg-u-bahn"
+        },
+        "alter-teichweg_hamburg-u-bahn": {
+            "name": "Alter Teichweg", 
+            "nestoria_code": "alter-teichweg_hamburg-u-bahn"
+        },
+        "wandsbek-gartenstadt_hamburg-u-bahn-hamburg": {
+            "name": "Wandsbek-Gartenstadt", 
+            "nestoria_code": "wandsbek-gartenstadt_hamburg-u-bahn-hamburg"
+        },
+        "trabrennbahn_hamburg-u-bahn": {
+            "name": "Trabrennbahn", 
+            "nestoria_code": "trabrennbahn_hamburg-u-bahn"
+        },
+        "farmsen_hamburg-u-bahn": {
+            "name": "Farmsen", 
+            "nestoria_code": "farmsen_hamburg-u-bahn"
+        },
+        "berne_hamburg-u-bahn": {
+            "name": "Berne", 
+            "nestoria_code": "berne_hamburg-u-bahn"
+        },
+        "meiendorfer-weg_hamburg-u-bahn": {
+            "name": "Meiendorfer Weg", 
+            "nestoria_code": "meiendorfer-weg_hamburg-u-bahn"
+        },
+        "volksdorf_hamburg-u-bahn": {
+            "name": "Volksdorf", 
+            "nestoria_code": "volksdorf_hamburg-u-bahn"
+        },
+        "buckhorn_hamburg-u-bahn": {
+            "name": "Buckhorn", 
+            "nestoria_code": "buckhorn_hamburg-u-bahn"
+        },
+        "hoisbuettel_hamburg-u-bahn": {
+            "name": "Hoisbüttel", 
+            "nestoria_code": "hoisbuettel_hamburg-u-bahn"
+        },
+        "ohlstedt_hamburg-u-bahn": {
+            "name": "Ohlstedt", 
+            "nestoria_code": "ohlstedt_hamburg-u-bahn"
+        }
+        
+    }
+}
