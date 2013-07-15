@@ -1,5 +1,5 @@
 {
-    "api": "http://api.nestoria.fr/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "api": "http://api.nestoria.fr/api?country=fr&pretty=0&action=metadata&encoding=json&place_name=", 
     "category_field": "num_beds",
     "metadata_suffix":"buy_monthly",
     "country": "France", 
@@ -7,11 +7,493 @@
     "pricerange": 4000000,
     "lines": [
         {
-            "background-color": "#2C611D", 
-            "color": "white", 
+            "background-color": "#FDD017", 
+            "color": "black", 
             "name": "1", 
             "stations": [
-                "olympia-einkaufszentrum_muenchen-u-bahn"
+                "la-defense",
+                "esplanade-de-la-defense",
+                "pont-de-neuilly",
+                "les-sablons",
+                "porte-maillot",
+                "argentine",
+                "charles-de-gaulle-etoile",
+                "george-v",
+                "franklin-d-roosevelt",
+                "champs-elysees",
+                "concorde",
+                "tuileries",
+                "palais-royal",
+                "louvre",
+                "chatelet",
+                "hotel-de-ville",
+                "saint-paul",
+                "bastille",
+                "gare-de-lyon",
+                "reuilly-diderot",
+                "nation",
+                "porte-de-vincennes",
+                "saint-mande",
+                "berault",
+                "chateau-de-vincennes"
+                
+            ]
+        },
+        {
+            "background-color": "#0000A0", 
+            "color": "white", 
+            "name": "2", 
+            "stations": [
+                "porte-dauphine",
+                "victor-hugo",
+                "charles-de-gaulle-etoile",
+                "ternes",
+                "courcelles",
+                "monceau",
+                "villiers",
+                "rome",
+                "place-de-clichy",
+                "blanche",
+                "pigalle",
+                "anvers",
+                "barbes-rochechouart",
+                "la-chapelle",
+                "stalingrad",
+                "jaures",
+                "colonel-fabien",
+                "belleville",
+                "couronnes",
+                "menilmontant",
+                "pere-lachaise",
+                "philippe-auguste",
+                "alexandre-dumas",
+                "avron",
+                "nation"
+                
+            ]
+        },
+        {
+            "background-color": "#808000", 
+            "color": "white", 
+            "name": "3", 
+            "stations": [
+                "pont-de-levallois-becon",
+                "anatole-france",
+                "louise-michel",
+                "porte-de-champerret",
+                "pereire",
+                "wagram",
+                "malesherbes",
+                "villiers",
+                "europe",
+                "saint-lazare",
+                "havre-caumartin",
+                "opera",
+                "quatre-septembre",
+                "bourse",
+                "sentier",
+                "reaumur-sebastopol",
+                "arts-et-metiers",
+                "temple",
+                "republique",
+                "parmentier",
+                "rue-saint-maur",
+                "pere-lachaise",
+                "gambetta",
+                "porte-de-bagnolet",
+                "gallieni"
+                
+            ]
+        },
+        {
+            "background-color": "#87d3df", 
+            "color": "white", 
+            "name": "3 bis", 
+            "stations": [
+                "porte-des-lilas",
+                "saint-fargeau",
+                "pelleport",
+                "gambetta"
+                
+            ]
+        },
+        {
+            "background-color": "#b93b8f", 
+            "color": "white", 
+            "name": "4", 
+            "stations": [
+                "porte-de-clignancourt",
+                "simplon",
+                "marcadet-poissonniers",
+                "chateau-rouge",
+                "barbes-rochechouart",
+                "gare-du-nord",
+                "gare-de-lest",
+                "chateau-deau",
+                "strasbourg-saint-denis",
+                "reaumur-sebastopol",
+                "etienne-marcel",
+                "les-halles",
+                "chatelet",
+                "cite",
+                "saint-michel",
+                "odeon",
+                "saint-germain-des-pres",
+                "saint-sulpice",
+                "saint-placide",
+                "montparnasse-bienvenue",
+                "vavin",
+                "raspail",
+                "denfert-rochereau",
+                "mouton-duvernet",
+                "alesia",
+                "porte-dorleans",
+                "mairie-de-montrouge"
+                
+            ]
+        },
+        {
+            "background-color": "#f68f4d", 
+            "color": "black", 
+            "name": "5", 
+            "stations": [
+                "bobigny–pablo-picasso",
+                "bobigny-pantin-raymond-queneau",
+                "eglise-de-pantin",
+                "hoche",
+                "porte-de-pantin",
+                "ourcq",
+                "laumiere",
+                "jaures",
+                "stalingrad",
+                "gare-du-nord",
+                "gare-de-lest",
+                "jacques-bonsergent",
+                "republique",
+                "oberkampf",
+                "richard-lenoir",
+                "breguet-sabin",
+                "bastille",
+                "quai-de-la-rapee",
+                "gare-dausterlitz",
+                "saint-marcel",
+                "campo-formio",
+                "place-ditalie"
+                
+            ]
+        },
+        {
+            "background-color": "#78c696", 
+            "color": "black", 
+            "name": "6", 
+            "stations": [
+                "charles-de-gaulle-etoile",
+                "kleber",
+                "boissiere",
+                "trocadero",
+                "passy",
+                "bir-hakeim",
+                "dupleix",
+                "la-motte-picquet-grenelle",
+                "cambronne",
+                "sevres-lecourbe",
+                "pasteur",
+                "montparnasse-bienvenue",
+                "edgar-quinet",
+                "raspail",
+                "denfert-rochereau",
+                "saint-jacques",
+                "glaciere",
+                "corvisart",
+                "place-ditalie",
+                "nationale",
+                "chevaleret",
+                "quai-de-la-gare",
+                "bercy",
+                "dugommier",
+                "daumesnil",
+                "bel-air",
+                "picpus",
+                "nation"
+                
+            ]
+        },
+        {
+            "background-color": "#F489A4", 
+            "color": "black", 
+            "name": "7", 
+            "stations": [
+                "la-courneuve-8-mai-1945",
+                "fort-daubervilliers",
+                "aubervilliers-pantin-quatre-chemins",
+                "porte-de-la-villette",
+                "corentin-cariou",
+                "crimee",
+                "riquet",
+                "stalingrad",
+                "louis-blanc",
+                "gare-de-lest",
+                "poissonniere",
+                "cadet",
+                "le-peletier",
+                "chaussee-dantin",
+                "opera",
+                "pyramides",
+                "palais-royal",
+                "pont-neuf",
+                "chatelet",
+                "pont-marie",
+                "sully-morland",
+                "jussieu",
+                "place-monge",
+                "censier-daubenton",
+                "les-gobelins",
+                "place-ditalie",
+                "tolbiac",
+                "maison-blanche",
+                "porte-ditalie",
+                "porte-de-choisy",
+                "porte-divry",
+                "pierre-et-marie-curie",
+                "mairie-divry"
+                
+            ]
+        },
+        {
+            "background-color": "#78c696", 
+            "color": "black", 
+            "name": "7 bis", 
+            "stations": [
+                "louis-blanc",
+                "jaures",
+                "bolivar",
+                "buttes-chaumont",
+                "botzaris",
+                "danube",
+                "pre-saint-gervais",
+                "place-des-fetes"
+                
+            ]
+        },
+        {
+            "background-color": "#c5a3cc", 
+            "color": "black", 
+            "name": "8", 
+            "stations": [
+                "balard",
+                "lourmel",
+                "boucicaut",
+                "felix-faure",
+                "commerce",
+                "la-motte-picquet-grenelle",
+                "ecole-militaire",
+                "la-tour-maubourg",
+                "invalides",
+                "concorde",
+                "madeleine",
+                "opera",
+                "richelieu-drouot",
+                "grands-boulevards",
+                "bonne-nouvelle",
+                "strasbourg-saint-denis",
+                "republique",
+                "filles-du-calvaire",
+                "saint-sebastien-froissart",
+                "chemin-vert",
+                "bastille",
+                "ledru-rollin",
+                "faidherbe-chaligny",
+                "reuilly-diderot",
+                "montgallet",
+                "daumesnil",
+                "michel-bizot",
+                "porte-doree",
+                "porte-de-charenton",
+                "liberte",
+                "charenton-ecoles",
+                "ecole-veterinaire-de-maisons-alfort",
+                "creteil-lechat",
+                "creteil-universite",
+                "creteil-prefecture",
+                "pointe-du-lac"
+                
+            ]
+        },
+        {
+            "background-color": "#cec82b", 
+            "color": "black", 
+            "name": "9", 
+            "stations": [
+                "pont-de-sevres",
+                "billancourt",
+                "marcel-sembat",
+                "porte-de-saint-cloud",
+                "exelmans",
+                "michel-ange-auteuil",
+                "michel-ange-molitor",
+                "jasmin",
+                "ranelagh",
+                "la-muette",
+                "rue-de-la-pompe",
+                "trocadero",
+                "iena",
+                "alma",
+                "franklin-d-roosevelt",
+                "saint-philippe-du-roule",
+                "miromesnil",
+                "saint-augustin",
+                "havre-caumartin",
+                "chaussee-dantin",
+                "richelieu-drouot",
+                "grands-boulevards",
+                "bonne-nouvelle",
+                "strasbourg-saint-denis",
+                "republique",
+                "oberkampf",
+                "saint-ambroise",
+                "voltaire",
+                "charonne",
+                "rue-des-boulets",
+                "nation",
+                "buzenval",
+                "maraichers",
+                "porte-de-montreuil",
+                "robespierre",
+                "croix-de-chavaux",
+                "mairie-de-montreuil"
+                
+            ]
+        },
+        {
+            "background-color": "#DBA322", 
+            "color": "black", 
+            "name": "10", 
+            "stations": [
+                "boulogne-pont-de-saint-cloud",
+                "boulogne-jean-jaurès",
+                "michel-ange-molitor",
+                "chardon-lagache",
+                "mirabeau",
+                "javel-andre-citroen",
+                "charles-michels",
+                "avenue-emile-zola",
+                "la-motte-picquet-grenelle",
+                "segur",
+                "duroc",
+                "vaneau",
+                "sevres-babylone",
+                "mabillon",
+                "odeon",
+                "cluny-la-sorbonne",
+                "maubert-mutualite",
+                "cardinal-lemoine",
+                "gare-dausterlitz"
+                
+            ]
+        },
+        {
+            "background-color": "#7C5227", 
+            "color": "white", 
+            "name": "11", 
+            "stations": [
+                "chatelet",
+                "hotel-de-ville",
+                "rambuteau",
+                "arts-et-metiers",
+                "republique",
+                "goncourt",
+                "belleville",
+                "pyrenees",
+                "jourdain",
+                "place-des-fetes",
+                "telegraphe",
+                "porte-des-lilas",
+                "mairie-des-lilas"
+                
+            ]
+        },
+        {
+            "background-color": "#037E47", 
+            "color": "white", 
+            "name": "12", 
+            "stations": [
+                "porte-de-la-chapelle",
+                "marx-dormoy",
+                "marcadet-poissonniers",
+                "jules-joffrin",
+                "lamarck-caulaincourt",
+                "abbesses",
+                "pigalle",
+                "saint-georges",
+                "notre-dame-de-lorette",
+                "trinite-destienne-dorves",
+                "saint-lazare",
+                "madeleine",
+                "concorde",
+                "assemblee-nationale",
+                "solferino",
+                "rue-du-bac",
+                "sevres-babylone",
+                "rennes",
+                "notre-dame-des-champs",
+                "montparnasse-bienvenue",
+                "falguiere",
+                "pasteur",
+                "volontaires",
+                "vaugirard",
+                "convention",
+                "porte-de-versailles",
+                "corentin-celton",
+                "mairie-dissy"
+                
+            ]
+        },
+        {
+            "background-color": "#75CAD7", 
+            "color": "black", 
+            "name": "13", 
+            "stations": [
+                "saint-denis-universite",
+                "basilique-de-saint-denis",
+                "saint-denis-porte-de-paris",
+                "carrefour-pleyel",
+                "mairie-de-saint-ouen",
+                "porte-de-saint-ouen",
+                "guy-moquet",
+                "la-fourche",
+                "place-de-clichy",
+                "liege",
+                "saint-lazare",
+                "miromesnil",
+                "champs-elysees",
+                "invalides",
+                "varenne",
+                "saint-francois-xavier",
+                "duroc",
+                "montparnasse-bienvenue",
+                "gaite",
+                "pernety",
+                "plaisance",
+                "porte-de-vanves",
+                "malakoff-plateau-de-vanves",
+                "malakoff-rue-etienne-dolet"
+                
+            ]
+        },
+        {
+            "background-color": "#53187E", 
+            "color": "white", 
+            "name": "14", 
+            "stations": [
+                "saint-lazare",
+                "madeleine",
+                "pyramides",
+                "chatelet",
+                "gare-de-lyon",
+                "bercy",
+                "cour-saint-emilion",
+                "bibliotheque-francois-mitterrand",
+                "olympiades"
                 
             ]
         }
@@ -47,7 +529,7 @@
 		},
 		"argentine": {
 			"name": "Argentine",
-			"nestoria_code": "argentine"
+			"nestoria_code": "argentine_paris"
 		},
 		"arts-et-metiers": {
 			"name": "Arts et Métiers",
@@ -61,7 +543,7 @@
 			"name": "Assemblée nationale",
 			"nestoria_code": "assemblee-nationale"
 		},
-		"aubervilliers": {
+		"aubervilliers-pantin-quatre-chemins": {
 			"name": "Aubervilliers – Pantin – Quatre Chemins",
 			"nestoria_code": "aubervilliers"
 		},
@@ -81,7 +563,7 @@
 			"name": "Balard",
 			"nestoria_code": "balard"
 		},
-		"barbes": {
+		"barbes-rochechouart": {
 			"name": "Barbès – Rochechouart",
 			"nestoria_code": "barbes"
 		},
@@ -124,6 +606,10 @@
 		"bobigny–pablo-picasso": {
 			"name": "Bobigny – Pablo Picasso",
 			"nestoria_code": "pablo-picasso"
+		},
+		"bobigny-pantin-raymond-queneau": {
+			"name": "Bobigny - Pantin Rayond Queneau",
+			"nestoria_code": "pantin_bobigny"
 		},
 		"boissiere": {
 			"name": "Boissière",
@@ -199,7 +685,7 @@
 		},
 		"censier-daubenton": {
 			"name": "Censier – Daubenton",
-			"nestoria_code": "censier-–-daubenton"
+			"nestoria_code": "censier-daubenton"
 		},
 		"champs-elysees": {
 			"name": "Champs-Élysées – Clemenceau",
@@ -224,6 +710,10 @@
 		"charonne": {
 			"name": "Charonne",
 			"nestoria_code": "charonne"
+		},
+		"chaussee-dantin": {
+			"name": "Chaussée-d'Antin",
+			"nestoria_code": "chaussee-dantin"
 		},
 		"chemin-vert": {
 			"name": "Chemin Vert",
@@ -257,7 +747,7 @@
 			"name": "Cité",
 			"nestoria_code": "cite"
 		},
-		"cluny": {
+		"cluny-la-sorbonne": {
 			"name": "Cluny – La Sorbonne",
 			"nestoria_code": "cluny_paris"
 		},
@@ -349,6 +839,10 @@
 			"name": "École Militaire",
 			"nestoria_code": "ecole-militaire"
 		},
+		"ecole-veterinaire-de-maisons-alfort": {
+			"name": "École Vétérinaire de Maisons-Alfort",
+			"nestoria_code": "ecole-veterinaire-de-maisons-alfort"
+		},
 		"edgar-quinet": {
 			"name": "Edgar Quinet",
 			"nestoria_code": "edgar-quinet"
@@ -377,7 +871,7 @@
 			"name": "Exelmans",
 			"nestoria_code": "exelmans"
 		},
-		"faidherbe": {
+		"faidherbe-chaligny": {
 			"name": "Faidherbe – Chaligny",
 			"nestoria_code": "faidherbe"
 		},
@@ -465,6 +959,10 @@
 			"name": "Hôtel de Ville",
 			"nestoria_code": "hotel-de-ville"
 		},
+		"iena": {
+			"name": "Iéna",
+			"nestoria_code": "iena"
+		},
 		"invalides": {
 			"name": "Invalides",
 			"nestoria_code": "invalides"
@@ -485,7 +983,6 @@
 			"name": "Javel – André Citroën",
 			"nestoria_code": "javel-andre-citroen"
 		},
-
 		"jourdain": {
 			"name": "Jourdain",
 			"nestoria_code": "jourdain"
@@ -504,7 +1001,7 @@
 		},
 		"la-chapelle": {
 			"name": "La Chapelle",
-			"nestoria_code": "la-chapelle"
+			"nestoria_code": "la-chapelle_paris-1"
 		},
 		"la-courneuve-8-mai-1945": {
 			"name": "La Courneuve – 8 Mai 1945",
@@ -514,9 +1011,73 @@
 			"name": "La Défense – Grande Arche",
 			"nestoria_code": "la-defense"
 		},
+		"lamarck-caulaincourt": {
+			"name": "Lamarck — Caulaincourt",
+			"nestoria_code": "lamarck"
+		},
 		"la-fourche": {
 			"name": "La Fourche",
 			"nestoria_code": "la-fourche"
+		},
+		"la-motte-picquet-grenelle": {
+			"name": "La Motte-Picquet Grenelle",
+			"nestoria_code": "grenelle"
+		},
+		"la-muette": {
+			"name": "La Muette",
+			"nestoria_code": "la-muette_paris"
+		},
+		"la-tour-maubourg": {
+			"name": "La Tour Maubourg",
+			"nestoria_code": "la-tour-maubourg"
+		},
+		"laumiere": {
+			"name": "Laumière",
+			"nestoria_code": "laumiere"
+		},
+		"ledru-rollin": {
+			"name": "Ledru Rollin",
+			"nestoria_code": "ledru-rollin"
+		},
+		"le-peletier": {
+			"name": "Le Peletier",
+			"nestoria_code": "peletier"
+		},
+		"les-gobelins": {
+			"name": "Les Gobelins",
+			"nestoria_code": "les-gobelins"
+		},
+		"les-halles": {
+			"name": "Les Halles",
+			"nestoria_code": "les-halles"
+		},
+		"les-sablons": {
+			"name": "Les Sablons",
+			"nestoria_code": "les-sablons"
+		},
+		"louis-blanc": {
+			"name": "Louis Blanc",
+			"nestoria_code": "louis-blanc"
+		},
+		"liberte": {
+			"name": "Liberté",
+			"nestoria_code": "liberte"
+		},
+		"liege": {
+			"name": "Liège",
+			"nestoria_code": "liege_paris"
+		},
+		"louise-michel": {
+			"name": "Louise Michel",
+			"nestoria_code": "louise-michel"
+		},
+		"lourmel": {
+			"name": "lourmel",
+			"nestoria_code": "lourmel"
+		},
+		"louvre": {
+			"name": "Louvre - Rivoli",
+			"nestoria_code": "louvre"
 		},
 		"mabillon": {
 			"name": "Mabillon",
@@ -564,7 +1125,7 @@
 		},
 		"malakoff-plateau-de-vanves": {
 			"name": "Malakoff – Plateau de Vanves",
-			"nestoria_code": "malakoff-–-plateau-de-vanves"
+			"nestoria_code": "malakoff-plateau-de-vanves"
 		},
 		"malakoff-rue-etienne-dolet": {
 			"name": "Malakoff – Rue Étienne Dolet",
@@ -608,7 +1169,7 @@
 		},
 		"mirabeau": {
 			"name": "Mirabeau",
-			"nestoria_code": "mirabeau"
+			"nestoria_code": "mirabeau_paris"
 		},
 		"miromesnil": {
 			"name": "Miromesnil",
@@ -622,7 +1183,7 @@
 			"name": "Montgallet",
 			"nestoria_code": "montgallet"
 		},
-		"montparnasse": {
+		"montparnasse-bienvenue": {
 			"name": "Montparnasse – Bienvenüe",
 			"nestoria_code": "montparnasse_paris"
 		},
@@ -662,13 +1223,17 @@
 			"name": "Olympiades",
 			"nestoria_code": "olympiades"
 		},
-		"opera_paris": {
+		"opera": {
 			"name": "Opéra",
 			"nestoria_code": "opera_paris"
 		},
 		"ourcq": {
 			"name": "Ourcq",
 			"nestoria_code": "ourcq"
+		},
+		"palais-royal": {
+			"name": "Palais Royal - Musée du Louvre",
+			"nestoria_code": "palais-royal"
 		},
 		"parmentier": {
 			"name": "Parmentier",
@@ -704,7 +1269,7 @@
 		},
 		"pierre-et-marie-curie": {
 			"name": "Pierre et Marie Curie",
-			"nestoria_code": "pierre-et-marie-curie"
+			"nestoria_code": "pierre-et-marie-curie_paris"
 		},
 		"pigalle": {
 			"name": "Pigalle",
@@ -734,11 +1299,11 @@
 			"name": "Pointe du Lac",
 			"nestoria_code": "pointe-du-lac"
 		},
-		"poissonnière": {
+		"poissonniere": {
 			"name": "Poissonnière",
-			"nestoria_code": "poissonnière"
+			"nestoria_code": "poissonniere"
 		},
-		"pont-de-levallois": {
+		"pont-de-levallois-becon": {
 			"name": "Pont de Levallois – Bécon",
 			"nestoria_code": "pont-de-levallois"
 		},
@@ -757,6 +1322,10 @@
 		"pont-neuf": {
 			"name": "Pont Neuf",
 			"nestoria_code": "pont-neuf_paris"
+		},
+		"porte-ditalie": {
+			"name": "Porte d'Italie",
+			"nestoria_code": "porte-ditalie"
 		},
 		"porte-divry": {
 			"name": "Porte d'Ivry",
@@ -944,7 +1513,7 @@
 		},
 		"saint-denis-porte-de-paris": {
 			"name": "Saint-Denis – Porte de Paris",
-			"nestoria_code": "saint-denis-porte-de-paris"
+			"nestoria_code": "saint-denis_paris"
 		},
 		"saint-denis-universite": {
 			"name": "Saint-Denis – Université",
@@ -1034,7 +1603,7 @@
 			"name": "Sèvres – Babylone",
 			"nestoria_code": "sevres-babylone"
 		},
-		"lecourbe": {
+		"sevres-lecourbe": {
 			"name": "Sèvres – Lecourbe",
 			"nestoria_code": "lecourbe"
 		},
@@ -1054,7 +1623,7 @@
 			"name": "Tolbiac",
 			"nestoria_code": "tolbiac"
 		},
-		"trinite": {
+		"trinite-destienne-dorves": {
 			"name": "Trinité – d'Estienne d'Orves",
 			"nestoria_code": "trinite"
 		},

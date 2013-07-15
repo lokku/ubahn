@@ -1,0 +1,208 @@
+{
+    "api": "http://api.nestoria.com.br/api?country=br&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Brazil", 
+    "currency": "R$",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#E23010", 
+            "color": "white", 
+            "name": "Line 1", 
+            "stations": [
+                "saens-pena",
+				"sao-francisco-xavier",
+				"afonso-pena",
+				"estacio",
+				"praca-onze",
+				"central",
+				"presidente-vargas",
+				"uruguaiana",
+				"carioca",
+				"cinelandia",
+				"gloria",
+				"catete",
+				"largo-do-machado",
+				"flamengo",
+				"botafogo",
+				"cardeal-arcoverde",
+				"siqueira-campos",
+				"cantagalo",
+				"general-osorio"
+				
+            ]
+        },
+        {
+            "background-color": "#009900", 
+            "color": "white", 
+            "name": "Line 2", 
+            "stations": [
+                "pavuna",
+                "engenheiro-rubens-paiva",
+                "acari",
+                "coelho-neto",
+				"colegio"
+				"iraja",
+				"vicente-de-carvalho",
+				"tomas-coelho",
+				"engenho-da-rainha",
+				"inhauma",
+				"del-castilho",
+				"maria-da-graca",
+				"triagem",
+				"maracana",
+				"sao-cristovao",
+				"cidade-nova",
+				"estacio"
+				
+            ]
+        }
+        
+    ], 
+    "name": "Rio de Janeiro", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"pavuna": {
+			"name": "Pavuna",
+			"nestoria_code": "pavuna"
+		},
+		"engenheiro-rubens-paiva": {
+			"name": "Engenheiro Rubens Paiva",
+			"nestoria_code": "engenheiro-rubens-paiva"
+		},
+		"acari": {
+			"name": "Acari",
+			"nestoria_code": "acari_rio-de-janeiro"
+		},
+		"coelho-neto": {
+			"name": "Coelho Neto",
+			"nestoria_code": "coelho-neto_rio-de-janeiro"
+		},
+		"colegio": {
+			"name": "Colégio",
+			"nestoria_code": "colegio"
+		},
+		"iraja": {
+			"name": "Irajá",
+			"nestoria_code": "iraja"
+		},
+		"vicente-de-carvalho": {
+			"name": "Vicente de Carvalho",
+			"nestoria_code": "vicente-de-carvalho_rio-de-janeiro"
+		},
+		"tomas-coelho": {
+			"name": "Tomás Coelho",
+			"nestoria_code": "tomas-coelho"
+		},
+		"engenho-da-rainha": {
+			"name": "Engenho da Rainha",
+			"nestoria_code": "engenho-da-rainha"
+		},
+		"inhauma": {
+			"name": "Inhaúma",
+			"nestoria_code": "inhauma"
+		},
+		"del-castilho": {
+			"name": "Del Castilho",
+			"nestoria_code": "del-castilho"
+		},
+		"maria-da-graca": {
+			"name": "Maria da Graça",
+			"nestoria_code": "maria-da-graca"
+		},
+		"triagem": {
+			"name": "Triagem",
+			"nestoria_code": "triagem"
+		},
+		"maracana": {
+			"name": "Maracanã",
+			"nestoria_code": "maracana"
+		},
+		"sao-cristovao": {
+			"name": "São Cristóvão",
+			"nestoria_code": "sao-cristovao_rio-de-janeiro"
+		},
+		"cidade-nova": {
+			"name": "Cidade Nova",
+			"nestoria_code": "cidade-nova_rio-de-janeiro"
+		},
+		"saens-pena": {
+			"name": "Saens Peña",
+			"nestoria_code": "saens-pena"
+		},
+		"sao-francisco-xavier": {
+			"name": "São Francisco Xavier",
+			"nestoria_code": "sao-francisco-xavier"
+		},
+		"afonso-pena": {
+			"name": "Afonso Pena",
+			"nestoria_code": "afonso-pena_rio-de-janeiro"
+		},
+		"estacio": {
+			"name": "Estácio",
+			"nestoria_code": "estacio"
+		},
+		"praca-onze": {
+			"name": "Praça Onze",
+			"nestoria_code": "praca-onze"
+		},
+		"central": {
+			"name": "Central",
+			"nestoria_code": "central_rio-de-janeiro"
+		},
+		"presidente-vargas": {
+			"name": "Presidente Vargas",
+			"nestoria_code": "presidente-vargas_rio-de-janeiro"
+		},
+		"uruguaiana": {
+			"name": "Uruguaiana",
+			"nestoria_code": "uruguaiana_rio-de-janeiro"
+		},
+		"carioca": {
+			"name": "Carioca",
+			"nestoria_code": "carioca"
+		},
+		"cinelandia": {
+			"name": "Cinelândia",
+			"nestoria_code": "cinelandia"
+		},
+		"gloria": {
+			"name": "Glória",
+			"nestoria_code": "gloria_rio-de-janeiro"
+		},
+		"catete": {
+			"name": "Catete",
+			"nestoria_code": "catete"
+		},
+		"largo-do-machado": {
+			"name": "Largo do Machado",
+			"nestoria_code": "largo-do-machado"
+		},
+		"flamengo": {
+			"name": "Flamengo",
+			"nestoria_code": "flamengo"
+		},
+		"botafogo": {
+			"name": "Botafogo",
+			"nestoria_code": "botafogo_rio-de-janeiro"
+		},
+		"cardeal-arcoverde": {
+			"name": "Cardeal Arcoverde",
+			"nestoria_code": "cardeal-arcoverde"
+		},
+		"siqueira-campos": {
+			"name": "Siqueira Campos",
+			"nestoria_code": "rua-edmundo-lins"
+		},
+		"cantagalo": {
+			"name": "Cantagalo",
+			"nestoria_code": "cantagalo_rio-de-janeiro"
+		},
+		"general-osorio": {
+			"name": "General Osório",
+			"nestoria_code": "general-osorio"
+		}
+	}
+}

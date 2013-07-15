@@ -1,0 +1,1142 @@
+{
+    "api": "http://api.nestoria.es/api?country=es&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "Spain", 
+    "currency": "EU",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#DC241F", 
+            "color": "white", 
+            "name": "L1", 
+            "stations": [
+                "pinar-de-chamartin",
+				"bambu",
+				"chamartin",
+				"plaza-de-castilla",
+				"valdeacederas",
+				"tetuan",
+				"estrecho",
+				"alvarado",
+				"cuatro-caminos",
+				"rios-rosas",
+				"iglesia",
+				"bilbao",
+				"tribunal",
+				"gran-via",
+				"sol",
+				"tirso-de-molina",
+				"anton-martin",
+				"atocha",
+				"atocha-renfe",
+				"menendez-pelayo",
+				"pacifico",
+				"puente-de-vallecas",
+				"nueva-numancia",
+				"portazgo",
+				"buenos-aires",
+				"alto-del-arenal",
+				"miguel-hernandez",
+				"sierra-de-guadalupe",
+				"villa-de-vallecas",
+				"congosto",
+				"la-gavia",
+				"las-suertes",
+				"valdecarros"
+                
+            ]
+        },
+        {
+            "background-color": "#FF0000", 
+            "color": "white", 
+            "name": "L2", 
+            "stations": [
+                "las-rosas",
+                "avenida-de-guadalajara",
+                "alsacia",
+                "la-almudena",
+                "la-elipa",
+                "ventas",
+                "manuel-becerra",
+                "goya",
+                "principe-de-vergara",
+                "retiro",
+                "banco-de-espana",
+                "sevilla",
+                "sol",
+                "opera",
+                "santo-domingo",
+                "noviciado",
+                "san-bernardo",
+                "quevedo",
+                "canal",
+                "cuatro-caminos"
+                
+            ]
+        },
+        {
+            "background-color": "#FFDF00", 
+            "color": "black", 
+            "name": "L3", 
+            "stations": [
+                "moncloa",
+                "arguelles",
+                "ventura-rodriguez",
+                "plaza-de-espana",
+                "callao",
+                "sol",
+                "lavapies",
+                "embajadores",
+                "palos-de-la-frontera",
+                "delicias",
+                "legazpi",
+                "almendrales",
+                "hospital-12-de-octubre",
+                "san-fermin-orcasur",
+                "ciudad-de-los-angeles",
+                "villaverde-bajo-cruce",
+                "san-cristobal",
+                "villaverde-alto"
+                
+            ]
+        },
+        {
+            "background-color": "#824100", 
+            "color": "white", 
+            "name": "L4", 
+            "stations": [
+                "pinar-de-chamartin",
+                "manoteras",
+                "hortaleza",
+                "parque-de-santa-maria",
+                "san-lorenzo",
+                "mar-de-cristal",
+                "canillas",
+                "esperanza",
+                "arturo-soria",
+                "avenida-de-la-paz",
+                "alfonso-xiii",
+                "prosperidad",
+                "avenida-de-america",
+                "diego-de-leon",
+                "lista",
+                "goya",
+                "velazquez",
+                "serrano",
+                "colon",
+                "alonso-martinez",
+                "bilbao",
+                "san-bernardo",
+                "arguelles"
+                
+            ]
+        },
+        {
+            "background-color": "#339900", 
+            "color": "white", 
+            "name": "L5", 
+            "stations": [
+                "alameda-de-osuna",
+                "el-capricho",
+                "canillejas",
+                "torre-arias",
+                "suanzes",
+                "ciudad-lineal",
+                "pueblo-nuevo",
+                "el-carmen",
+                "ventas",
+                "diego-de-leon",
+                "nunez-de-balboa",
+                "ruben-dario",
+                "alonso-martinez",
+                "chueca",
+                "gran-via",
+                "callao",
+                "opera",
+                "la-latina",
+                "puerta-de-toledo",
+                "acacias",
+                "piramides",
+                "marques-de-vadillo",
+                "urgel",
+                "oporto",
+                "vista-alegre",
+                "carabanchel",
+                "eugenia-de-montijo",
+                "aluche",
+                "empalme",
+                "campamento",
+                "casa-de-campo"
+                
+            ]
+        },
+        {
+            "background-color": "#999999", 
+            "color": "white", 
+            "name": "L6", 
+            "stations": [
+                "cuatro-caminos",
+                "nuevos-ministerios",
+                "republica-argentina",
+                "avenida-de-america",
+                "diego-de-leon",
+                "manuel-becerra",
+                "odonnell",
+                "sainz-de-baranda",
+                "conde-de-casal",
+                "pacifico",
+                "mendez-alvaro",
+                "arganzuela-planetario",
+                "legazpi",
+                "usera",
+                "plaza-eliptica",
+                "opanel",
+                "oporto",
+                "carpetana",
+                "lucero",
+                "alto-de-extremadura",
+                "puerta-del-angel",
+                "principe-pio",
+                "arguelles",
+                "moncloa",
+                "ciudad-universitaria",
+                "metropolitano",
+                "guzman-el-bueno"
+                
+            ]
+        },
+        {
+            "background-color": "#FF6600", 
+            "color": "white", 
+            "name": "L7", 
+            "stations": [
+                "pitis",
+                "lacoma",
+                "avenida-de-la-ilustracion",
+                "penagrande",
+                "antonio-machado",
+                "valdezarza",
+                "francos-rodriguez",
+                "guzman-el-bueno",
+                "islas-filipinas",
+                "canal",
+                "alonso-cano",
+                "gregorio-maranon",
+                "avenida-de-america",
+                "cartagena",
+                "parque-de-la-avenidas",
+                "barrio-de-la-concepcion",
+                "pueblo-nuevo",
+                "ascao",
+                "garcia-noblejas",
+                "simancas",
+                "san-blas",
+                "las-musas",
+                "estadio-olimpico"
+                
+            ]
+        },
+        {
+            "background-color": "#FF75FF", 
+            "color": "white", 
+            "name": "L8", 
+            "stations": [
+                "barajas",
+                "campo-de-las-naciones",
+                "mar-de-cristal",
+                "pinar-del-rey",
+                "colombia",
+                "nuevos-ministerios"
+                
+            ]
+        },
+        {
+            "background-color": "#990066", 
+            "color": "white", 
+            "name": "L9", 
+            "stations": [
+                "mirasierra",
+                "herrera-oria",
+                "barrio-del-pilar",
+                "ventilla",
+                "plaza-de-castilla",
+                "duque-de-pastrana",
+                "pio-xii",
+                "colombia",
+                "concha-espina",
+                "cruz-del-rayo",
+                "avenida-de-america",
+                "nunez-de-balboa",
+                "principe-de-vergara",
+                "ibiza",
+                "sainz-de-baranda",
+                "estrella",
+                "vinateros",
+                "artilleros",
+                "pavones",
+                "valdebernardo",
+                "vicalvaro",
+                "san-cipriano",
+                "puerta-de-arganda"
+                
+            ]
+        },
+        {
+            "background-color": "#000099", 
+            "color": "white", 
+            "name": "L10", 
+            "stations": [
+                "hospital-infanta-sofia",
+                "reyes-catolicos",
+                "baunatal",
+                "manuel-de-falla",
+                "marques-de-la-valdavia",
+                "la-moraleja",
+                "la-granja",
+                "ronda-de-la-comunicacion",
+                "las-tablas",
+                "montecarmelo",
+                "tres-olivos",
+                "fuencarral",
+                "begona",
+                "chamartin",
+                "plaza-de-castilla",
+                "cuzco",
+                "santiago-bernabeu",
+                "nuevos-ministerios",
+                "gregorio-maranon",
+                "alonso-martinez",
+                "tribunal",
+                "plaza-de-espana",
+                "principe-pio",
+                "lago",
+                "batan",
+                "casa-de-campo",
+                "colonia-jardin",
+                "aviacion-espanola",
+                "cuatro-vientos",
+                "joaquin-vilumbrales",
+                "puerta-del-sur"
+                
+            ]
+        },
+        {
+            "background-color": "#006600", 
+            "color": "white", 
+            "name": "L11", 
+            "stations": [
+                "plaza-eliptica",
+                "abrantes",
+                "pan-bendito",
+                "san-francisco",
+                "carabanchel-alto",
+                "la-peseta",
+                "la-fortuna"
+                
+            ]
+        }
+        
+    ], 
+    "name": "Madrid", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+	    "abrantes": {
+    		"name": "Abrantes",
+    		"nestoria_code": "abrantes"
+    	},
+    	"pan-bendito": {
+    		"name": "Pan Bendito",
+    		"nestoria_code": "pan-bendito"
+    	},
+    	"san-francisco": {
+    		"name": "San Francisco",
+    		"nestoria_code": "san-francisco_madrid"
+    	},
+    	"carabanchel-alto": {
+    		"name": "Carabanchel Alto",
+    		"nestoria_code": "carabanchel-alto"
+    	},
+    	"la-peseta": {
+    		"name": "La Peseta",
+    		"nestoria_code": "la-peseta"
+    	},
+    	"la-fortuna": {
+    		"name": "La Fortuna",
+    		"nestoria_code": "la-fortuna_madrid-1"
+    	},
+    	"reyes-catolicos": {
+    		"name": "Reyes Católicos",
+    		"nestoria_code": "reyes-catolicos"
+    	},
+    	"baunatal": {
+    		"name": "Baunatal",
+    		"nestoria_code": "baunatal"
+    	},
+    	"manuel-de-falla": {
+    		"name": "Manuel de Falla",
+    		"nestoria_code": "manuel-de-falla"
+    	},
+    	"marques-de-la-valdavia": {
+    		"name": "Marqués de la Valdavia",
+    		"nestoria_code": "marques-de-la-valdavia"
+    	},
+    	"la-granja": {
+    		"name": "La Granja",
+    		"nestoria_code": "la-granja_madrid"
+    	},
+    	"ronda-de-la-comunicacion": {
+    		"name": "Ronda de la Comunicación",
+    		"nestoria_code": "ronda-de-la-comunicacion"
+    	},
+    	"las-tablas": {
+    		"name": "Las Tablas",
+    		"nestoria_code": "las-tablas_madrid"
+    	},
+    	"la-moraleja": {
+    		"name": "La Moraleja",
+    		"nestoria_code": "la-moraleja"
+    	},
+    	"montecarmelo": {
+    		"name": "Montecarmelo",
+    		"nestoria_code": "montecarmelo"
+    	},
+    	"tres-olivos": {
+    		"name": "Tres Olivos",
+    		"nestoria_code": "tres-olivos"
+    	},
+    	"fuencarral": {
+    		"name": "Fuencarral",
+    		"nestoria_code": "fuencarral"
+    	},
+    	"begona": {
+    		"name": "Begoña",
+    		"nestoria_code": "begona"
+    	},
+    	"cuzco": {
+    		"name": "Cuzco",
+    		"nestoria_code": "cuzco"
+    	},
+    	"santiago-bernabeu": {
+    		"name": "Santiago Bernabéu",
+    		"nestoria_code": "santiago-bernabeu"
+    	},
+    	"lago": {
+    		"name": "Lago",
+    		"nestoria_code": "lago"
+    	},
+    	"batan": {
+    		"name": "Batán",
+    		"nestoria_code": "batan"
+    	},
+    	"colonia-jardin": {
+    		"name": "Colonia Jardín",
+    		"nestoria_code": "colonia-jardin"
+    	},
+    	"aviacion-espanola": {
+    		"name": "Aviación Española",
+    		"nestoria_code": "aviacion-espanola"
+    	},
+    	"cuatro-vientos": {
+    		"name": "Cuatro Vientos",
+    		"nestoria_code": "cuatro-vientos"
+    	},
+    	"joaquin-vilumbrales": {
+    		"name": "Joaquín Vilumbrales",
+    		"nestoria_code": "joaquin-vilumbrales"
+    	},
+    	"puerta-del-sur": {
+    		"name": "Puerta del Sur",
+    		"nestoria_code": "puerta-del-sur"
+    	},
+    	"hospital-infanta-sofia": {
+    		"name": "Hospital Infanta Sofía",
+    		"nestoria_code": "hospital-infanta-sofia"
+    	},
+    	"valdebernardo": {
+    		"name": "Valdebernardo",
+    		"nestoria_code": "valdebernardo"
+    	},
+    	"vicalvaro": {
+    		"name": "Vicálvaro",
+    		"nestoria_code": "vicalvaro"
+    	},
+    	"san-cipriano": {
+    		"name": "San Cipriano",
+    		"nestoria_code": "san-cipriano_madrid"
+    	},
+    	"puerta-de-arganda": {
+    		"name": "Puerta de Arganda",
+    		"nestoria_code": "puerta-de-arganda"
+    	},
+    	"concha-espina": {
+    		"name": "Concha Espina",
+    		"nestoria_code": "concha-espina"
+    	},
+    	"cruz-del-rayo": {
+    		"name": "Cruz del Rayo",
+    		"nestoria_code": "cruz-del-rayo"
+    	},
+    	"ibiza": {
+    		"name": "Ibiza",
+    		"nestoria_code": "ibiza_madrid"
+    	},
+    	"estrella": {
+    		"name": "Estrella",
+    		"nestoria_code": "estrella_madrid-2"
+    	},
+    	"vinateros": {
+    		"name": "Vinateros",
+    		"nestoria_code": "vinateros"
+    	},
+    	"artilleros": {
+    		"name": "Artilleros",
+    		"nestoria_code": "artilleros"
+    	},
+    	"pavones": {
+    		"name": "Pavones",
+    		"nestoria_code": "pavones"
+    	},
+    	"herrera-oria": {
+    		"name": "Herrera Oria",
+    		"nestoria_code": "herrera-oria"
+    	},
+    	"mirasierra": {
+    		"name": "Mirasierra",
+    		"nestoria_code": "mirasierra"
+    	},
+    	"barrio-del-pilar": {
+    		"name": "Barrio del Pilar",
+    		"nestoria_code": "barrio-del-pilar_madrid"
+    	},
+    	"ventilla": {
+    		"name": "Ventilla",
+    		"nestoria_code": "ventilla"
+    	},
+    	"duque-de-pastrana": {
+    		"name": "Duque de Pastrana",
+    		"nestoria_code": "duque-de-pastrana"
+    	},
+    	"pio-xii": {
+    		"name": "Pío XII",
+    		"nestoria_code": "pio-xii_1"
+    	},
+    	"mirasierra": {
+    		"name": "Mirasierra",
+    		"nestoria_code": "mirasierra"
+    	},
+    	"campo-de-las-naciones": {
+    		"name": "Campo de la Naciones",
+    		"nestoria_code": "campo-de-las-naciones"
+    	},
+    	"pinar-del-rey": {
+    		"name": "Pinar del Rey",
+    		"nestoria_code": "pinar-del-rey"
+    	},
+    	"colombia": {
+    		"name": "Colombia",
+    		"nestoria_code": "colombia"
+    	},
+    	"barajas": {
+    		"name": "Barajas",
+    		"nestoria_code": "barajas_madrid"
+    	},
+        "las-musas": {
+            "name": "Las Musas", 
+            "nestoria_code": "las-musas"
+        },
+        "estadio-olimpico": {
+            "name": "Estadio Olímpico", 
+            "nestoria_code": "estadio-olimpico"
+        },
+        "san-blas": {
+            "name": "San Blas", 
+            "nestoria_code": "san-blas_madrid-1"
+        },
+        "ascao": {
+            "name": "Ascao", 
+            "nestoria_code": "ascao"
+        },
+        "simancas": {
+            "name": "Simancas", 
+            "nestoria_code": "simancas_madrid"
+        },
+        "garcia-noblejas": {
+            "name": "García Noblejas", 
+            "nestoria_code": "garcia-noblejas"
+        },
+        "barrio-de-la-concepcion": {
+            "name": "Barrio de la Concepción", 
+            "nestoria_code": "concepcion_madrid"
+        },
+        "gregorio-maranon": {
+            "name": "Gregorio Marañón", 
+            "nestoria_code": "gregorio-maranon"
+        },
+        "parque-de-la-avenidas": {
+            "name": "Parque de las Avenidas", 
+            "nestoria_code": "parque-de-la-avenidas"
+        },
+        "cartagena": {
+            "name": "Cartagena", 
+            "nestoria_code": "cartagena_madrid"
+        },
+        "islas-filipinas": {
+            "name": "Islas Filipinas", 
+            "nestoria_code": "islas-filipinas"
+        },
+        "alonso-cano": {
+            "name": "Alonso Cano", 
+            "nestoria_code": "alonso-cano"
+        },
+        "valdezarza": {
+            "name": "Valdezarza", 
+            "nestoria_code": "valdezarza"
+        },
+        "francos-rodriguez": {
+            "name": "Francos Rodríguez", 
+            "nestoria_code": "francos-rodriguez"
+        },
+        "pitis": {
+            "name": "Pitis", 
+            "nestoria_code": "pitis"
+        },
+        "avenida-de-la-ilustracion": {
+            "name": "Avenida de la Ilustración", 
+            "nestoria_code": "avenida-de-la-ilustracion"
+        },
+        "penagrande": {
+            "name": "Peñagrande", 
+            "nestoria_code": "penagrande"
+        },
+        "antonio-machado": {
+            "name": "Antonio Machado", 
+            "nestoria_code": "antonio-machado"
+        },
+        "lacoma": {
+            "name": "Lacoma", 
+            "nestoria_code": "lacoma"
+        },
+        "guzman-el-bueno": {
+            "name": "Guzmán el Bueno", 
+            "nestoria_code": "guzman-el-bueno"
+        },
+        "metropolitano": {
+            "name": "Metropolitano", 
+            "nestoria_code": "metropolitano"
+        },
+        "ciudad-universitaria": {
+            "name": "Ciudad Universitaria", 
+            "nestoria_code": "ciudad-universitaria_madrid"
+        },
+        "carpetana": {
+            "name": "Carpetana", 
+            "nestoria_code": "carpetana"
+        },
+        "lucero": {
+            "name": "Lucero", 
+            "nestoria_code": "lucero"
+        },
+        "alto-de-extremadura": {
+            "name": "Alto de Extremadura", 
+            "nestoria_code": "alto-de-extremadura"
+        },
+        "puerta-del-angel": {
+            "name": "Puerta del Ángel", 
+            "nestoria_code": "puerta-del-angel"
+        },
+        "principe-pio": {
+            "name": "Príncipe Pío", 
+            "nestoria_code": "principe-pio"
+        },
+        "usera": {
+            "name": "Usera", 
+            "nestoria_code": "usera"
+        },
+        "plaza-eliptica": {
+            "name": "Plaza Elíptica", 
+            "nestoria_code": "plaza-eliptica"
+        },
+        "opanel": {
+            "name": "Opañel", 
+            "nestoria_code": "opanel"
+        },
+        "arganzuela-planetario": {
+            "name": "Arganzuela-Planetario", 
+            "nestoria_code": "arganzuela-planetario"
+        },
+		"mendez-alvaro": {
+            "name": "Méndez Álvaro", 
+            "nestoria_code": "mendez-alvaro"
+        },
+		"conde-de-casal": {
+            "name": "Conde de Casal", 
+            "nestoria_code": "conde-de-casal"
+        },
+		"sainz-de-baranda": {
+            "name": "Sainz de Baranda", 
+            "nestoria_code": "sainz-de-baranda"
+        },
+		"odonnell": {
+            "name": "O'Donnell", 
+            "nestoria_code": "o-donnell"
+        },
+		"republica-argentina": {
+            "name": "República Argentina", 
+            "nestoria_code": "republica-argentina_1"
+        },
+		"nuevos-ministerios": {
+            "name": "Nuevos Ministerios", 
+            "nestoria_code": "nuevos-ministerios"
+        },
+        "oporto": {
+            "name": "Oporto", 
+            "nestoria_code": "oporto_madrid"
+        },
+        "aluche": {
+            "name": "Aluche", 
+            "nestoria_code": "aluche"
+        },
+        "empalme": {
+            "name": "Empalme", 
+            "nestoria_code": "empalme_madrid"
+        },
+        "campamento": {
+            "name": "Campamento", 
+            "nestoria_code": "campamento_madrid"
+        },
+        "casa-de-campo": {
+            "name": "Casa de Campo", 
+            "nestoria_code": "casa-de-campo"
+        },
+        "eugenia-de-montijo": {
+            "name": "Eugenia de Montijo", 
+            "nestoria_code": "eugenia-de-montijo"
+        },
+        "carabanchel": {
+            "name": "Carabanchel", 
+            "nestoria_code": "carabanchel"
+        },
+        "vista-alegre": {
+            "name": "Vista Alegre", 
+            "nestoria_code": "vista-alegre_madrid-1"
+        },
+		"piramides": {
+            "name": "Pirámides", 
+            "nestoria_code": "piramides"
+        },
+        "urgel": {
+            "name": "Urgel", 
+            "nestoria_code": "urgel"
+        },
+        "marques-de-vadillo": {
+            "name": "Marqués de Vadillo", 
+            "nestoria_code": "marques-de-vadillo"
+        },
+    	"acacias": {
+            "name": "Acacias", 
+            "nestoria_code": "acacias_madrid"
+        },
+		"puerta-de-toledo": {
+            "name": "Puerta de Toledo", 
+            "nestoria_code": "puerta-de-toledo"
+        },
+        "la-latina": {
+            "name": "La Latina", 
+            "nestoria_code": "la-latina_madrid"
+        },
+        "alameda-de-osuna": {
+            "name": "Alameda de Osuna", 
+            "nestoria_code": "alameda-de-osuna"
+        },
+        "el-capricho": {
+            "name": "El Capricho", 
+            "nestoria_code": "el-capricho"
+        },
+        "canillejas": {
+            "name": "Canillejas", 
+            "nestoria_code": "canillejas"
+        },
+        "torre-arias": {
+            "name": "Torre Arias", 
+            "nestoria_code": "torre-arias"
+        },
+        "suanzes": {
+            "name": "Suanzes", 
+            "nestoria_code": "suanzes"
+        },
+        "ciudad-lineal": {
+            "name": "Ciudad Lineal", 
+            "nestoria_code": "ciudad-lineal"
+        },
+        "pueblo-nuevo": {
+            "name": "Pueblo Neuvo", 
+            "nestoria_code": "pueblo-nuevo_madrid"
+        },
+        "el-carmen": {
+            "name": "El Carmen", 
+            "nestoria_code": "el-carmen"
+        },
+        "nunez-de-balboa": {
+            "name": "Núñez de Balboa", 
+            "nestoria_code": "nunez-de-balboa"
+        },
+        "ruben-dario": {
+            "name": "Rubén Darío", 
+            "nestoria_code": "ruben-dario"
+        },
+        "chueca": {
+            "name": "Chueca", 
+            "nestoria_code": "chueca_madrid-1"
+        },
+    	"prosperidad": {
+            "name": "Prosperidad", 
+            "nestoria_code": "prosperidad"
+        },
+    	"alfonso-xiii": {
+            "name": "Alfonso XIII", 
+            "nestoria_code": "alfonso-xiii_madrid"
+        },
+    	"pinar-de-chamartin": {
+            "name": "Pinar de Chamartín", 
+            "nestoria_code": "pinar-de-chamartin"
+        },
+    	"bambu": {
+            "name": "Bambú", 
+            "nestoria_code": "bambu"
+        },
+    	"chamartin": {
+            "name": "Chamartín", 
+            "nestoria_code": "chamartin"
+        },
+    	"plaza-de-castilla": {
+            "name": "Plaza de Castilla", 
+            "nestoria_code": "plaza-de-castilla"
+        },
+    	"valdeacederas": {
+            "name": "Valdeacederas", 
+            "nestoria_code": "valdeacederas"
+        },
+    	"tetuan": {
+            "name": "Tetuán", 
+            "nestoria_code": "tetuan_madrid-2"
+        },
+    	"estrecho": {
+            "name": "Estrecho", 
+            "nestoria_code": "estrecho"
+        },
+    	"alvarado": {
+            "name": "Alvarado", 
+            "nestoria_code": "alvarado_madrid"
+        },
+    	"cuatro-caminos": {
+            "name": "Cuatro Caminos", 
+            "nestoria_code": "cuatro-caminos"
+        },
+    	"rios-rosas": {
+            "name": "Ríos Rosas", 
+            "nestoria_code": "rios-rosas"
+        },
+    	"iglesia": {
+            "name": "Iglesia", 
+            "nestoria_code": "iglesia_madrid"
+        },
+    	"bilbao": {
+            "name": "Bilbao", 
+            "nestoria_code": "bilbao_madrid"
+        },
+    	"tribunal": {
+            "name": "Tribunal", 
+            "nestoria_code": "tribunal"
+        },
+    	"gran-via": {
+            "name": "Gran Vía", 
+            "nestoria_code": "gran-via"
+        },
+    	"sol": {
+            "name": "Sol", 
+            "nestoria_code": "sol"
+        },
+    	"tirso-de-molina": {
+            "name": "Tirso de Molina", 
+            "nestoria_code": "tirso-de-molina"
+        },
+    	"anton-martin": {
+            "name": "Antón Martín", 
+            "nestoria_code": "anton-martin"
+        },
+    	"atocha": {
+            "name": "Atocha", 
+            "nestoria_code": "atocha"
+        },
+    	"atocha-renfe": {
+            "name": "Atocha Renfe", 
+            "nestoria_code": "atocha-renfe"
+        },
+    	"menendez-pelayo": {
+            "name": "Menéndez Pelayo", 
+            "nestoria_code": "menendez-pelayo"
+        },
+    	"pacifico": {
+            "name": "Pacífico", 
+            "nestoria_code": "pacifico"
+        },
+    	"puente-de-vallecas": {
+            "name": "Puente de Vallecas", 
+            "nestoria_code": "puente-de-vallecas"
+        },
+    	"nueva-numancia": {
+            "name": "Nueva Numancia", 
+            "nestoria_code": "nueva-numancia"
+        },
+    	"portazgo": {
+            "name": "Portazgo", 
+            "nestoria_code": "portazgo_madrid-1"
+        },
+    	"buenos-aires": {
+            "name": "Buenos Aires", 
+            "nestoria_code": "buenos-aires_madrid-1"
+        },
+    	"alto-del-arenal": {
+            "name": "Alto del Arenal", 
+            "nestoria_code": "alto-del-arenal"
+        },
+    	"miguel-hernandez": {
+            "name": "Miguel Hernández", 
+            "nestoria_code": "miguel-hernandez"
+        },
+    	"sierra-de-guadalupe": {
+            "name": "Sierra de Guadalupe", 
+            "nestoria_code": "sierra-de-guadalupe"
+        },
+    	"villa-de-vallecas": {
+            "name": "Villa de Vallecas", 
+            "nestoria_code": "villa-de-vallecas"
+        },
+    	"congosto": {
+            "name": "Congosto", 
+            "nestoria_code": "congosto_madrid"
+        },
+    	"la-gavia": {
+            "name": "La Gavia", 
+            "nestoria_code": "la-gavia_madrid"
+        },
+    	"las-suertes": {
+            "name": "Las Suertes", 
+            "nestoria_code": "las-suertes_madrid"
+        },
+    	"valdecarros": {
+            "name": "Valdecarros", 
+            "nestoria_code": "valdecarros_madrid"
+        },
+    	"las-rosas": {
+            "name": "Las Rosas", 
+            "nestoria_code": "las-rosas_madrid"
+        },
+    	"avenida-de-guadalajara": {
+            "name": "Avenida de Guadalajara", 
+            "nestoria_code": "avenida-de-guadalajara"
+        },
+    	"alsacia": {
+            "name": "Alsacia", 
+            "nestoria_code": "alsacia"
+        },
+    	"la-almudena": {
+            "name": "La Almudena", 
+            "nestoria_code": "la-almudena"
+        },
+    	"canal": {
+            "name": "Canal", 
+            "nestoria_code": "canal_madrid"
+        },
+    	"quevedo": {
+            "name": "Quevedo", 
+            "nestoria_code": "quevedo"
+        },
+    	"san-bernardo": {
+            "name": "San Bernardo", 
+            "nestoria_code": "san-bernardo_madrid"
+        },
+    	"noviciado": {
+            "name": "Noviciado", 
+            "nestoria_code": "noviciado"
+        },
+    	"santo-domingo": {
+            "name": "Santo Domingo", 
+            "nestoria_code": "santo-domingo_madrid"
+        },
+    	"opera": {
+            "name": "Ópera", 
+            "nestoria_code": "opera"
+        },
+    	"sevilla": {
+            "name": "Sevilla", 
+            "nestoria_code": "sevilla_madrid"
+        },
+    	"banco-de-espana": {
+            "name": "Banco de España", 
+            "nestoria_code": "banco-de-espana"
+        },
+    	"retiro": {
+            "name": "Retiro", 
+            "nestoria_code": "retiro"
+        },
+    	"principe-de-vergara": {
+            "name": "Príncipe de Vergara", 
+            "nestoria_code": "principe-de-vergara"
+        },
+    	"goya": {
+            "name": "Goya", 
+            "nestoria_code": "goya"
+        },
+    	"manuel-becerra": {
+            "name": "Manuel Becerra", 
+            "nestoria_code": "manuel-becerra"
+        },
+    	"ventas": {
+            "name": "Ventas", 
+            "nestoria_code": "ventas_madrid"
+        },
+    	"la-elipa": {
+            "name": "La Elipa", 
+            "nestoria_code": "la-elipa"
+        },
+    	"moncloa": {
+            "name": "Moncloa", 
+            "nestoria_code": "moncloa"
+        },
+    	"arguelles": {
+            "name": "Argüelles", 
+            "nestoria_code": "arguelles_madrid-1"
+        },
+    	"ventura-rodriguez": {
+            "name": "Ventura Rodríguez", 
+            "nestoria_code": "ventura-rodriguez"
+        },
+    	"plaza-de-espana": {
+            "name": "Plaza de España", 
+            "nestoria_code": "plaza-de-espana"
+        },
+    	"callao": {
+            "name": "Callao", 
+            "nestoria_code": "callao"
+        },
+    	"lavapies": {
+            "name": "Lavapiés", 
+            "nestoria_code": "lavapies_madrid-1"
+        },
+    	"embajadores": {
+            "name": "Embajadores", 
+            "nestoria_code": "embajadores"
+        },
+    	"palos-de-la-frontera": {
+            "name": "Palos de la Frontera", 
+            "nestoria_code": "palos-de-la-frontera_madrid"
+        },
+    	"delicias": {
+            "name": "Delicias", 
+            "nestoria_code": "delicias_madrid"
+        },
+    	"legazpi": {
+            "name": "Legazpi", 
+            "nestoria_code": "legazpi"
+        },
+    	"almendrales": {
+            "name": "Almendrales", 
+            "nestoria_code": "almendrales_madrid-1"
+        },
+    	"hospital-12-de-octubre": {
+            "name": "Hospital 12 de Octubre", 
+            "nestoria_code": "hospital-12-de-octubre"
+        },
+    	"san-fermin-orcasur": {
+            "name": "San Fermín-Orcasur", 
+            "nestoria_code": "san-fermin-orcasur"
+        },
+    	"ciudad-de-los-angeles": {
+            "name": "Ciudad de los Ángeles", 
+            "nestoria_code": "ciudad-de-los-angeles"
+        },
+    	"villaverde-bajo-cruce": {
+            "name": "Villaverde Bajo-Cruce", 
+            "nestoria_code": "villaverde-bajo-cruce"
+        },
+    	"san-cristobal": {
+            "name": "San Cristóbal", 
+            "nestoria_code": "san-cristobal_madrid-1"
+        },
+    	"villaverde-alto": {
+            "name": "Villaverde Alto", 
+            "nestoria_code": "villaverde-alto"
+        },
+    	"alonso-martinez": {
+            "name": "Alonso Martínez", 
+            "nestoria_code": "alonso-martinez_1"
+        },
+    	"serrano": {
+            "name": "Serrano", 
+            "nestoria_code": "serrano"
+        },
+    	"velazquez": {
+            "name": "Velázquez", 
+            "nestoria_code": "velazquez_madrid"
+        },
+    	"lista": {
+            "name": "Lista", 
+            "nestoria_code": "lista"
+        },
+    	"diego-de-leon": {
+            "name": "Diego de León", 
+            "nestoria_code": "diego-de-leon"
+        },
+    	"colon": {
+            "name": "Colón", 
+            "nestoria_code": "colon_1"
+        },
+    	"avenida-de-america": {
+            "name": "Avenida de América", 
+            "nestoria_code": "avenida-de-america"
+        },
+    	"la-prosperidad": {
+            "name": "Prosperidad", 
+            "nestoria_code": "prosperidad"
+        },
+    	"avenida-de-la-paz": {
+            "name": "Avenida de la Paz", 
+            "nestoria_code": "avenida-de-la-paz"
+        },
+    	"arturo-soria": {
+            "name": "Arturo Soria", 
+            "nestoria_code": "arturo-soria"
+        },
+    	"esperanza": {
+            "name": "Esperanza", 
+            "nestoria_code": "esperanza_madrid"
+        },
+    	"canillas": {
+            "name": "Canillas", 
+            "nestoria_code": "canillas"
+        },
+    	"mar-de-cristal": {
+            "name": "Mar de Cristal", 
+            "nestoria_code": "mar-de-cristal_madrid"
+        },
+    	"san-lorenzo": {
+            "name": "San Lorenzo", 
+            "nestoria_code": "san-lorenzo_madrid"
+        },
+    	"parque-de-santa-maria": {
+            "name": "Parque de Santa María", 
+            "nestoria_code": "parque-de-santa-maria"
+        },
+    	"hortaleza": {
+            "name": "Hortaleza", 
+            "nestoria_code": "hortaleza"
+        },
+    	"manoteras": {
+            "name": "Manoteras", 
+            "nestoria_code": "manoteras"
+        }
+    }
+}

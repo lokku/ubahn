@@ -1,5 +1,5 @@
 {
-    "api": "http://api.nestoria.com.br/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "api": "http://api.nestoria.com.br/api?country=br&pretty=0&action=metadata&encoding=json&place_name=", 
     "category_field": "num_beds",
     "metadata_suffix":"buy_monthly",
     "country": "Brazil", 
@@ -112,7 +112,7 @@
 		},
     	"portuguesa-tiete": {
 			"name": "Portuguesa-Tietê",
-			"nestoria_code": "rua-eudoro-lemos"
+			"nestoria_code": "portuguesa-tiete"
 		},
     	"armenia": {
 			"name": "Armênia",
@@ -184,11 +184,11 @@
 		},
     	"sumare": {
 			"name": "Sumaré",
-			"nestoria_code": "vila-madalena"
+			"nestoria_code": "sumare_sao-paulo"
 		},
     	"clinicas": {
 			"name": "Clínicas",
-			"nestoria_code": "vila-madalena"
+			"nestoria_code": "clinicas"
 		},
     	"consolacao": {
 			"name": "Consolação",
@@ -196,19 +196,19 @@
 		},
     	"trianon-masp": {
 			"name": "Trianon Masp",
-			"nestoria_code": "vila-madalena"
+			"nestoria_code": "trianon-masp"
 		},
     	"saude": {
-			"name": "Brigadeiro",
+			"name": "Saúde",
 			"nestoria_code": "saude"
 		},
     	"chacara-klabin": {
 			"name": "Chácara Klabin",
 			"nestoria_code": "chacara-klabin"
 		},
-    	"saude": {
+    	"santos-imigrantes": {
 			"name": "Santos-Imigrantes",
-			"nestoria_code": "vila-madalena"
+			"nestoria_code": "santos-imigrantes"
 		},
     	"alto-do-ipiranga": {
 			"name": "Alto do Ipiranga",
@@ -220,7 +220,7 @@
 		},
     	"tamanduatei": {
 			"name": "Tamanduateí",
-			"nestoria_code": "vila-madalena"
+			"nestoria_code": "tamanduatei"
 		},
     	"vila-prudente": {
 			"name": "Vila Prudente",
@@ -228,11 +228,11 @@
 		},
     	"palmeiras-barra-funda": {
 			"name": "Palmeiras-Barra Funda",
-			"nestoria_code": "santa-cecilia"
+			"nestoria_code": "palmeiras-barra-funda"
 		},
 		"marechal-deodoro": {
 			"name": "Marechal Deodoro",
-			"nestoria_code": "santa-cecilia"
+			"nestoria_code": "marechal-deodoro_sao-paulo"
 		},
 		"santa-cecilia": {
 			"name": "Santa Cecília",
@@ -244,11 +244,11 @@
 		},
 		"anhangabau": {
 			"name": "Anhangabaú",
-			"nestoria_code": "santa-cecilia"
+			"nestoria_code": "anhangabau_1"
 		},
 		"pedro-ii": {
 			"name": "Pedro II",
-			"nestoria_code": "santa-cecilia"
+			"nestoria_code": "pedro-ii_sao-paulo"
 		},
 		"bras": {
 			"name": "Brás",
@@ -257,6 +257,10 @@
 		"bresser": {
 			"name": "Bresser-Mooca",
 			"nestoria_code": "bresser"
+		},
+		"penha": {
+			"name": "Penha",
+			"nestoria_code": "penha-de-franca"
 		},
 		"belem": {
 			"name": "Belém",
@@ -268,11 +272,7 @@
 		},
 		"carrao": {
 			"name": "Carrão",
-			"nestoria_code": "tatuape"
-		},
-		"penha": {
-			"name": "Penha",
-			"nestoria_code": "santa-cecilia"
+			"nestoria_code": "carrao"
 		},
 		"vila-matilde": {
 			"name": "Vila Matilde",
@@ -293,6 +293,6 @@
 		"corinthians-itaquera": {
 			"name": "Corinthians-Itaquera",
 			"nestoria_code": "itaquera"
-		},
+		}
 	}
 }

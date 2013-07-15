@@ -7,19 +7,19 @@ var eu_sqm_category_text = function(price,cat){
 }
 
 window.cities = [
-	{ 'key': 'barcelona', 'name': 'Barcelona (wait-gl)' },
+	{ 'key': 'barcelona', 'name': 'Barcelona' },
 	{ 'key': 'berlin', 'name': 'Berlin', 'categoryText' : eu_sqm_category_text },
 	{ 'key': 'chennai', 'name': 'Chennai (To do)' },
 	{ 'key': 'hamburg', 'name': 'Hamburg' },
 	{ 'key': 'kolkata', 'name': 'Kolkata (To do)' },
 	{ 'key' :'london', 'name': 'London' },
-	{ 'key': 'madrid', 'name': 'Madrid (To do)' },
+	{ 'key': 'madrid', 'name': 'Madrid (in progress)' },
 	{ 'key': 'melbourne', 'name': 'Melbourne' },
 	{ 'key': 'mumbai', 'name': 'Mumbai (To do)' },
 	{ 'key': 'munich', 'name': 'Munich' },
-	{ 'key': 'new_dehli', 'name': 'New Dehli (To do)' },
-	{ 'key': 'paris', 'name': 'Paris (To do)' },
-	{ 'key': 'rio', 'name': 'Rio de Janeiro (To do)' },
+	{ 'key': 'new_delhi', 'name': 'New Dehli (To do)' },
+	{ 'key': 'paris', 'name': 'Paris' },
+	{ 'key': 'rio_de_janeiro', 'name': 'Rio de Janeiro (in progress)' },
 	{ 'key': 'rome', 'name': 'Rome' },
 	{ 'key': 'sao_paulo', 'name': 'Sao Paulo' }
 ]
