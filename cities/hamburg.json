@@ -1,7 +1,7 @@
 {
     "api": "http://api.nestoria.de/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
-    "category_field": "num_beds",
-    "metadata_suffix":"buy_monthly",
+    "category_field": "num_rooms",
+    "metadata_suffix":"room_property_buy_monthly",
     "country": "Germany", 
     "currency": "EU",
     "pricerange": 4000000,
