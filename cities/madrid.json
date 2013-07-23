@@ -552,7 +552,7 @@
         },
         "san-blas": {
             "name": "San Blas", 
-            "nestoria_code": "san-blas_madrid-1"
+            "nestoria_code": "san-blas_madrid-2"
         },
         "ascao": {
             "name": "Ascao", 
@@ -560,7 +560,7 @@
         },
         "simancas": {
             "name": "Simancas", 
-            "nestoria_code": "simancas_madrid"
+            "nestoria_code": "simancas_madrid-1"
         },
         "garcia-noblejas": {
             "name": "García Noblejas", 
@@ -576,7 +576,7 @@
         },
         "parque-de-la-avenidas": {
             "name": "Parque de las Avenidas", 
-            "nestoria_code": "parque-de-la-avenidas"
+            "nestoria_code": "parque-de-las-avenidas"
         },
         "cartagena": {
             "name": "Cartagena", 
@@ -628,7 +628,7 @@
         },
         "ciudad-universitaria": {
             "name": "Ciudad Universitaria", 
-            "nestoria_code": "ciudad-universitaria_madrid"
+            "nestoria_code": "ciudad-universitaria"
         },
         "carpetana": {
             "name": "Carpetana", 
@@ -744,7 +744,7 @@
         },
         "la-latina": {
             "name": "La Latina", 
-            "nestoria_code": "la-latina_madrid"
+            "nestoria_code": "la-latina-metro-de-madrid"
         },
         "alameda-de-osuna": {
             "name": "Alameda de Osuna", 
@@ -1036,7 +1036,7 @@
         },
     	"delicias": {
             "name": "Delicias", 
-            "nestoria_code": "delicias_madrid"
+            "nestoria_code": "delicias"
         },
     	"legazpi": {
             "name": "Legazpi", 

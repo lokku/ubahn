@@ -19,6 +19,7 @@
 				"portuguesa-tiete",
 				"armenia",
 				"tiradentes",
+				"luz",
 				"sao-bento",
 				"se",
 				"liberdade",
@@ -90,6 +91,10 @@
     "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
     "recency": "most_recent_month", 
     "stations": {
+    	"luz": {
+			"name": "Luz",
+			"nestoria_code": "luz_sao-paulo"
+		},
     	"tucuruvi": {
 			"name": "Tucuruvi",
 			"nestoria_code": "tucuruvi"
@@ -152,7 +157,7 @@
 		},
     	"vila-mariana_sao-paulo-1": {
 			"name": "Vila Mariana",
-			"nestoria_code": "vila-mariana_sao-paulo-1"
+			"nestoria_code": "vila-mariana_sao-paulo"
 		},
     	"santa-cruz_sao-paulo": {
 			"name": "Santa Cruz",

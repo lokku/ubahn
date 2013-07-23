@@ -1,5 +1,5 @@
 {
-    "api": "http://api.nestoria.in/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "api": "http://api.nestoria.in/api?country=in&pretty=0&action=metadata&encoding=json&place_name=", 
     "category_field": "num_beds",
     "metadata_suffix":"buy_monthly",
     "country": "India", 
@@ -7,28 +7,48 @@
     "pricerange": 4000000,
     "lines": [
         {
-            "background-color": "#0A79EA", 
+            "background-color": "#be2d2c", 
             "color": "white", 
             "name": "Line 1", 
             "stations": [
-                "footscray",
-                "kensington_melbourne",
-				"parkville",
-				"melbourne-cbd",
-				"south-yarra"
+                "washermanpet",
+                "mannadi",
+				"high-court",
+				"chennai-central",
+				"government-estate",
+				"thousand-lights",
+				"gemini",
+				"teynampet",
+				"saidapet",
+				"guindy",
+				"alandur",
+				"meenambakkam",
+				"chennai-airport"
                 
             ]
         },
         {
-            "background-color": "#FF0000", 
+            "background-color": "#90bade", 
             "color": "white", 
             "name": "Line 2", 
             "stations": [
-                "footscray",
-                "kensington_melbourne",
-				"parkville",
-				"melbourne-cbd",
-				"south-yarra"
+				"chennai-central",
+				"egmore",
+				"nehru-park",
+				"kilpauk",
+				"aminjikarai",
+				"shenoy-nagar",
+				"anna-nagar",
+				"anna-nagar-tower",
+				"tirumangalam",
+                "koyambedu",
+                "arumbakkam",
+                "vadapalani",
+                "ashok-nagar",
+                "k-k-nagar",
+                "sidco",
+                "alandur",
+                "st-thomas-mount"
                 
             ]
         }
@@ -38,145 +58,117 @@
     "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
     "recency": "most_recent_month", 
     "stations": {
+    	"anna-nagar-tower": {
+			"name": "Tower",
+			"nestoria_code": "anna-nagar-tower"
+		},
     	"washermanpet": {
 			"name": "Washermanpet",
 			"nestoria_code": "washermanpet"
 		},
-		"mannady": {
+		"mannadi": {
 			"name": "Mannadi",
 			"nestoria_code": "mannady"
 		},
-		"parkville": {
+		"high-court": {
 			"name": "High Court",
-			"nestoria_code": "parkville"
+			"nestoria_code": "high-court-road"
 		},
-		"melbourne-cbd": {
+		"chennai-central": {
 			"name": "Chennai Central",
-			"nestoria_code": "melbourne-cbd"
+			"nestoria_code": "chennai-central"
 		},
-		"south-yarra": {
+		"government-estate": {
 			"name": "Government Estate",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "government-place"
 		},
-		"south-yarra": {
-			"name": "LIC Building",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"thousand-lights": {
 			"name": "Thousand Lights",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "thousand-lights"
 		},
-		"south-yarra": {
+		"gemini": {
 			"name": "Gemini",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "gemini"
 		},
-		"south-yarra": {
+		"teynampet": {
 			"name": "Teynampet",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "teynampet"
 		},
-		"south-yarra": {
-			"name": "Chamier's Road",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"saidapet": {
 			"name": "Saidapet",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "saidapet"
 		},
-		"south-yarra": {
-			"name": "Velachari Road",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"guindy": {
 			"name": "Guindy",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "guindy"
 		},
-		"south-yarra": {
+		"alandur": {
 			"name": "Alandur",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "alandur"
 		},
-		"south-yarra": {
-			"name": "Training Academy",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
-			"name": "Airlines Colony",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"meenambakkam": {
 			"name": "Meenambakkam",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "meenambakkam"
 		},
-		"south-yarra": {
+		"chennai-airport": {
 			"name": "Chennai Airport",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "airport-flyover_chennai"
 		},
-		"south-yarra": {
+		"egmore": {
 			"name": "Egmore",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "egmore"
 		},
-		"south-yarra": {
+		"nehru-park": {
 			"name": "Nehru Park",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "nehru-park"
 		},
-		"south-yarra": {
-			"name": "Kilpauk Medical Clg",
-			"nestoria_code": "south-yarra"
+		"kilpauk": {
+			"name": "Kilpauk",
+			"nestoria_code": "kilpauk"
 		},
-		"south-yarra": {
+		"aminjikarai": {
 			"name": "Aminjikarai",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "aminjikarai"
 		},
-		"south-yarra": {
+		"shenoy-nagar": {
 			"name": "Shenoy Nagar",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "shenoy-nagar"
 		},
-		"south-yarra": {
-			"name": "Tower",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
-			"name": "Anna Nagar East",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"anna-nagar": {
 			"name": "Anna Nagar",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "anna-nagar"
 		},
-		"south-yarra": {
+		"tirumangalam": {
 			"name": "Tirumangalam",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "tirumangalam"
 		},
-		"south-yarra": {
+		"koyambedu": {
 			"name": "Koyambedu",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "koyambedu"
 		},
-		"south-yarra": {
-			"name": "OMBT",
-			"nestoria_code": "south-yarra"
-		},
-		"south-yarra": {
+		"arumbakkam": {
 			"name": "Arumbakkam",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "arumbakkam"
 		},
-		"south-yarra": {
+		"vadapalani": {
 			"name": "Vadapalani",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "vadapalani"
 		},
-		"south-yarra": {
+		"ashok-nagar": {
 			"name": "Ashok Nagar",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "ashok-nagar_chennai-1"
 		},
-		"south-yarra": {
+		"k-k-nagar": {
 			"name": "K K Nagar",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "kk-nagar"
 		},
-		"south-yarra": {
+		"sidco": {
 			"name": "SIDCO",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "sidco-main-rd"
 		},
-		"south-yarra": {
+		"st-thomas-mount": {
 			"name": "St. Thomas Mount",
-			"nestoria_code": "south-yarra"
+			"nestoria_code": "parangimalai"
 		}
 	}
 }

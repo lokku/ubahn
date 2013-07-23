@@ -1,0 +1,656 @@
+{
+    "api": "http://api.nestoria.in/api?country=in&pretty=0&action=metadata&encoding=json&place_name=", 
+    "category_field": "num_beds",
+    "metadata_suffix":"buy_monthly",
+    "country": "India", 
+    "currency": "RS",
+    "pricerange": 4000000,
+    "lines": [
+        {
+            "background-color": "#990000", 
+            "color": "white", 
+            "name": "Red Line", 
+            "stations": [
+                "dilshad-garden",
+                "jhilmil",
+                "mansarovar-park",
+                "shahdara",
+                "welcome",
+                "seelampur",
+                "shastri-park",
+                "kashmere-gate",
+                "tis-hazari",
+                "pul-bangash",
+                "pratap-nagar",
+                "shastri-nagar",
+                "inderlok",
+                "kanhiya-nagar",
+                "keshav-puram",
+                "netaji",
+                "kohat-enclave",
+                "pitam-pura",
+                "rohini",
+                "rithala"
+                
+            ]
+        },
+        {
+            "background-color": "#ffcc00", 
+            "color": "black", 
+            "name": "Yellow Line", 
+            "stations": [
+                "jahangirpuri",
+                "adarsh-nagar",
+                "azadpur",
+                "model-town",
+                "gtb-nagar",
+                "vishwa-vidyalaya",
+                "vidhan-sabha",
+                "civil-lines",
+                "kashmere-gate",
+                "chandni-chowk",
+                "chawri-bazar",
+                "new-delhi-railway-station",
+                "rajiv-chowk",
+                "patel-chowk",
+                "central-secretariat",
+                "udyog-bhawan",
+                "race-course",
+                "jor-bagh",
+                "ina",
+                "aiims",
+                "green-park",
+                "hauz-khas",
+                "malviya-nagar",
+                "saket",
+                "qutub-minar",
+                "chhatarpur",
+                "sultanpur",
+                "ghitorni",
+                "arjan-garh",
+                "guru-dronacharya",
+                "sikandarpur",
+                "mg-road",
+                "iffco-chowk",
+                "huda-city-centre"
+                
+            ]
+        },
+        {
+            "background-color": "#0099CC", 
+            "color": "white", 
+            "name": "Blue Line", 
+            "stations": [
+                "noida-city-centre",
+                "noida-golf-course",
+                "botanical-garden",
+                "noida-city-centre",
+                "new-ashok-nagar",
+                "mayur-vihar",
+                "akshardham",
+                "yamuna-bank",
+                "indraprastha",
+                "pragati-maidan",
+                "mandi-house",
+                "barakhambha-road",
+                "rajiv-chowk",
+                "ramakrishna-ashram-marg",
+                "jhandewalan",
+                "karol-bagh",
+                "rajendra-place",
+                "patel-nagar",
+                "shadipur",
+                "kirti-nagar",
+                "moti-nagar",
+                "ramesh-nagar",
+                "rajouri-garden",
+                "tagore-garden",
+                "subhash-nagar",
+                "tilak-nagar",
+                "janakpuri",
+                "uttam-nagar",
+                "nawada",
+                "dwarka"
+                
+            ]
+        },
+        {
+            "background-color": "#339900", 
+            "color": "white", 
+            "name": "Green Line", 
+            "stations": [
+                "inderlok",
+                "ashok-park-main",
+                "punjabi-bagh",
+                "shivaji-park",
+                "madipur",
+                "paschim-vihar",
+                "peera-garhi",
+                "udyog-nagar",
+                "surajmal-stadium",
+                "nangloi",
+                "rajdhani-park",
+                "mundka"
+                
+            ]
+        },
+        {
+            "background-color": "#9400D3", 
+            "color": "white", 
+            "name": "Violet Line", 
+            "stations": [
+                "kashmere-gate",
+                "jama-masjid",
+                "mandi-house",
+                "janpath",
+                "central-secretariat",
+                "khan-market",
+                "jawaharlal-nehru-stadium",
+                "jangpura",
+                "lajpat-nagar",
+                "moolchand",
+                "kailash-colony",
+                "nehru-place",
+                "kalkaji",
+                "govind-puri",
+                "okhla",
+                "jasola-apollo",
+                "sarita-vihar",
+                "mohan-estate",
+                "tughlakabad",
+                "badarpur"
+                
+            ]
+        }
+        
+    ], 
+    "name": "New Delhi", 
+    "pin": "http://3.s.uk.nestoria.nestimg.com/i/realestate/uk/en/g/lt.png", 
+    "recency": "most_recent_month", 
+    "stations": {
+    	"janpath": {
+    		"name": "Janpath",
+			"nestoria_code": "janpath"
+    	},
+    	"jama-masjid": {
+    		"name": "Jama Masjid",
+			"nestoria_code": "jama-masjid"
+    	},
+    	"adarsh-nagar": {
+			"name": "Adarsh Nagar",
+			"nestoria_code": "adarsh-nagar_delhi"
+		},
+		"aiims": {
+			"name": "AIIMS",
+			"nestoria_code": "aiims"
+		},
+		"akshardham": {
+			"name": "Akshardham",
+			"nestoria_code": "akshardham"
+		},
+		"anand-vihar": {
+			"name": "Anand Vihar",
+			"nestoria_code": "anand-vihar_delhi"
+		},
+		"arjan-garh": {
+			"name": "Arjan Garh",
+			"nestoria_code": "arjan-garh"
+		},
+		"ashok-park-main": {
+			"name": "Ashok Park Main",
+			"nestoria_code": "ashok-park-main"
+		},
+		"azadpur": {
+			"name": "Azadpur",
+			"nestoria_code": "azadpur"
+		},
+		"badarpur": {
+			"name": "Badarpur",
+			"nestoria_code": "badarpur"
+		},
+		"barakhambha-road": {
+			"name": "Barakhambha Road",
+			"nestoria_code": "barakhambha-road"
+		},
+		"botanical-garden": {
+			"name": "Botanical Garden",
+			"nestoria_code": "botanical-garden"
+		},
+		"central-secretariat": {
+			"name": "Central Secretariat",
+			"nestoria_code": "central-secretariat"
+		},
+		"chandni-chowk": {
+			"name": "Chandni Chowk",
+			"nestoria_code": "chandni-chowk_delhi"
+		},
+		"chhatarpur": {
+			"name": "Chhatarpur",
+			"nestoria_code": "chhatarpur"
+		},
+		"chawri-bazar": {
+			"name": "Chawri Bazar",
+			"nestoria_code": "chawri-bazar"
+		},
+		"civil-lines": {
+			"name": "Civil Lines",
+			"nestoria_code": "civil-lines_delhi"
+		},
+		"delhi-aerocity": {
+			"name": "Delhi Aerocity",
+			"nestoria_code": "delhi-aerocity"
+		},
+		"dhaula-kuan": {
+			"name": "Dhaula Kuan",
+			"nestoria_code": "dhaula-kuan"
+		},
+		"dilshad-garden": {
+			"name": "Dilshad Garden",
+			"nestoria_code": "dilshad-garden"
+		},
+		"dwarka": {
+			"name": "Dwarka",
+			"nestoria_code": "dwarka"
+		},
+		"ghitorni": {
+			"name": "Ghitorni",
+			"nestoria_code": "ghitorni"
+		},
+		"govind-puri": {
+			"name": "Govind Puri",
+			"nestoria_code": "govindpuri_delhi"
+		},
+		"green-park": {
+			"name": "Green Park",
+			"nestoria_code": "green-park_delhi"
+		},
+		"gtb-nagar": {
+			"name": "GTB Nagar",
+			"nestoria_code": "gtb-nagar"
+		},
+		"guru-dronacharya": {
+			"name": "Guru Dronacharya",
+			"nestoria_code": "guru-dronacharya"
+		},
+		"hauz-khas": {
+			"name": "Hauz Khas",
+			"nestoria_code": "hauz-khas"
+		},
+		"huda-city-centre": {
+			"name": "HUDA City Centre",
+			"nestoria_code": "huda-city-centre"
+		},
+		"iffco-chowk": {
+			"name": "IFFCO Chowk",
+			"nestoria_code": "iffco-chowk"
+		},
+		"ina": {
+			"name": "INA",
+			"nestoria_code": "ina"
+		},
+		"inderlok": {
+			"name": "Inderlok",
+			"nestoria_code": "inderlok"
+		},
+		"indira-gandhi-international-airport": {
+			"name": "Indira Gandhi International Airport",
+			"nestoria_code": "indira-gandhi-international-airport"
+		},
+		"indraprastha": {
+			"name": "Indraprastha",
+			"nestoria_code": "indraprastha"
+		},
+		"jahangirpuri": {
+			"name": "Jahangirpuri",
+			"nestoria_code": "jahangir-puri"
+		},
+		"janakpuri": {
+			"name": "Janakpuri",
+			"nestoria_code": "janakpuri"
+		},
+		"jangpura": {
+			"name": "Jangpura",
+			"nestoria_code": "jungpura"
+		},
+		"jasola-apollo": {
+			"name": "Jasola Apollo",
+			"nestoria_code": "jasola-apollo"
+		},
+		"jawaharlal-nehru-stadium": {
+			"name": "Jawaharlal Nehru Stadium",
+			"nestoria_code": "jawaharlal-nehru-stadium"
+		},
+		"jhandewalan": {
+			"name": "Jhandewalan",
+			"nestoria_code": "jhandewalan"
+		},
+		"jhilmil": {
+			"name": "Jhilmil",
+			"nestoria_code": "jhilmil"
+		},
+		"jor-bagh": {
+			"name": "Jor Bagh",
+			"nestoria_code": "jor-bagh"
+		},
+		"kailash-colony": {
+			"name": "Kailash Colony",
+			"nestoria_code": "kailash-colony"
+		},
+		"kalkaji": {
+			"name": "Kalkaji",
+			"nestoria_code": "kalkaji"
+		},
+		"kanhiya-nagar": {
+			"name": "Kanhiya Nagar",
+			"nestoria_code": "kanhiya-nagar"
+		},
+		"karkarduma": {
+			"name": "Karkarduma",
+			"nestoria_code": "karkarduma"
+		},
+		"karol-bagh": {
+			"name": "Karol Bagh",
+			"nestoria_code": "karol-bagh"
+		},
+		"kashmere-gate": {
+			"name": "Kashmere Gate",
+			"nestoria_code": "kashmere-gate"
+		},
+		"kaushambi": {
+			"name": "Kaushambi",
+			"nestoria_code": "kaushambi"
+		},
+		"keshav-puram": {
+			"name": "Keshav Puram",
+			"nestoria_code": "keshav-puram"
+		},
+		"khan-market": {
+			"name": "Khan Market",
+			"nestoria_code": "khan-market"
+		},
+		"kirti-nagar": {
+			"name": "Kirti Nagar",
+			"nestoria_code": "kirti-nagar_new-delhi"
+		},
+		"kohat-enclave": {
+			"name": "Kohat Enclave",
+			"nestoria_code": "kohat-enclave"
+		},
+		"lajpat-nagar": {
+			"name": "Lajpat Nagar",
+			"nestoria_code": "lajpat-nagar"
+		},
+		"laxmi-nagar": {
+			"name": "Laxmi Nagar",
+			"nestoria_code": "laxmi-nagar_delhi"
+		},
+		"madipur": {
+			"name": "Madipur",
+			"nestoria_code": "madipur"
+		},
+		"malviya-nagar": {
+			"name": "Malviya Nagar",
+			"nestoria_code": "malviya-nagar"
+		},
+		"mandi-house": {
+			"name": "Mandi House",
+			"nestoria_code": "mandi-house-chowk"
+		},
+		"mansarovar-park": {
+			"name": "Mansarovar Park",
+			"nestoria_code": "mansarovar-park"
+		},
+		"mayur-vihar": {
+			"name": "Mayur Vihar",
+			"nestoria_code": "mayur-vihar"
+		},
+		"mg-road": {
+			"name": "MG Road",
+			"nestoria_code": "mg-road_delhi"
+		},
+		"model-town": {
+			"name": "Model Town",
+			"nestoria_code": "model-town"
+		},
+		"mohan-estate": {
+			"name": "Mohan Estate",
+			"nestoria_code": "mohan-estate"
+		},
+		"moolchand": {
+			"name": "Moolchand",
+			"nestoria_code": "moolchand"
+		},
+		"moti-nagar": {
+			"name": "Moti Nagar",
+			"nestoria_code": "moti-nagar_delhi"
+		},
+		"mundka": {
+			"name": "Mundka",
+			"nestoria_code": "mundka"
+		},
+		"nangloi": {
+			"name": "Nangloi",
+			"nestoria_code": "nangloi"
+		},
+		"nawada": {
+			"name": "Nawada",
+			"nestoria_code": "nawada"
+		},
+		"nehru-place": {
+			"name": "Nehru Place",
+			"nestoria_code": "nehru-place"
+		},
+		"netaji": {
+			"name": "Netaji",
+			"nestoria_code": "netaji"
+		},
+		"new-ashok-nagar": {
+			"name": "New Ashok Nagar",
+			"nestoria_code": "new-ashok-nagar"
+		},
+		"new-delhi-railway-station": {
+			"name": "New Delhi Railway Station",
+			"nestoria_code": "new-delhi-railway-station"
+		},
+		"nirman-vihar": {
+			"name": "Nirman Vihar",
+			"nestoria_code": "nirman-vihar"
+		},
+		"noida-city-centre": {
+			"name": "Noida City Centre",
+			"nestoria_code": "noida-city-centre"
+		},
+		"noida-golf-course": {
+			"name": "Noida Golf Course",
+			"nestoria_code": "noida-golf-course"
+		},
+		"okhla": {
+			"name": "Okhla",
+			"nestoria_code": "okhla"
+		},
+		"paschim-vihar": {
+			"name": "Paschim Vihar",
+			"nestoria_code": "paschim-vihar_delhi"
+		},
+		"patel-chowk": {
+			"name": "Patel Chowk",
+			"nestoria_code": "patel-chowk"
+		},
+		"patel-nagar": {
+			"name": "Patel Nagar",
+			"nestoria_code": "patel-nagar_delhi"
+		},
+		"peera-garhi": {
+			"name": "Peera Garhi",
+			"nestoria_code": "peeragarhi"
+		},
+		"pitam-pura": {
+			"name": "Pitam Pura",
+			"nestoria_code": "pitampura"
+		},
+		"pragati-maidan": {
+			"name": "Pragati Maidan",
+			"nestoria_code": "pragati-maidan"
+		},
+		"pratap-nagar": {
+			"name": "Pratap Nagar",
+			"nestoria_code": "pratap-nagar_delhi"
+		},
+		"preet-vihar": {
+			"name": "Preet Vihar",
+			"nestoria_code": "preet-vihar"
+		},
+		"pul-bangash": {
+			"name": "Pul Bangash",
+			"nestoria_code": "pul-bangash"
+		},
+		"punjabi-bagh": {
+			"name": "Punjabi Bagh",
+			"nestoria_code": "punjabi-bagh"
+		},
+		"qutub-minar": {
+			"name": "Qutab Minar",
+			"nestoria_code": "qutub-minar"
+		},
+		"race-course": {
+			"name": "Race Course",
+			"nestoria_code": "race-course_delhi"
+		},
+		"rajdhani-park": {
+			"name": "Rajdhani Park",
+			"nestoria_code": "rajdhani-park"
+		},
+		"rajendra-place": {
+			"name": "Rajendra Place",
+			"nestoria_code": "rajendra-place"
+		},
+		"rajiv-chowk": {
+			"name": "Rajiv Chowk",
+			"nestoria_code": "rajiv-chowk_delhi"
+		},
+		"rajouri-garden": {
+			"name": "Rajouri Garden",
+			"nestoria_code": "rajouri-garden"
+		},
+		"ramakrishna-ashram-marg": {
+			"name": "Ramakrishna Ashram Marg",
+			"nestoria_code": "ramakrishna-ashram-marg"
+		},
+		"ramesh-nagar": {
+			"name": "Ramesh Nagar",
+			"nestoria_code": "ramesh-nagar"
+		},
+		"rithala": {
+			"name": "Rithala",
+			"nestoria_code": "rithala"
+		},
+		"rohini": {
+			"name": "Rohini",
+			"nestoria_code": "rohini"
+		},
+		"saket": {
+			"name": "Saket",
+			"nestoria_code": "saket_delhi"
+		},
+		"sarita-vihar": {
+			"name": "Sarita Vihar",
+			"nestoria_code": "sarita-vihar"
+		},
+		"satguru-ramsingh": {
+			"name": "Satguru Ramsingh Marg",
+			"nestoria_code": "satguru-ramsingh-marg"
+		},
+		"seelampur": {
+			"name": "Seelampur",
+			"nestoria_code": "seelampur"
+		},
+		"shadipur": {
+			"name": "Shadipur",
+			"nestoria_code": "shadipur"
+		},
+		"shahdara": {
+			"name": "Shahdara",
+			"nestoria_code": "shahdara"
+		},
+		"shastri-nagar": {
+			"name": "Shastri Nagar",
+			"nestoria_code": "shastri-nagar_delhi"
+		},
+		"shastri-park": {
+			"name": "Shastri Park",
+			"nestoria_code": "shastri-park"
+		},
+		"shivaji-park": {
+			"name": "Shivaji Park",
+			"nestoria_code": "shivaji-park_delhi"
+		},
+		"shivaji-stadium": {
+			"name": "Shivaji Stadium",
+			"nestoria_code": "shivaji-stadium"
+		},
+		"sikandarpur": {
+			"name": "Sikandarpur",
+			"nestoria_code": "sikandarpur"
+		},
+		"subhash-nagar": {
+			"name": "Subhash Nagar",
+			"nestoria_code": "subhash-nagar_delhi"
+		},
+		"sultanpur": {
+			"name": "Sultanpur",
+			"nestoria_code": "sultanpur"
+		},
+		"surajmal-stadium": {
+			"name": "Surajmal Stadium",
+			"nestoria_code": "surajmal-stadium"
+		},
+		"tagore-garden": {
+			"name": "Tagore Garden",
+			"nestoria_code": "tagore-garden_delhi"
+		},
+		"tilak-nagar": {
+			"name": "Tilak Nagar",
+			"nestoria_code": "tilak-nagar_delhi"
+		},
+		"tis-hazari": {
+			"name": "Tis Hazari",
+			"nestoria_code": "tis-hazari"
+		},
+		"tughlakabad": {
+			"name": "Tughlakabad",
+			"nestoria_code": "tugalkabad"
+		},
+		"udyog-bhawan": {
+			"name": "Udyog Bhawan",
+			"nestoria_code": "udyog-bhawan"
+		},
+		"udyog-nagar": {
+			"name": "Udyog Nagar",
+			"nestoria_code": "udyog-nagar_delhi"
+		},
+		"uttam-nagar": {
+			"name": "Uttam Nagar",
+			"nestoria_code": "uttam-nagar"
+		},
+		"vaishali": {
+			"name": "Vaishali",
+			"nestoria_code": "vaishali"
+		},
+		"vidhan-sabha": {
+			"name": "Vidhan Sabha",
+			"nestoria_code": "vidhan-sabha"
+		},
+		"vishwa-vidyalaya": {
+			"name": "Vishwa Vidyalaya",
+			"nestoria_code": "vishwa-vidyalaya"
+		},
+		"welcome": {
+			"name": "Welcome",
+			"nestoria_code": "welcome"
+		},
+		"yamuna-bank": {
+			"name": "Yamuna Bank",
+			"nestoria_code": "yamuna-bank"
+		}
+	}
+}

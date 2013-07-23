@@ -1,5 +1,5 @@
 {
-    "api": "http://api.nestoria.in/api?country=de&pretty=0&action=metadata&encoding=json&place_name=", 
+    "api": "http://api.nestoria.in/api?country=in&pretty=0&action=metadata&encoding=json&place_name=", 
     "category_field": "num_beds",
     "metadata_suffix":"buy_monthly",
     "country": "India", 
@@ -7,11 +7,33 @@
     "pricerange": 4000000,
     "lines": [
         {
-            "background-color": "#ff0000", 
+            "background-color": "#000000", 
             "color": "white", 
-            "name": "Line 1", 
+            "name": "North/South", 
             "stations": [
-                
+                "dum-dum",
+                "belgachia",
+                "shyambazar",
+                "shobhabazar-sutanuti",
+                "girish-park",
+				"mahatma-gandhi-road",
+				"central",
+				"chandni-chowk",
+				"esplanade",
+				"park-street",
+				"maiden",
+				"rabindra-sadan",
+				"netaji-bhaven",
+				"jatin-das-park",
+				"kalighat",
+				"rabindra-sarobar",
+				"mahanayak-uttam-kumar",
+				"netaji",
+				"masterda-surya-sen",
+				"gitanjali",
+				"kavi-nazrul",
+				"shahid-khudiram",
+				"kavi-subhash"
             ]
         }
         
@@ -24,93 +46,93 @@
 			"name": "Dum Dum",
 			"nestoria_code": "dum-dum"
 		},
-    	"dum-dum": {
-			"name": "Belgachhia",
-			"nestoria_code": "#"
+    	"belgachia": {
+			"name": "Belgachia",
+			"nestoria_code": "belgachia"
 		},
-    	"dum-dum": {
-			"name": "Shyambazaar",
-			"nestoria_code": "#"
+    	"shyambazar": {
+			"name": "Shyambazar",
+			"nestoria_code": "shyambazar"
 		},
-    	"dum-dum": {
+    	"shobhabazar-sutanuti": {
 			"name": "Shobhabazar Sutanuti",
-			"nestoria_code": "#"
+			"nestoria_code": "shobhabazar-sutanuti"
 		},
-    	"dum-dum": {
+    	"girish-park": {
 			"name": "Girish Park",
-			"nestoria_code": "#"
+			"nestoria_code": "girish-park"
 		},
-    	"mahatma-gandhi-road_kolkata": {
+    	"mahatma-gandhi-road": {
 			"name": "Mahatma Gandhi Road",
 			"nestoria_code": "mahatma-gandhi-road_kolkata"
 		},
-    	"dum-dum": {
+    	"central": {
 			"name": "Central",
 			"nestoria_code": "#"
 		},
     	"chandni-chowk": {
 			"name": "Chandni Chowk",
-			"nestoria_code": "madan-street"
+			"nestoria_code": "chandni-chowk_kolkata"
 		},
     	"esplanade": {
 			"name": "Esplanade",
 			"nestoria_code": "esplanade"
 		},
-    	"dum-dum": {
+    	"park-street": {
 			"name": "Park Street",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "park-street"
 		},
-    	"dum-dum": {
+    	"maiden": {
 			"name": "Maidan",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "maidan"
 		},
-    	"dum-dum": {
+    	"rabindra-sadan": {
 			"name": "Rabindra Sadan",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "rabindra-sadan"
 		},
-    	"dum-dum": {
+    	"netaji-bhaven": {
 			"name": "Netaji Bhavan",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "netaji-bhavan"
 		},
-    	"dum-dum": {
+    	"jatin-das-park": {
 			"name": "Jatin Das Park",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "jatin-das-park"
 		},
-    	"dum-dum": {
+    	"kalighat": {
 			"name": "Kalighat",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "kalighat"
 		},
-    	"dum-dum": {
+    	"rabindra-sarobar": {
 			"name": "Rabindra Sarobar",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "rabindra-sarobar"
 		},
-    	"dum-dum": {
+    	"mahanayak-uttam-kumar": {
 			"name": "Mahanayak Uttam Kumar",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "mahanayak-uttam-kumar"
 		},
-    	"dum-dum": {
+    	"netaji": {
 			"name": "Netaji",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "netaji"
 		},
-    	"dum-dum": {
+    	"masterda-surya-sen": {
 			"name": "Masterda Surya Sen",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "masterda-surya-sen"
 		},
-    	"dum-dum": {
+    	"gitanjali": {
 			"name": "Gitanjali",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "gitanjali"
 		},
-    	"dum-dum": {
+    	"kavi-nazrul": {
 			"name": "Kavi Nazrul",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "kavi-nazrul"
 		},
-    	"dum-dum": {
+    	"shahid-khudiram": {
 			"name": "Shahid Khudiram",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "shahid-khudiram"
 		},
-    	"dum-dum": {
+    	"kavi-subhash": {
 			"name": "Kavi Subhash",
-			"nestoria_code": "dum-dum"
+			"nestoria_code": "kavi-subhash"
 		}
 	}
 }
